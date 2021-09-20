@@ -1,3 +1,131 @@
 baseURL = "https://unicef.github.io/drone-dpgtoolkit"
 languageCode = "en-us"
 title = "Drone DPG Toolkit"
+theme = "inventory"
+enableEmoji = true
+enableGitInfo = true
+
+# Google Analytics
+googleAnalytics = "G-80FMX4TPM0"
+
+# Allow unsafe HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+
+############################# Navigation #############################
+[[menu.main]]
+weight = 10
+name = "FAQ"
+url = "faq"
+
+[[menu.main]]
+weight = 20
+name = "pages"
+url = "pages"
+hasChildren = true
+
+
+
+
+############################# Default parameters #############################
+[params]
+# Need to replace with SVG logo
+#logo = "favicon.ico"
+
+# OpenGraph / Twitter Card metadata
+description = "UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
+author = "Justin W. Flory, UNICEF Office of Innovation, and others"
+image = "images/UNI309823.jpg"
+
+# customize color
+primary_color = "#00BDF2"
+body_color = "#e0e4e8"
+text_color = "#636363"
+text_color_dark = "#003E5D"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family (choose from https://fonts.google.com/)
+font_family = "Open+Sans"
+
+# contact form action (works with https://formspree.io)
+contact_form_action = "#"
+
+# related article number limit
+article_count = 3
+
+
+############################# Social links #############################
+# themify icon pack : https://themify.me/themify-icons
+
+[[params.social]]
+icon = "ti-github"
+name = "UNICEF Open Source Inventory on GitHub"
+link = "https://github.com/unicef/drone-dpgtoolkit"
+
+[[params.social]]
+icon = "ti-twitter"
+name = "@UNICEFinnovate on Twitter"
+link = "https://twitter.com/UNICEFinnovate"
+
+
+############################# Markup tweaks and customization #############################
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = 'murphy'
+tabWidth = 4
+
+[markup.asciidocExt]
+preserveTOC = true
+sectionNumbers = true
+
+############################# Related Articles #############################
+[taxonomies]
+  category = "categories"
+  downloadable = "downloadBtn"
+
+
+#######################################################################################
+#                             Multilingual configurations                             #
+#######################################################################################
+
+############################# English #############################
+[Languages.en]
+languageName = "en"
+languageCode = "en-us"
+weight = 1
+home = "Home"
+copyright = "Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher."
+
+# banner
+[Languages.en.params.banner]
+title = "UNICEF Drone DPG Toolkit"
+subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
+bg_image = "images/banner.jpg"
+placeholder = "Have a question? Search the site here."
+
+
+############################# Español / Spanish #############################
+[Languages.es]
+languageName = "es"
+languageCode = "es-mx"
+weight = 2
+home = "Página principal"
+copyright = "Creative Commons BY-SA 4.0"
+
+# banner
+[Languages.es.params.banner]
+title = ""
+subtitle = ""
+bg_image = "images/banner.jpg"
+placeholder = "¿Tienes una pregunta? Busque en el sitio aquí."
