@@ -1,3 +1,3 @@
-baseURL = ""
+baseURL = "https://unicef.github.io/drone-dpgtoolkit"
 languageCode = "en-us"
 title = "Drone DPG Toolkit"
