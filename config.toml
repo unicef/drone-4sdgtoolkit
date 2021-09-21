@@ -113,19 +113,3 @@ title = "UNICEF Drone DPG Toolkit"
 subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
 bg_image = "images/banner.jpg"
 placeholder = "Have a question? Search the site here."
-
-
-############################# Español / Spanish #############################
-[Languages.es]
-languageName = "es"
-languageCode = "es-mx"
-weight = 2
-home = "Página principal"
-copyright = "Creative Commons BY-SA 4.0"
-
-# banner
-[Languages.es.params.banner]
-title = ""
-subtitle = ""
-bg_image = "images/banner.jpg"
-placeholder = "¿Tienes una pregunta? Busque en el sitio aquí."
