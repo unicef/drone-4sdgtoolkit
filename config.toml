@@ -34,7 +34,7 @@ hasChildren = true
 #logo = "favicon.ico"
 
 # OpenGraph / Twitter Card metadata
-description = "UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
+description = "Toolkit of drones-for-public-good resources including text, image, video and audio content, and Open Source software, code, libraries, and training datasets."
 author = "Justin W. Flory, UNICEF Office of Innovation, and others"
 image = "images/UNI309823.jpg"
 
