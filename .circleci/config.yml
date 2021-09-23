@@ -1,0 +1,46 @@
+---
+# https://circleci.com/docs/2.0/configuration-reference
+
+version: 2.1
+
+orbs:
+  hugo: circleci/hugo@1.2.2
+
+workflows:
+  main:
+    jobs:
+      - hugo/build:
+          html-proofer: true
+          htmlproofer-http-status-ignore: "'0,999'"
+          htmlproofer-url-ignore: "'/drone-dpgtoolkit/'"
+          htmlproofer-timeframe: "'6w'"
+          version: "latest"
+      - deploy:
+          filters:
+            branches:
+              only: main
+          requires:
+            - hugo/build
+
+jobs:
+  deploy:
+    docker:
+      - image: cibuilds/base:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/drone-dpgtoolkit/public
+    steps:
+      # deploy.sh dependencies
+      - run: apk add rsync
+
+      # clone repo (required to access `.circleci/deploy.sh`)
+      - run: git clone --depth=1 https://github.com/unicef/drone-dpgtoolkit.git
+
+      # checkout generated html
+      - attach_workspace:
+          at: drone-dpgtookit
+
+      # deploy to production
+      - deploy:
+          name: Deploy to GitHub Pages
+          command: ./drone-dpgtoolkit/.circleci/deploy.sh
