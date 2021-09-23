@@ -110,6 +110,6 @@ copyright = "Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Origin
 # banner
 [Languages.en.params.banner]
 title = "UNICEF Drone DPG Toolkit"
-subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
+subtitle = "A UNICEF Innovation toolkit of drones-for-public-good resources including text, image, video and audio content, and Open Source software, code, libraries, and training datasets."
 bg_image = "images/banner.jpg"
 placeholder = "Have a question? Search the site here."
