@@ -30,6 +30,11 @@ jobs:
     environment:
       HUGO_BUILD_DIR: ~/hugo/drone-dpgtoolkit/public
     steps:
+      # add repository deploy key (for pull/push access)
+      - add_ssh_keys:
+          fingerprints:
+            - "05:38:0a:24:e3:32:ba:90:97:e5:c7:ab:de:17:10:29"
+
       # deploy.sh dependencies
       - run: apk add rsync
 
@@ -38,7 +43,7 @@ jobs:
 
       # checkout generated html
       - attach_workspace:
-          at: drone-dpgtookit
+          at: drone-dpgtoolkit
 
       # deploy to production
       - deploy:
