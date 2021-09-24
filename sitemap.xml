@@ -2,10 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unicef.github.io/drone-dpgtoolkit/analytics/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/drone-dpgtoolkit/categories/</loc>
   </url><url>
     <loc>https://unicef.github.io/drone-dpgtoolkit/downloadbtn/</loc>
   </url><url>
     <loc>https://unicef.github.io/drone-dpgtoolkit/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/drone-dpgtoolkit/guides/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/drone-dpgtoolkit/learning/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/drone-dpgtoolkit/regs/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/drone-dpgtoolkit/software/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/drone-dpgtoolkit/startups/</loc>
+    <lastmod>2021-09-24T12:18:41+01:00</lastmod>
   </url>
 </urlset>
