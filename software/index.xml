@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Drone DPG Toolkit</title>
-    <link>https://unicef.github.io/drone-dpgtoolkit/software/</link>
+    <link>https://unicef.github.io/drone-4sdgtoolkit/software/</link>
     <description>Recent content in Software on Drone DPG Toolkit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/drone-dpgtoolkit/software/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/drone-4sdgtoolkit/software/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
