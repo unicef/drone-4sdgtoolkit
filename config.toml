@@ -1,4 +1,4 @@
-baseURL = "https://unicef.github.io/drone-dpgtoolkit"
+baseURL = "https://unicef.github.io/drone-4sdgtoolkit"
 languageCode = "en-us"
 title = "Drone DPG Toolkit"
 theme = "inventory"
@@ -62,7 +62,7 @@ article_count = 3
 [[params.social]]
 icon = "ti-github"
 name = "UNICEF Drone DPG Toolkit on GitHub"
-link = "https://github.com/unicef/drone-dpgtoolkit"
+link = "https://github.com/unicef/drone-4sdgtoolkit"
 
 [[params.social]]
 icon = "ti-twitter"
