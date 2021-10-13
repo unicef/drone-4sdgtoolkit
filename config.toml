@@ -30,8 +30,7 @@ hasChildren = true
 
 ############################# Default parameters #############################
 [params]
-# Need to replace with SVG logo
-#logo = "favicon.ico"
+logo = "images/unicef-logo.png"
 
 # OpenGraph / Twitter Card metadata
 description = "Toolkit of drones-for-public-good resources including text, image, video and audio content, and Open Source software, code, libraries, and training datasets."
@@ -39,10 +38,10 @@ author = "Edmond Nonie, UNICEF Office of Innovation, and others"
 image = "images/UNI309823.jpg"
 
 # customize color
-primary_color = "#00BDF2"
-body_color = "#e0e4e8"
-text_color = "#636363"
-text_color_dark = "#003E5D"
+primary_color = "#1CABE2"
+body_color = "#D8D1C9"
+text_color = "#777779"
+text_color_dark = "#374EA2"
 white_color = "#ffffff"
 light_color = "#f8f9fa"
 
@@ -68,6 +67,11 @@ link = "https://github.com/unicef/drone-4sdgtoolkit"
 icon = "ti-twitter"
 name = "@UNICEFinnovate on Twitter"
 link = "https://twitter.com/UNICEFinnovate"
+
+[params.footer]
+mainSite = "https://www.unicef.org/innovation/drones"
+mainSiteName = "Drones at UNICEF Innovation"
+description = "The UNICEF Drone DPG Toolkit is a toolkit of drones-for-public-good resources including text, image, video and audio content, and open-source software, code, libraries, and training datasets. The Drone DPG Toolkit includes Standard Operating Procedures and regulations documents for drone operations, open-learning material and online courses for drones, Open Source software for drones, Open Source a.i. training datasets for various drone data use cases, decision-making guides, how-to guides, and company information for drone companies or other entities implementing open source drone DPG solutions."
 
 
 ############################# Markup tweaks and customization #############################
