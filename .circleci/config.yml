@@ -12,7 +12,7 @@ workflows:
       - hugo/build:
           html-proofer: true
           htmlproofer-http-status-ignore: "'0,999'"
-          htmlproofer-url-ignore: "'/drone-dpgtoolkit/'"
+          htmlproofer-url-ignore: "'/drone-4sdgtoolkit/'"
           htmlproofer-timeframe: "'6w'"
           version: "latest"
       - deploy:
@@ -28,7 +28,7 @@ jobs:
       - image: cibuilds/base:latest
     working_directory: ~/hugo
     environment:
-      HUGO_BUILD_DIR: ~/hugo/drone-dpgtoolkit/public
+      HUGO_BUILD_DIR: ~/hugo/drone-4sdgtoolkit/public
     steps:
       # add repository deploy key (for pull/push access)
       - add_ssh_keys:
@@ -39,13 +39,13 @@ jobs:
       - run: apk add rsync
 
       # clone repo (required to access `.circleci/deploy.sh`)
-      - run: git clone --depth=1 https://github.com/unicef/drone-dpgtoolkit.git
+      - run: git clone --depth=1 https://github.com/unicef/drone-4sdgtoolkit.git
 
       # checkout generated html
       - attach_workspace:
-          at: drone-dpgtoolkit
+          at: drone-4sdgtoolkit
 
       # deploy to production
       - deploy:
           name: Deploy to GitHub Pages
-          command: ./drone-dpgtoolkit/.circleci/deploy.sh
+          command: ./drone-4sdgtoolkit/.circleci/deploy.sh
