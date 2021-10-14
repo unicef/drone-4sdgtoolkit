@@ -48,11 +48,17 @@ light_color = "#f8f9fa"
 # font family (choose from https://fonts.google.com/)
 font_family = "Open+Sans"
 
-# contact form action (works with https://formspree.io)
-contact_form_action = "#"
-
 # related article number limit
 article_count = 3
+
+############################# Contact forms #############################
+# All contact forms work with https://formspree.io
+
+contact_form_action = "#"
+
+[params.rsvp_form]
+action = "https://formspree.io/f/xwkajewy"
+message = "How do you work with drones?"
 
 
 ############################# Social links #############################
