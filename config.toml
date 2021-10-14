@@ -25,6 +25,43 @@ name = "pages"
 url = "pages"
 hasChildren = true
 
+[[menu.main]]
+    parent = "pages"
+    name = "Analytics"
+    url = "analytics"
+    weight = 10
+
+    [[menu.main]]
+    parent = "pages"
+    name = "Guides"
+    url = "guides"
+    weight = 20
+
+    [[menu.main]]
+    parent = "pages"
+    name = "Learning"
+    url = "learning"
+    weight = 30
+
+    [[menu.main]]
+    parent = "pages"
+    name = "REGs"
+    url = "regs"
+    weight = 40
+
+    [[menu.main]]
+    parent = "pages"
+    name = "Software"
+    url = "software"
+    weight = 50
+
+    [[menu.main]]
+    parent = "pages"
+    name = "Startups"
+    url = "startups"
+    weight = 60
+
+
 
 
 
