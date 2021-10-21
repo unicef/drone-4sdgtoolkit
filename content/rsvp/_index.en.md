@@ -4,4 +4,4 @@ draft: false
 
 ---
 
-RSVP for the Drones 4 SDG Toolkit webinar on 28th October 2021.
+RSVP for the Drones 4 SDG Toolkit webinar on 10th of November 2021.
