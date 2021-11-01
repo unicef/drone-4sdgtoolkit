@@ -15,7 +15,7 @@ ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 # stage generated HTML for GitHub Pages
 git clone --quiet --branch=gh-pages $CIRCLE_REPOSITORY_URL $DEPLOY_DIR
-rsync --archive --recursive --verbose --remove-source-files $HOME/hugo/drone-4sdgtoolkit/public/* $DEPLOY_DIR
+rsync --archive --recursive --verbose --remove-source-files $HOME/hugo/$CIRCLE_PROJECT_REPONAME/public/* $DEPLOY_DIR
 
 # git client setup
 cd $DEPLOY_DIR
