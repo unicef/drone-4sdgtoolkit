@@ -50,5 +50,16 @@ Drones operate in public airspace, which is a very sensitive environment. This p
 Regulation tools Coming soon…</description>
     </item>
     
+    <item>
+      <title>Software</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/software/</guid>
+      <description>“Use Open Source” and “Design for scale”.
+Using only Open Source is a key principle of UNICEF Innovation, and all of our investments in software and other products have reflected this. The “Software” section is a curation of various drone software products from UNICEF Innovation cohort companies.
+Software Coming soon…</description>
+    </item>
+    
   </channel>
 </rss>
