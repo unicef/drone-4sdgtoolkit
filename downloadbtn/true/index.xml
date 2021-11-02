@@ -18,5 +18,15 @@ One of the main products that from drones is data; data is key for impact assess
 Analytics Tools Coming soon…</description>
     </item>
     
+    <item>
+      <title>Guides</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/</guid>
+      <description>“Reuse and Improve”.
+The global drone industry has been developing for decades and the lessons learned from various stakeholders can be a guide for future innovation. UNICEF and several other stakeholders have made significant contributions to the global knowledge base of the technology and use of drones in the development and humanitarian contexts specifically. The “Guides” section is a collection of case studies, annual reports, and action guides for achieving specific outcomes.</description>
+    </item>
+    
   </channel>
 </rss>
