@@ -77,7 +77,7 @@ logo = "images/unicef-logo.png"
 # OpenGraph / Twitter Card metadata
 description = "Toolkit of drones-for-public-good resources including text, image, video and audio content, and Open Source software, code, libraries, and training datasets."
 author = "Edmond Nonie, UNICEF Office of Innovation, and others"
-image = "images/UNI309823.jpg"
+image = "/images/unicef-drone-takeoff.jpg"
 
 # customize color
 primary_color = "#1CABE2"
@@ -163,5 +163,5 @@ copyright = "Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Origin
 [Languages.en.params.banner]
 title = "UNICEF Drone DPG Toolkit"
 subtitle = "A UNICEF Innovation toolkit of drones-for-public-good resources including text, image, video and audio content, and Open Source software, code, libraries, and training datasets."
-bg_image = "images/banner.jpg"
+bg_image = "images/unicef-drone-takeoff.jpg"
 placeholder = "Have a question? Search the site here."
