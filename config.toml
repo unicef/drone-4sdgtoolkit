@@ -119,7 +119,7 @@ link = "https://twitter.com/UNICEFinnovate"
 [params.footer]
 mainSite = "https://www.unicef.org/innovation/drones"
 mainSiteName = "Drones at UNICEF Innovation"
-description = "The UNICEF Drone DPG Toolkit is a toolkit of drones-for-public-good resources including text, image, video and audio content, and open-source software, code, libraries, and training datasets. The Drone DPG Toolkit includes Standard Operating Procedures and regulations documents for drone operations, open-learning material and online courses for drones, Open Source software for drones, Open Source a.i. training datasets for various drone data use cases, decision-making guides, how-to guides, and company information for drone companies or other entities implementing open source drone DPG solutions."
+description = "Repository of drone-related open-source software, data, ai models, standards, courseware, and guides that address the SDGs.  All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good."
 
 
 ############################# Markup tweaks and customization #############################
