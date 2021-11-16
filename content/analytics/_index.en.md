@@ -19,4 +19,10 @@ Areas where these drone analytics tools are used include surveillance, research,
 
 ## Analytics Tools
 
-_Coming soon_…
+-- Coming soon
+
+**Submit open datasets to the UNICEF drones for SDGs toolkit** 
+
+Do you have an open source collection of drone images or other data?  
+
+Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit the toolkit contributions page (link) and fill out the information about your tool, where it is hosted, the ownership, and publishing format. We will respond to your submission within ninety (90) days.  
