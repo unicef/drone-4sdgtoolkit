@@ -18,8 +18,6 @@ This section aims to highlight our drone investees and their work with UNICEF Co
 
 **COUNTRY:** Peru 
 
-**TECH AREA:** Drones
-
 **PARTNERS & COLLABORATORS:** ACCA - Association for the Conservation of the Amazon Basin, Lima City Municipality
 
 Project Description 
@@ -48,6 +46,22 @@ Key Results:
 
 URL: https://rentadrone.cl/  and https://www.unicef.org/innovation/venturefund/dronescohort/Rentadrone  
 
- 
+
+**Dronfies Labs**
+
+**COUNTRY:** Uruguay 
+
+**PARTNERS & COLLABORATORS:** Pyxis Portal, SINAE (The National Emergency System- Uruguay), ANII (National Innovation Agency), DINACIA (Uruguayan Aeronautical Authorities) 
+
+Project Description  
+Dronefies solutions provide support to drone operations during emergency situations such as natural disasters, compatible with a large variety of consumer drones. Through this solution, the company aims to make more efficient searches,  facilitate data collection and analysis (especially for flooding), and increase the availability of drones & operators to be readily deployable in case of an emergency. 
+
+Key Results:  
+- 3000+ flights coordinated with no accidents and only 3 incidents  
+- FAA compliant  
+- Uruguayan Civil Aviation Authority incorporating open-source  UTM in the regulatory framework in the coordination of drones in the country  
+
+URL: https://portableutm.com/#  and https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs   
+
 
 
