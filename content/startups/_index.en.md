@@ -64,4 +64,21 @@ Key Results:
 URL: https://portableutm.com/#  and https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs   
 
 
+**Cloudline**
+
+**COUNTRY:** South Africa
+
+**PARTNERS & COLLABORATORS:** WFP, FastCompany top SA startup, Raba Capital, Timon Capital 
+
+Project Description  
+Cloudline operates small-scale autonomous airships, providing a delivery service to governments, international agencies and enterprises for delivering essential goods such as medical supplies.  
+
+Autonomous airships leverage the advantages of existing drone operations – while addressing some of the biggest challenges: They carry large payloads (from 5 kg to 1 tonne) with very high endurance (> 24 hours), using consumer grade technology. The inherently safe failure mode of helium airships (when systems fail, they float not fall) suits them to a variety of applications near populated areas.  
+
+Key Results:  
+- Final airship launched, with a payload capacity of 10kgs 
+- Full endurance capability (40km/h) along with automated waypoint flying. 
+- Contributed flight control software to the PX4 upstream community by introducing a new mode of aircraft to the open source community in the form of airships  
+
+URL: https://www.flycloudline.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline 
 
