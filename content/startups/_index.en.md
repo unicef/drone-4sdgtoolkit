@@ -82,3 +82,38 @@ Key Results:
 
 URL: https://www.flycloudline.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline 
 
+
+**Bioverse Labs**
+
+**COUNTRY:** Brazil
+
+**PARTNERS & COLLABORATORS:** Cindelia/UNI, Google Cloud Partners, ECAM, Floresta Protegida (AFP) 
+
+Project Description  
+Bioverse Labs is empowering indigenous communities to preserve natural resources by identifying economically-important tree species that can be sustainably managed and harvested. The solution uses drone imagery and machine learning to identify and map non-timber species of trees (e.g., chestnut, copaiba, and Brazil nuts) that are economically viable for supporting traditional modes of income generation   
+
+Key Results:  
+- Identified 19,240 trees, completing machine learning training for brazil nuts and palm trees 
+- 97% accuracy on ML models for detection of Brazil Nut Trees 
+
+URL: https://www.bioverselabs.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs
+
+
+**Prokura Innovations**
+
+**COUNTRY:** Nepal
+
+**PARTNERS & COLLABORATORS:** Nepal Innovation Center, UNICEF Nepal  
+
+Project Description  
+Prokura Innovations is developing a locally produced drone system. Due to poor road infrastructure in rural regions of Nepal, crucial medication in the case of emergencies often fails to reach healthcare posts in due time. Prokura aims to tackle last mile delivery of medicines to rural health centers with limited health personnel, connecting underserved health posts to a surrounding equipped health facility.   
+
+Key Results:  
+- Fabrication of vtol v2 completed 
+- Blood pack delivery simulation flight done successfully 
+- 1kg payload capacity  
+- Working on the final versions of the drone monitoring system and inventory management app.  
+
+URL: https://www.bioverselabs.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs
+
+
