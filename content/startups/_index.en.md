@@ -114,6 +114,4 @@ Key Results:
 - 1kg payload capacity  
 - Working on the final versions of the drone monitoring system and inventory management app.  
 
-URL: https://www.bioverselabs.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs
-
-
+URL: https://www.prokurainnovations.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/prokurainnovations 
