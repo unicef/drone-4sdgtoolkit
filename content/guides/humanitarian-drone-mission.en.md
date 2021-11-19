@@ -68,7 +68,12 @@ Before deploying drones for a humanitarian or development mission to collect dat
 
 This checklist should be completed by any party who will be using drones in collaboration with UNICEF. The UNICEF Drones Working Group will assess the responses and establish an ad-hoc framework for assessing the risks, harms and benefits of opening this specific dataset.
 
-
+| Tick = Yes Cross = No | Questions | Description |
+| --------------------- | --------- | ----------- |
+|  | Have you considered the nature of the data that could be collected or mapped via these technologies and the potential demand for and use of this data within the context of current strategic planning? |  |
+|  | Can you clearly specify the benefits of using geospatial technologies for your particular purposes? Is this supported by the evidence (where available)? |  |
+|  | Do you have staff with capabilities and expertise to responsibly lead and undertake the work and to develop, utilize, manage and analyse technologies and data in a timely and useful way? |  |
+|  | Have you considered the availability and comparative utility of other data/information prior to collecting data via geospatial technologies or from third party providers? |  |
 
 1. Identifying the benefits of using geospatial technologies for evidence generation
 Tick = Yes Cross = No	Questions	Description
