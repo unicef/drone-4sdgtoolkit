@@ -1,6 +1,6 @@
 
 
-![UNICEF logo blue with for every child motto.](drone-4sdgtoolkit/static/images/unicefinnovlogo.png)
+![UNICEF logo blue with for every child motto.](/static/images/unicefinnovlogo.png)
 
 **Technical Guide**
 
@@ -50,19 +50,19 @@ As with other technology applied to address social challenges, the use of UAS sh
 
 **Step 1. Understand the existing ecosystem**
 
-![Understanding the existing ecosystem decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep001.jpg)
+![Understanding the existing ecosystem decision flow.](/static/guides/humanitarianguidestep001.jpg)
 
 **Step 2. Design with the user**
 
-![Design with the user decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep002.jpg)
+![Design with the user decision flow.](/static/guides/humanitarianguidestep002.jpg)
 
 **Step 3. Address privacy and security**
 
-![Address Privacy and Security decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep003.jpg)
+![Address Privacy and Security decision flow.](/static/guides/humanitarianguidestep003.jpg)
 
 **Step 4. Be collaborative**
 
-![Be collaborative decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep004.jpg)
+![Be collaborative decision flow.](/static/guides/humanitarianguidestep004.jpg)
 
 **Final checklist for the ethical use of geospatial technologies**
 
