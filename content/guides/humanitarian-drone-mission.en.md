@@ -8,17 +8,13 @@ Introduction
 
 4 steps for deploying UAS in humanitarian mission
 
-**Step 1. Understand the existing ecosystem**
-![Understanding the existing ecosystem decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep001.jpg)
+Step 1. Understand the existing ecosystem
 
-**Step 2. Design with the user**
-![Design with the user decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep002.jpg)
+Step 2. Design with the user
 
-**Step 3. Address privacy and security**
-![Address Privacy and Security decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep003.jpg)
+Step 3. Address privacy and security
 
-**Step 4. Be collaborative**
-![Be collaborative decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep004.jpg)
+Step 4. Be collaborative
 
 Final checklist for the ethical use of geospatial technologies
 
@@ -50,43 +46,17 @@ As with other technology applied to address social challenges, the use of UAS sh
 - Coordination is a multi-stakeholder process. This means that lessons learned and best practices on the use and coordination of UAS in humanitarian settings must remain open and transparent.
 - Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.
 
-Step 1. Understand the existing ecosystem
+**Step 1. Understand the existing ecosystem**
+![Understanding the existing ecosystem decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep001.jpg)
 
+**Step 2. Design with the user**
+![Design with the user decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep002.jpg)
 
+**Step 3. Address privacy and security**
+![Address Privacy and Security decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep003.jpg)
 
-Step 2. Design with the user
-
-Step 3. Address privacy and security
-
-
-
-
-
-
-
-
-
-
-
-
-
-Step 4. Be collaborative
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Step 4. Be collaborative**
+![Be collaborative decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep004.jpg)
 
 **Final checklist for the ethical use of geospatial technologies**
 
