@@ -47,15 +47,19 @@ As with other technology applied to address social challenges, the use of UAS sh
 - Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.
 
 **Step 1. Understand the existing ecosystem**
+
 ![Understanding the existing ecosystem decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep001.jpg)
 
 **Step 2. Design with the user**
+
 ![Design with the user decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep002.jpg)
 
 **Step 3. Address privacy and security**
+
 ![Address Privacy and Security decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep003.jpg)
 
 **Step 4. Be collaborative**
+
 ![Be collaborative decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep004.jpg)
 
 **Final checklist for the ethical use of geospatial technologies**
@@ -63,6 +67,8 @@ As with other technology applied to address social challenges, the use of UAS sh
 Before deploying drones for a humanitarian or development mission to collect data, UNICEF, partners and service providers should reflect on the following questions to ensure UNICEF is able to garner the benefits of these technologies, while also protecting the children and communities it serves.
 
 This checklist should be completed by any party who will be using drones in collaboration with UNICEF. The UNICEF Drones Working Group will assess the responses and establish an ad-hoc framework for assessing the risks, harms and benefits of opening this specific dataset.
+
+
 
 1. Identifying the benefits of using geospatial technologies for evidence generation
 Tick = Yes Cross = No	Questions	Description
