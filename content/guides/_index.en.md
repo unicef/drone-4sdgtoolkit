@@ -28,7 +28,7 @@ This guide is a summary of UNICEF’s intervention design process for drone inte
 
 How to use this tool:
 
-URL: https://github.com/unicef/drone-4sdgtoolkit/blob/9f53b31ebc939308e6e0b0f4a7df5c630589bcbc/content/guides/humanitarian-drone-mission.en.md 
+URL: https://github.com/unicef/drone-4sdgtoolkit/blob/fe51fa808e468f0fea154b30e94c125afd9fc47c/content/guides/humanitarian-drone-mission/_index.en.md
 
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
