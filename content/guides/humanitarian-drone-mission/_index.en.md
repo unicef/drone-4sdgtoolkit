@@ -1,11 +1,4 @@
----
-title: "Use of drones in humanitarian and development missions"
-icon: "guides"
-type: "docs"
-description: "How-to and decision-making guide for using drones in humanitarian and development contexts."
-downloadBtn: "true"
 
----
 
 ![UNICEF logo blue with for every child motto.](drone-4sdgtoolkit/static/images/unicefinnovlogo.png)
 
