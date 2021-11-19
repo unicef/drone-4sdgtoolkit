@@ -8,13 +8,17 @@ Introduction
 
 4 steps for deploying UAS in humanitarian mission
 
-Step 1. Understand the existing ecosystem
+**Step 1. Understand the existing ecosystem**
+![Understanding the existing ecosystem decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep001.jpg)
 
-Step 2. Design with the user
+**Step 2. Design with the user**
+![Design with the user decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep002.jpg)
 
-Step 3. Address privacy and security
+**Step 3. Address privacy and security**
+![Address Privacy and Security decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep003.jpg)
 
-Step 4. Be collaborative
+**Step 4. Be collaborative**
+![Be collaborative decision flow.](drone-4sdgtoolkit/static/guides/humanitarianguidestep004.jpg)
 
 Final checklist for the ethical use of geospatial technologies
 
