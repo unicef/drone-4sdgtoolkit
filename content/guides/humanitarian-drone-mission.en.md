@@ -4,37 +4,46 @@
 
 **For the use of drones in humanitarian and development missions**
 
-Introduction	1
-4 steps for deploying UAS in humanitarian missions	2
-Step 1. Understand the existing ecosystem	3
-Step 2. Design with the user	4
-Step 3. Address privacy and security	4
-Step 4. Be collaborative	5
-Final checklist for the ethical use of geospatial technologies	6
 Introduction
+
+4 steps for deploying UAS in humanitarian mission
+
+Step 1. Understand the existing ecosystem
+
+Step 2. Design with the user
+
+Step 3. Address privacy and security
+
+Step 4. Be collaborative
+
+Final checklist for the ethical use of geospatial technologies
+
+**Introduction**
 Unmanned Aerial Vehicles (UAVs), Unmanned Aircraft Systems (UAS), or drones, offer the potential to improve humanitarian assistance and the living conditions of local communities by delivering life-saving medical supplies in hard-to-reach areas; collecting aerial imagery that helps map risks to strengthen resilience, improve agricultural yields or water management, among other use cases in the humanitarian and development sectors. Drones offer the possibility to better meet the needs of those living in disadvantaged conditions or affected by humanitarian crises; however, this can only be achieved if drones are used in a responsible and ethical manner.
 
 The use of UAS to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.
-4 steps for deploying UAS in humanitarian missions
+
+**4 steps for deploying UAS in humanitarian missions**
 As with other technology applied to address social challenges, the use of UAS should consider the nine principles of digital innovation when working with people and communities in need. UNICEF, partners and service providers working with drones should follow these four practical steps in their mission planning and development:
  
-Step 1: Understand the existing ecosystem. 
-●	Consider the particular structures and needs that exist in each country, region and community. 
-●	Dedicate time and resources to analyze the ecosystem, or context where the UAS mission will be deployed, to ensure that the use of this technology will be relevant and sustainable. 
-●	Consider and comply with the existing legal and regulatory frameworks.
+**Step 1: Understand the existing ecosystem.** 
+- Consider the particular structures and needs that exist in each country, region and community.
+- Dedicate time and resources to analyze the ecosystem, or context where the UAS mission will be deployed, to ensure that the use of this technology will be relevant and sustainable.
+- Consider and comply with the existing legal and regulatory frameworks.
 
-Step 2: Design with the user. 
-●	Get to know the people you are serving through conversation, observation and co-creation. Ensure the UAS-based solution is sensitive to, and useful for, the most marginalized populations: women, children, those with disabilities, and those affected by conflict and disaster. 
-●	Engage with these communities at different stages of the project: planning, development, implementation and assessment.
+**Step 2: Design with the user.** 
+- Get to know the people you are serving through conversation, observation and co-creation. Ensure the UAS-based solution is sensitive to, and useful for, the most marginalized populations: women, children, those with disabilities, and those affected by conflict and disaster. 
+- Engage with these communities at different stages of the project: planning, development, implementation and assessment.
 
-Step 3: Address privacy and security. 
-●	Assess and mitigate risks to the security of people and their data. 
-●	Consider the context and needs for privacy of personally identifiable information when designing the UAS use case, and mitigate accordingly.
+**Step 3: Address privacy and security.**
+- Assess and mitigate risks to the security of people and their data. 
+- Consider the context and needs for privacy of personally identifiable information when designing the UAS use case, and mitigate accordingly.
 
-Step 4: Be collaborative.
-●	Share information, insights, strategies and resources across projects, organizations and sectors, leading to increased efficiency and impact. 
-●	Coordination is a multi-stakeholder process. This means that lessons learned and best practices on the use and coordination of UAS in humanitarian settings must remain open and transparent.
-●	Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.
+**Step 4: Be collaborative.**
+- Share information, insights, strategies and resources across projects, organizations and sectors, leading to increased efficiency and impact. 
+- Coordination is a multi-stakeholder process. This means that lessons learned and best practices on the use and coordination of UAS in humanitarian settings must remain open and transparent.
+- Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.
+
 Step 1. Understand the existing ecosystem
 
 
@@ -73,7 +82,7 @@ Step 4. Be collaborative
 
 
 
-Final checklist for the ethical use of geospatial technologies  
+**Final checklist for the ethical use of geospatial technologies**
 
 Before deploying drones for a humanitarian or development mission to collect data, UNICEF, partners and service providers should reflect on the following questions to ensure UNICEF is able to garner the benefits of these technologies, while also protecting the children and communities it serves.
 
