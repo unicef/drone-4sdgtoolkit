@@ -30,7 +30,7 @@ How to use this tool:
 
 Go to
 
-[Technical Guide For the use of drones in humanitarian and development missions](drone-4sdgtoolkit/content/guides/humanitarian-drone-mission/)
+[Technical Guide For the use of drones in humanitarian and development missions](/humanitarian-drone-mission/)
 
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
