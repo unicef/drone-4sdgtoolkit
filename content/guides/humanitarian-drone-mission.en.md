@@ -68,6 +68,8 @@ Before deploying drones for a humanitarian or development mission to collect dat
 
 This checklist should be completed by any party who will be using drones in collaboration with UNICEF. The UNICEF Drones Working Group will assess the responses and establish an ad-hoc framework for assessing the risks, harms and benefits of opening this specific dataset.
 
+**1. Identifying the benefits of using geospatial technologies for evidence generation**
+
 | Tick = Yes Cross = No | Questions | Description |
 | --------------------- | --------- | ----------- |
 |  | Have you considered the nature of the data that could be collected or mapped via these technologies and the potential demand for and use of this data within the context of current strategic planning? |  |
@@ -75,23 +77,21 @@ This checklist should be completed by any party who will be using drones in coll
 |  | Do you have staff with capabilities and expertise to responsibly lead and undertake the work and to develop, utilize, manage and analyse technologies and data in a timely and useful way? |  |
 |  | Have you considered the availability and comparative utility of other data/information prior to collecting data via geospatial technologies or from third party providers? |  |
 
-1. Identifying the benefits of using geospatial technologies for evidence generation
-Tick = Yes Cross = No	Questions	Description
-	Have you considered the nature of the data that could be collected or mapped via these technologies and the potential demand for and use of this data within the context of current strategic planning? 	
-	Can you clearly specify the benefits of using geospatial technologies for your particular purposes? Is this supported by the evidence (where available)?	
-	Do you have staff with capabilities and expertise to responsibly lead and undertake the work and to develop, utilize, manage and analyse technologies and data in a timely and useful way?	
-	Have you considered the availability and comparative utility of other data/information prior to collecting data via geospatial technologies or from third party providers?	
-
-2. Ensuring privacy and security
-Tick = Yes Cross = No	Questions	Description
-	Have you reviewed data to ensure that individually identifiable information is removed or obscured?	
-	Have you reflected on privacy and ensured the highest possible privacy conditions throughout each stage of the project?	
-	Are you aware of the privacy policies of any organization whose data or platforms you are using? Including:	
+**2. Ensuring privacy and security**
+| Tick = Yes Cross = No | Questions | Description |
+| --------------------- | --------- | ----------- |
+|  | Have you reviewed data to ensure that individually identifiable information is removed or obscured? |  |
+|  | Have you reflected on privacy and ensured the highest possible privacy conditions throughout each stage of the project? |  |
+|  | Are you aware of the privacy policies of any organization whose data or platforms you are using? Including:	
+	
 	1. Any anonymization or aggregation of data undertaken by the third party (preferred).	
+	
 	2. The nature and security of storage.	
-	3. Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data.	
-	1. Is the third party you are receiving data from domiciled in a country with broad surveillance powers?	
-	2. If yes, have you considered the risks and benefits to the populations involved?	
+	
+	3. Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data. |  |
+|  | Is the third party you are receiving data from domiciled in a country with broad surveillance powers?
+
+If yes, have you considered the risks and benefits to the populations involved? |  |
 
 3. Understanding the data risks and limitations
 Tick = Yes Cross = No	Questions	Description
