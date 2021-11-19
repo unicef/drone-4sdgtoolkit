@@ -22,7 +22,7 @@ The “Guides” section is a collection of case studies, annual reports, and ac
 
 The use of Unmanned Aircraft Systems (UAS) to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.
 
-![Table of contents for the guide to humanitarian and development missions.](/drone-4sdgtoolkit/static/guides/Guide humanitarian development.png)
+![Table of contents for the guide to humanitarian and development missions.](/drone-4sdgtoolkit/static/guides/guided4g001.png)
 
 This guide is a summary of UNICEF’s intervention design process for drone interventions in humanitarian and development contexts.
 
