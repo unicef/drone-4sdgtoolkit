@@ -82,12 +82,8 @@ This checklist should be completed by any party who will be using drones in coll
 | --------------------- | --------- | ----------- |
 |  | Have you reviewed data to ensure that individually identifiable information is removed or obscured? |  |
 |  | Have you reflected on privacy and ensured the highest possible privacy conditions throughout each stage of the project? |  |
-|  | Are you aware of the privacy policies of any organization whose data or platforms you are using? Including:	
-	1. Any anonymization or aggregation of data undertaken by the third party (preferred).	
-	2. The nature and security of storage.	
-	3. Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data. |  |
-|  | Is the third party you are receiving data from domiciled in a country with broad surveillance powers?
-If yes, have you considered the risks and benefits to the populations involved? |  |
+|  | Are you aware of the privacy policies of any organization whose data or platforms you are using? Including: 1. Any anonymization or aggregation of data undertaken by the third party (preferred).	2. The nature and security of storage. 3. Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data. |  |
+|  | Is the third party you are receiving data from domiciled in a country with broad surveillance powers? If yes, have you considered the risks and benefits to the populations involved? |  |
 
 3. Understanding the data risks and limitations
 Tick = Yes Cross = No	Questions	Description
