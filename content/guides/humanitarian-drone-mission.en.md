@@ -4,19 +4,19 @@
 
 **For the use of drones in humanitarian and development missions**
 
-Introduction
+- Introduction
 
-4 steps for deploying UAS in humanitarian mission
+- 4 steps for deploying UAS in humanitarian mission
 
-Step 1. Understand the existing ecosystem
+- Step 1. Understand the existing ecosystem
 
-Step 2. Design with the user
+- Step 2. Design with the user
 
-Step 3. Address privacy and security
+- Step 3. Address privacy and security
 
-Step 4. Be collaborative
+- Step 4. Be collaborative
 
-Final checklist for the ethical use of geospatial technologies
+- Final checklist for the ethical use of geospatial technologies
 
 **Introduction**
 
@@ -88,44 +88,41 @@ This checklist should be completed by any party who will be using drones in coll
 |  | - Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data. |  |
 |  | Is the third party you are receiving data from domiciled in a country with broad surveillance powers? If yes, have you considered the risks and benefits to the populations involved? |  |
 
-3. Understanding the data risks and limitations
-Tick = Yes Cross = No	Questions	Description
-	Have you discussed with data providers and data analysts the value and limitations of the data?	
-	Have you signed an agreement/MoU with service providers or volunteer organizations clarifying clear data sharing and people identity protection clauses?	
-	1. Have you considered the potential for discrimination relating to individuals being geographically categorized? 	
-	2. Have you considered the potential for discrimination resulting from any application of machine learning algorithms?	
+**3. Understanding the data risks and limitations**
+| Tick = Yes Cross = No | Questions | Description |
+| --------------------- | --------- | ----------- |
+|  | Have you discussed with data providers and data analysts the value and limitations of the data?	 |  |
+|  | Have you considered the potential for discrimination relating to individuals being geographically categorized? |  |
+|  | Have you considered the potential for discrimination resulting from any application of machine learning algorithms? | |
 
+**4. Assessing other potential harms** 
+| Tick = Yes Cross = No | Questions | Description |
+| --------------------- | --------- | ----------- |
+|  | Have you made contingency plans in case:	 |  |
+|  | - Data is wiped out remotely, or	 |  |
+|  | - A privacy breach occurs.	 |  |
+|  | Have you provided sufficient information or training for crowdmapping participants on potential risks and protection strategies? |  |
+|  | Have you provided clear information to potential crowdmappers as to what will or will not be undertaken consequent to findings provided by crowdmapping? |  |
 
-4. Assessing other potential harms
-Tick = Yes Cross = No	Questions	Description
-	Have you made contingency plans in case:	
-	1. Access to technologies or infrastructure is blocked or breaks down unexpectedly,  	
-	2. Data is wiped out remotely, or 	
-	3. A privacy breach occurs.	
-	Have you provided sufficient information or training for crowdmapping participants on potential risks and protection strategies?	
-	Have you provided clear information to potential crowdmappers as to what will or will not be undertaken consequent to findings provided by crowdmapping?	
+**5. Engaging communities** 
+| Tick = Yes Cross = No | Questions | Description |
+| --------------------- | --------- | ----------- |
+|  | Have you undertaken a consultative process involving all relevant stakeholders to produce a risk assessment framework? |  |
+|  | If not, have you, at a minimum, informed (in the context of social media based programmes) relevant communities to let them know about the evidence generation programme?	 |  |
+|  | Do you have a means by which community consent might be obtained from the target communities? |  |
+|  | Do you have a means by which data can be shared with the target communities? |  |
 
-5. Engaging communities 
-Tick = Yes Cross = No	Questions	Description
-	Have you undertaken a consultative process involving all relevant stakeholders to produce a risk assessment framework? 	
-	If not, have you, at a minimum, informed (in the context of social media based programmes) relevant communities to let them know about the evidence generation programme? 	
-	Do you have a means by which community consent might be obtained from the target communities? 	
-	Do you have a means by which data can be shared with the target communities?	
-
-
-6. Assessing risks and mitigation strategies for geospatial data collection from UAS
-Tick = Yes Cross = No	Questions	Description
-	Are you intending to use an Unmanned Aerial Vehicle (UAV) in a conflict zone/fragile state? 	
-	If yes, what is the justification? 	
-	Is it absolutely essential? 	
-	What relevant authority units will be supporting teams on the ground? 	
-	Do the benefits outweigh the risks – have you made a determination based on a comprehensive assessment of security and safety issues and potential perceptions of the organization and its personnel if you send a UAV into this context? 	
-	Have you set up systems that avoid recording any information that would present a security threat to individuals and groups if intercepted? 	
-	Have you adopted approaches that minimize the resolution of visual data captured (including maximizing the distance between object and visual imaging technology) to ensure the lowest resolution while maintaining the value of the data captured? 	
-	Irrespective of context, have you planned to engage with the communities in the visible path of the UAV and/or to notify and/or discuss the launch of the UAV? 	
-	Are you intending to launch and land the UAV from the location to be surveyed?	
-	If landing is to be remote at a different location, is there a plan for having a recovery team available at the remote site so that the UAV (and data collected) does not fall into the hands of the wrong people?	
-
-
-
-
+**6. Assessing risks and mitigation strategies for geospatial data collection from UAS**
+| Tick = Yes Cross = No | Questions | Description |
+| --------------------- | --------- | ----------- |
+|  | Are you intending to use an Unmanned Aerial Vehicle (UAV) in a conflict zone/fragile state? |  |
+|  | If yes, what is the justification?	 |  |
+|  | Is it absolutely essential?	 |  |
+|  | What relevant authority units will be supporting teams on the ground?	 |  |
+|  | Do the benefits outweigh the risks – have you made a determination based on a comprehensive assessment of security and safety issues and potential perceptions of the organization and its personnel if you send a UAV into this context?	 |  |
+|  | Have you set up systems that avoid recording any information that would present a security threat to individuals and groups if intercepted? |  |
+|  | Have you adopted approaches that minimize the resolution of visual data captured (including maximizing the distance between object and visual imaging technology) to ensure the lowest resolution while maintaining the value of the data captured? |  |
+|  | Irrespective of context, have you planned to engage with the communities in the visible path of the UAV and/or to notify and/or discuss the launch of the UAV? |  |
+|  | Are you intending to launch and land the UAV from the location to be surveyed? |  |
+|  | If landing is to be remote at a different location, is there a plan for having a recovery team available at the remote site so that the UAV (and data collected) does not fall into the hands of the wrong people? |  |	 	
+	 	
