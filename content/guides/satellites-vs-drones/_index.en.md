@@ -15,6 +15,11 @@ The following tables provide a fact sheet on satellite and drone technology. Whe
 
 Satellite imagery specifications;
 
-|  |  |  |  |  |  |  |
-| -- | -- | -- | -- | -- | -- | -- |
-|  |  |  |  |  |  |  |
+| Type | Sensor | Bands | Resolution | Coverage | Frequency |
+| -- | -- | -- | -- | -- | -- |
+| Commercial | Worldview3 (MAXAR) | Multi-spectral (8) | Pan-chromatic 	31 cm (pan) 1.24 m (multi spectral) | Global | Revisit time of <1 day collecting up to 680,000 km2 per day |
+
+
+ 	 
+  	 	 
+
