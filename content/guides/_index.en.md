@@ -40,10 +40,8 @@ The corridors have shown leadership in piloting drone use cases in medical deliv
 
 ![Stakeholder map for drone corridors.](/static/guides/guided4g002.png)
 
-This guide is a summary of UNICEF’s approach for developing humanitarian drone corridors.  
+**This guide is under development and will be available in December 2021.**
 
-How to use this tool: 
-URL: https://unicef.github.io/drone-4sdgtoolkit/guide-drone-corridor-setup  
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
