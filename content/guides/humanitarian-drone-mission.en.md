@@ -19,11 +19,13 @@ Step 4. Be collaborative
 Final checklist for the ethical use of geospatial technologies
 
 **Introduction**
+
 Unmanned Aerial Vehicles (UAVs), Unmanned Aircraft Systems (UAS), or drones, offer the potential to improve humanitarian assistance and the living conditions of local communities by delivering life-saving medical supplies in hard-to-reach areas; collecting aerial imagery that helps map risks to strengthen resilience, improve agricultural yields or water management, among other use cases in the humanitarian and development sectors. Drones offer the possibility to better meet the needs of those living in disadvantaged conditions or affected by humanitarian crises; however, this can only be achieved if drones are used in a responsible and ethical manner.
 
 The use of UAS to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.
 
 **4 steps for deploying UAS in humanitarian missions**
+
 As with other technology applied to address social challenges, the use of UAS should consider the nine principles of digital innovation when working with people and communities in need. UNICEF, partners and service providers working with drones should follow these four practical steps in their mission planning and development:
  
 **Step 1: Understand the existing ecosystem.** 
