@@ -37,6 +37,8 @@ A Humanitarian Drone Corridor is designed to provide a controlled land area and 
 
 The corridors have shown leadership in piloting drone use cases in medical deliveries, emergency response mapping, education mapping, and other applications. This document aims to provide a blueprint for establishing a humanitarian drone corridor based on the lessons learnt in the existing UNICEF corridors. 
 
+![Stakeholder map for drone corridors.](/drone-4sdgtoolkit/static/guides/guided4g002.png)
+
 This guide is a summary of UNICEF’s approach for developing humanitarian drone corridors.  
 
 How to use this tool: 
@@ -49,6 +51,8 @@ Download the content and utilise freely as a tool; if the guide is used in devel
 Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programme implementation, resource planning, community studies, and disaster response.  
 
 Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch differently formatted images together. 
+
+![Satellite mapping images on a dashboard.](/drone-4sdgtoolkit/static/guides/guided4g003.png)
 
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
