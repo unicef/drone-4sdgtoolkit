@@ -27,7 +27,7 @@ The use of Unmanned Aircraft Systems (UAS) to support humanitarian and developme
 This guide is a summary of UNICEF’s intervention design process for drone interventions in humanitarian and development contexts.
 
 How to use this tool: 
-URL: https://unicef.github.io/drone-4sdgtoolkit/guide-drone-humanitarian-mission  
+URL: drone-4sdgtoolkit/content/guides/humanitarian-drone-mission.en.md
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
