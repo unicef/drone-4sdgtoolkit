@@ -35,3 +35,13 @@ The following tables provide a fact sheet on satellite and drone technology. Whe
 | 25 minutes from arrival at site to deliver initial images of site. | 5cm per px, Accuracy: 10m  | 2,000 Acres per flight (90 minutes) with a typical fixed wing | Drone images and video |
 | 2 - 8 hours from demobilization | 1cm per px, Accuracy: 2cm XY, 5cm Z || 2D orthomosaic, 3D point cloud |
 | 3 – 20 hours from demobilization | 1cm per px, Accuracy: 2cm XY, 5cm Z || Various types of analysis and CAD drawings |
+
+**Performance Grid**
+
+| Rating | Turnaround time | Resolution/px | Coverage Area | Recommended Mode |
+| --- | --- | --- | --- | --- |
+| 1 – 2 | 3 working days | 1.5 m - 10 m+ | 100 km2 to1,000 km2 | Satellite |
+| 3 – 4 | 2 working days | 30 cm – 1.5 m | 2 km2 to 20 km2 | Fixed wing drone |
+| 5 – 6 | 5 hours | 20 cm | 1 km2 | Fixed wing drone |
+| 7 – 8 | 60 minutes | 10 cm | 0.32 km2 | Multi-copter drone |
+| 9 – 10 | 30 minutes | 5 cm | 0.004 km2 to 0.16 km2 | Multi-copter drone |
