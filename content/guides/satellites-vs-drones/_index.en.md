@@ -26,3 +26,79 @@ Satellite imagery specifications;
 | Public | ALOS-2 PALSAR | SAR | 30 m | Global | 14 days |
 | Public | Sentinel | Optical and SAR | 10 m | Global | 8 days |
 | Public | Landsat | Optical | 30 m | Global | 16 days |
+
+**Drone Imagery Specifications**
+
+|
+
+Turnaround time
+
+ |
+
+Resolution
+
+ |
+
+Coverage
+
+ |
+
+Use cases
+
+ |
+|
+
+5 to 60 minutes to arrive at a site depending on distance of drone team from area of interest/impact
+
+ |
+
+5cm per px for typical photogrammetric drone
+
+ |
+
+40 Acres per flight (30 minutes) with typical quadcopter
+
+ |
+
+WASH mapping.
+
+Household mapping for various studies.
+
+Emergency response.
+
+School infrastructure mapping.
+
+Health facility infrastructure mapping.
+
+ |
+|
+
+25 minutes from arrival at site to deliver initial images of site.
+
+ |
+
+Accuracy to 3cm -- 10m for corrected maps
+
+ |
+
+2,000 Acres per flight (90 minutes) with a typical fixed wing
+
+ |
+|
+
+2 - 8 hours from demobilization from site for delivery of raw orthomosaic maps
+
+ |
+
+LiDAR drones can penetrate tree cover and scan the ground in dangerous areas where humans can traverse
+
+ |
+
+Able to fly below cloud cover
+
+ |
+|
+
+3 -- 20 hours from event for various types of analysis and CAD drawings
+
+ |  |  |
