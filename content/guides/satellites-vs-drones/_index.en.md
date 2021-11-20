@@ -90,7 +90,8 @@ Temporal resolution refers to the time between images. The capability for satell
 
 ## Examples of satellite imagery and use cases
 
-![SPOT5 and Terra Satellite Images](/static/guides/satvdronesd4g002.png) 
+![SPOT5 and Terra Satellite Images](/static/guides/satvdronesd4g002.jpg)
+
 _Figure 2 Image Classification. Source: C. Kuenzer et al._
 
 ### Image Classification
