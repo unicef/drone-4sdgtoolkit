@@ -90,7 +90,9 @@ Temporal resolution refers to the time between images. The capability for satell
 
 ## Examples of satellite imagery and use cases
 
-| ![](RackMultipart20211120-4-vlfarq_html_32233f2d738ec5a3.png)_Figure 2Image Classification. Source: C. Kuenzer et al._ |
+![SPOT5 and Terra Satellite Images](/static/guides/satvdronesd4g002.png) 
+_Figure 2 Image Classification. Source: C. Kuenzer et al._
+
 ### Image Classification
 A frequently-used method for information extraction from remote sensing data is to match information classes of to spectral ranges (or a combination of spectral ranges).
 Land cover and land use maps, such as those classifying mangroves from SPOT and TerraSAR-X imagery in the Mekong Delta, provide a greater understanding of environments and their processes. |
