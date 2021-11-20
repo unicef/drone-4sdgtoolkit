@@ -19,10 +19,10 @@ Satellite imagery specifications;
 | -- | -- | -- | -- | -- | -- |
 | Commercial | Worldview3 (MAXAR) | Multi-spectral (8) | Pan-chromatic 	31 cm (pan) 1.24 m (multi spectral) | Global | Revisit time of <1 day collecting up to 680,000 km2 per day |
 | Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday | 	 
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |  	 	 
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |
-| Commercial | Planet scope | R,G,B, NIR | 3.7 m | Global | Revisit time < 1 day Collecting for the entire globe everyday |
+| Commercial | ICEEYE | Synthetic Aperture Radar (SAR) | Up to 25cm | Global | 20 hours |
+| Commercial | Capella Space | SAR | Up to 30 cm | Global | Maximum hourly | 	 
+| Public | MODIS | Optical 36 bands | 250 m | Global | 1 day |  	 	 
+| Public | VIIRS | Optical 21 and DNB (night-time light) | 375 m | Global | 1 day |
+| Public | ALOS-2 PALSAR | SAR | 30 m | Global | 14 days |
+| Public | Sentinel | Optical and SAR | 10 m | Global | 8 days |
+| Public | Landsat | Optical | 30 m | Global | 16 days |
