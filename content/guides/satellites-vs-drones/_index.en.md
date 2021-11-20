@@ -56,9 +56,7 @@ _Source_: [https://www.pgc.umn.edu/guides/commercial-imagery/intro-satellite-ima
 
 Satellites extract information from energy interacting with the Earth&#39;s surface. Remote sensing sensors measure the electromagnetic radiation from reflection, emission, and emission reflection. Light acts as a wave that can be described by its wavelength and frequency, comprising the electromagnetic spectrum. Longer wavelengths contain less energy and shorter wavelengths contain more.
 
-![](RackMultipart20211120-4-vlfarq_html_77dd86cca1e22fd.png)
-
-
+![Electromagnetic Spectrum](/static/guides/satvdronesd4g001.png) 
 
 _Figure 1 The electromagnetic spectrum._
 
