@@ -4,16 +4,16 @@
 
 **Use of Satellites or Drones for Imagery Collection**
 
-Introduction
+**Introduction**
 
 Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
-Decision-making matrix
+**Decision-making matrix**
 
 The following tables provide a fact sheet on satellite and drone technology. When used together it will enable any technical or administrative decision maker to come to a quick and informed decision on which technology is best for any imagery needs. 
 
-Satellite imagery specifications;
+**Satellite imagery specifications;**
 
 | Type | Sensor | Bands | Resolution | Coverage | Frequency |
 | -- | -- | -- | -- | -- | -- |
@@ -29,9 +29,9 @@ Satellite imagery specifications;
 
 **Drone Imagery Specifications**
 
-| Turnaround time | Resolution | Coverage | Use cases |
-| --- | --- | --- | --- |
-| 5 to 60 minutes to arrive at a site depending on distance of drone team from area of interest/impact | 5cm per px for typical photogrammetric drone | 40 Acres per flight (30 minutes) with typical quadcopter | WASH mapping. Household mapping for various studies. Emergency response. School infrastructure mapping. Health facility infrastructure mapping. |
+| Turnaround time | Resolution | Coverage |
+| --- | --- | --- |
+| 5 to 60 minutes to arrive at a site depending on distance of drone team from area of interest/impact | 5cm per px for typical photogrammetric drone | 40 Acres per flight (30 minutes) with typical quadcopter |
 | 25 minutes from arrival at site to deliver initial images of site. | Accuracy to 3cm – 10m for corrected maps | 2,000 Acres per flight (90 minutes) with a typical fixed wing |
 | 2 - 8 hours from demobilization from site for delivery of raw orthomosaic maps | LiDAR drones can penetrate tree cover and scan the ground in dangerous areas where humans can traverse | Able to fly below cloud cover |
 | 3 – 20 hours from event for various types of analysis and CAD drawings |||
