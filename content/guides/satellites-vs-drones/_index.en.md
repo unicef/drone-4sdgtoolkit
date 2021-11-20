@@ -58,6 +58,8 @@ Satellites extract information from energy interacting with the Earth&#39;s surf
 
 ![](RackMultipart20211120-4-vlfarq_html_77dd86cca1e22fd.png)
 
+
+
 _Figure 1 The electromagnetic spectrum._
 
 The electromagnetic spectrum is broad and not all wavelengths are equally effective nor significantly interact with surfaces of interest for remote sensing purposes.
