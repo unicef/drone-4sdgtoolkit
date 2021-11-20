@@ -143,7 +143,7 @@ _Source_: [https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/generate-a
 
 An orthomosaic is a collection of images that have been stitched together, where the geometric distortion has been corrected and the imagery has been color balanced to produce a seamless mosaic dataset.
 
-![](RackMultipart20211120-4-vlfarq_html_229327a60ab78292.png)
+![Orthomosaic Images](/static/guides/satvdronesd4g003.jpg)
 
 Orthomosaic formats:
 
@@ -159,7 +159,7 @@ _Source_: [https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms](
 
 Digital Elevation Models, also known as DEMs, are a visual representation of the elevation data for every point captured on your site. Instead of depicting how your site actually appears in person, DEMs generally use colour to indicate differences in elevation - as this image shows.
 
-![](RackMultipart20211120-4-vlfarq_html_9bd9b1f716a72e8b.png)
+![Digital Elevation Model image](/static/guides/satvdronesd4g004.jpg)
 
 DEMs are raster datasets, or grids that list the highest vertical point (z) recorded for every horizontal coordinate (x,y). The smaller the grid cells, the more detailed the information is within a DEM data file. So, if you&#39;re looking to model with lots of detail, then small grid spacing (or small cell size) is the one to go for. When visualised, these raster files depict the shape of your site&#39;s terrain, which can be used as a reference for the topography you&#39;re working on.
 
@@ -173,11 +173,11 @@ DSM: The most general form of surface model that includes all acquired points, r
 
 The below graphic is a simple diagram showing the differences between a DTM and DSM. Notice how the DTM (orange line) follows the ground, whereas the DSM (green line) follows the structures on the surface, ie the top of the house and the tree.
 
-![](RackMultipart20211120-4-vlfarq_html_cf769b31e2522d8e.png)
+![House and trees diagram to illustrate difference between DEM and DSM](/static/guides/satvdronesd4g005.jpg)
 
 The below example demonstrates this - with the DTM on the left and the identical DSM on the right.
 
-![](RackMultipart20211120-4-vlfarq_html_11abd07c8d887b01.png)
+![Image of DTM vs DEM](/static/guides/satvdronesd4g006.jpg)
 
 ## How Can Drones Help Generate DEMs, DSMs and DTMs?
 
@@ -189,7 +189,7 @@ LiDAR: An acronym of light detection and ranging, LiDAR works by sending pulses 
 
 Photogrammetry: The art of capturing high-resolution photographs to recreate a survey area. These images are processed and stitched together using sophisticated software to create realistic, geo-referenced, and measurable 3D models of the real world.
 
-![](RackMultipart20211120-4-vlfarq_html_87ff60103350d526.png)
+![Image of LiDAR point cloud vs 2D photogrammetry vs 3D photogrammetry](/static/guides/satvdronesd4g007.jpg)
 
 As the above highlights, there are clear differences between LiDAR and photogrammetry.
 
@@ -201,7 +201,7 @@ For more information go to [https://www.heliguy.com/blogs/posts/drones-and-dems-
 
 ## Benefits of drone mapping
 
-![](RackMultipart20211120-4-vlfarq_html_18b367b3772b855b.png)
+![Jar with coins, server, map](/static/guides/satvdronesd4g008.jpg)
 
 Drone imaging in general is cheaper than Satellite imaging for small areas less than 100Km2 in size. This is because a typical impact area for a community is less than 1km2 and satellite companies do fresh imaging missions for minimum 100Km2 areas. For a quick 5-hectare community or impact area, tasking a satellite to capture 100 Km2 (100 hectares) is very inefficient. The smaller the area to be mapped the more appropriate drones are as the option for mapping.
 
