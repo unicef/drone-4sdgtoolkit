@@ -13,6 +13,8 @@ As shown by several UNICEF projects in Malawi and Vanuatu, drone delivery offers
 - Drone delivery bundled with other innovative interventions can offer a cost effective solution for disease (TB) control (based on WHO CEA methodologies)
 - Drone delivery could decrease transport costs if the drones are used frequently enough to overcome the capital costs of installing and maintaining the system.
 
+![African nurse in front of a winged drone and hospital holding a cold box with medicine inside](/static/guides/dronesupplychain001.jpg)
+
 ## Want to know more about our approach to deciding how to use drones in supply chain?
 
 You can access our guide on drones in supply chain in the document below; 
