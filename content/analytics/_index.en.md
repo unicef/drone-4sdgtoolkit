@@ -21,7 +21,7 @@ Areas where these drone analytics tools are used include surveillance, research,
 
 We're finalizing our curation of analytics tools and data sets. If you want to contribute to this section we are interested in algorithhms and data connected to the SDGs, email enonie@unicef.org for more information or guidance.  
 
-**Submit open datasets to the UNICEF drones for SDGs toolkit** 
+## Submit open datasets to the UNICEF drones for SDGs toolkit
 
 Do you have an open source collection of drone images or other data?  
 
