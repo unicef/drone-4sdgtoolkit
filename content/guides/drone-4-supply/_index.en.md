@@ -2,6 +2,9 @@
 
 ![African nurse in front of a winged drone and hospital holding a cold box with medicine inside](/static/guides/dronesupplychain001.jpg)
 
+## UNICEF Supply Division Guide for drones in medical supply chain: 
+[UNICEF Supply Division Guide](/static/guides/UNICEFSupplyDivision_DroneDeliveryApproach.pdf) 
+
 UNICEF Supply Division has been working on the integration of last mile innovations, such as drone delivery, to bridge existing infrastructural and supply chain gaps as driven by local context and need. UNICEF Supply Division provides technical expertise, country implementation support, and donor coordination and works with Regional and Country Offices and their governmental partners to scale up the use of innovative services and solutions as a part of supply chain operations.
 
 As shown by several UNICEF projects in Malawi and Vanuatu, drone delivery offers an impactful last mile solution:
@@ -14,10 +17,4 @@ As shown by several UNICEF projects in Malawi and Vanuatu, drone delivery offers
 - Other benefits observed by UNICEF partners included:
 - Drone delivery bundled with other innovative interventions can offer a cost effective solution for disease (TB) control (based on WHO CEA methodologies)
 - Drone delivery could decrease transport costs if the drones are used frequently enough to overcome the capital costs of installing and maintaining the system.
-
-## Access our guide on drones in supply chain in the document below:
-
-[UNICEF Supply Division Guide](/static/guides/UNICEFSupplyDivision_DroneDeliveryApproach.pdf) 
-
-
 
