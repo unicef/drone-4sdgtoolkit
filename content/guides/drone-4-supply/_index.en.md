@@ -17,7 +17,7 @@ As shown by several UNICEF projects in Malawi and Vanuatu, drone delivery offers
 
 ## Access our guide on drones in supply chain in the document below:
 
-[UNICEF Supply Division Guide](/static/guides/UNICEFSupplyDivision_Drone DeliveryApproach.pdf) 
+[UNICEF Supply Division Guide](/static/guides/UNICEFSupplyDivision_DroneDeliveryApproach.pdf) 
 
 
 
