@@ -18,7 +18,7 @@ The “Guides” section is a collection of case studies, annual reports, and ac
 
 ## Guides
 
-**Technical Guide - The use of drones in humanitarian and development missions**
+## Technical Guide - The use of drones in humanitarian and development missions
 
 The use of Unmanned Aircraft Systems (UAS) to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.
 
@@ -32,7 +32,7 @@ This guide is a summary of UNICEF’s intervention design process for drone inte
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
-**Technical Guide – How to setup a humanitarian drone corridor**
+## Technical Guide – How to setup a humanitarian drone corridor
 
 A Humanitarian Drone Corridor is designed to provide a controlled land area and airspace for Government, the private sector, universities, and other partners to explore how drones, also known as unmanned aerial vehicles (UAVs), can help deliver services that benefit communities. Since 2015, UNICEF has invested in three (3) permanent Humanitarian Drone Corridors in Malawi, Kazakhstan, and Sierra Leone, and a temporary corridor during the drone vaccine delivery trials in Vanuatu.   
 
@@ -45,7 +45,7 @@ The corridors have shown leadership in piloting drone use cases in medical deliv
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
-**Technical Guide – Drones vs Satellite for Imagery Data**
+## Technical Guide – Drones vs Satellite for Imagery Data
 
 Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programme implementation, resource planning, community studies, and disaster response.  
 
