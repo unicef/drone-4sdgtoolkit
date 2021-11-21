@@ -56,7 +56,7 @@ Previously, the process of developing maps from imagery was painstakingly slow a
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
 How to use this tool: 
-[Technical Guide for Satellites vs Drones for Imagery](/content/guides/satellite-vs-drones/_index.en.md)  
+[Technical Guide for Satellites vs Drones for Imagery](/content/guides/satellites-vs-drones/_index.en.md)  
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated. 
 
 
