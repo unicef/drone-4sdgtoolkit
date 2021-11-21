@@ -56,11 +56,25 @@ Previously, the process of developing maps from imagery was painstakingly slow a
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
 How to use this tool: 
+
 [Technical Guide for Satellites vs Drones for Imagery](/content/guides/satellites-vs-drones/_index.en.md)  
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated. 
 
+## Technical Guide – Drones in Supply Chain
 
-**Submit Guideline Documents to the UNICEF drones for SDGs toolkit –**
+UNICEF Supply Division has been leading in the field of drones in medical supply chain.   
+
+![Nurse and drone technician in Vanuatu opening a drone on the ground.](/static/guides/dronesupplychain002.jpg)
+
+This guide shares the lessons that we have learned integrating drones into supply chain in 3 countries in different regions of the world. 
+
+How to use this tool: 
+
+[Technical Guide for Drones in Supply Chain](/content/guides/drone-4-supply/_index.en.md)  
+Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated. 
+
+
+## Submit Guideline Documents to the UNICEF drones for SDGs toolkit –
 
 Do you have a guideline document that you have developed from completed research or interventions?  
 
