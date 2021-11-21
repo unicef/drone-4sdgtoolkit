@@ -14,7 +14,7 @@ data is key for impact assessment or decision-making.
 The “Analytics” section of this toolkit centres on curating drone-related artificial intelligence and data products that inform decision-making.
 Areas where these drone analytics tools are used include surveillance, research, operations, project management and impact evaluation.
 
-![A man wearing a UNICEF shirt and vest observes a vertical take-off of a drone. Behind him, a large crowd of people and children observe.](/static/analytics/UN0153379.jpg)
+![A man wearing a UNICEF shirt and vest observes a vertical take-off of a drone. Behind him, a large crowd of people and children observe.](/drone-4sdgtoolkit/static/analytics/UN0153379.jpg)
 
 
 ## Analytics Tools
