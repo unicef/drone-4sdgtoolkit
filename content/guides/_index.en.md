@@ -27,7 +27,7 @@ The use of Unmanned Aircraft Systems (UAS) to support humanitarian and developme
 This guide is a summary of UNICEF’s intervention design process for drone interventions in humanitarian and development contexts.
 
 **To use this tool go to:**  
-[Technical Guide For the use of drones in humanitarian and development missions](/content/guides/humanitarian-drone-mission/)
+[Technical Guide For the use of drones in humanitarian and development missions](/content/guides/humanitarian-drone-mission/_index.en.md)
 
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
@@ -45,7 +45,7 @@ The corridors have shown leadership in piloting drone use cases in medical deliv
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
-## Technical Guide – Drones vs Satellite for Imagery Data
+## Technical Guide – Satellite vs Drones for Imagery Data
 
 Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programme implementation, resource planning, community studies, and disaster response.  
 
@@ -56,7 +56,7 @@ Previously, the process of developing maps from imagery was painstakingly slow a
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
 How to use this tool: 
-URL: https://unicef.github.io/drone-4sdgtoolkit/guide-satellite-vs-drone  
+[Technical Guide for Satellites vs Drones for Imagery](/content/guides/satellite-vs-drones/_index.en.md)  
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated. 
 
 
