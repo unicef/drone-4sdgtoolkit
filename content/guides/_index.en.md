@@ -13,7 +13,7 @@ The global drone industry has been developing for decades and the lessons learne
 UNICEF and several other stakeholders have made significant contributions to the global knowledge base of the technology and use of drones in the development and humanitarian contexts specifically.
 The “Guides” section is a collection of case studies, annual reports, and action guides for achieving specific outcomes.
 
-![A group of ten people are standing in a field. A drone is placed in front of them on top of a crate.](/static/guides/UN0264779.jpg)
+![A group of ten people are standing in a field. A drone is placed in front of them on top of a crate.](/drone-4sdgtoolkit/static/guides/UN0264779.jpg)
 
 
 ## Guides
@@ -22,7 +22,7 @@ The “Guides” section is a collection of case studies, annual reports, and ac
 
 The use of Unmanned Aircraft Systems (UAS) to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.
 
-![Table of contents for the guide to humanitarian and development missions.](/static/guides/guided4g001.png)
+![Table of contents for the guide to humanitarian and development missions.](/drone-4sdgtoolkit/static/guides/guided4g001.png)
 
 This guide is a summary of UNICEF’s intervention design process for drone interventions in humanitarian and development contexts.
 
@@ -38,7 +38,7 @@ A Humanitarian Drone Corridor is designed to provide a controlled land area and 
 
 The corridors have shown leadership in piloting drone use cases in medical deliveries, emergency response mapping, education mapping, and other applications. This document aims to provide a blueprint for establishing a humanitarian drone corridor based on the lessons learnt in the existing UNICEF corridors. 
 
-![Stakeholder map for drone corridors.](/static/guides/guided4g002.png)
+![Stakeholder map for drone corridors.](/drone-4sdgtoolkit/static/guides/guided4g002.png)
 
 **This guide is under development and will be available in December 2021.**
 
@@ -51,7 +51,7 @@ Today, aerial imagery is available from a variety of sources, including traditio
 
 Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch differently formatted images together. 
 
-![Satellite mapping images on a dashboard.](/static/guides/guided4g003.png)
+![Satellite mapping images on a dashboard.](/drone-4sdgtoolkit/static/guides/guided4g003.png)
 
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
@@ -64,7 +64,7 @@ Download the content and utilise freely as a tool; if the guide is used in devel
 
 UNICEF Supply Division has been leading in the field of drones in medical supply chain.   
 
-![Nurse and drone technician in Vanuatu opening a drone on the ground.](/static/guides/dronesupplychain002.jpg)
+![Nurse and drone technician in Vanuatu opening a drone on the ground.](/drone-4sdgtoolkit/static/guides/dronesupplychain002.jpg)
 
 This guide shares the lessons that we have learned integrating drones into supply chain in 3 countries in different regions of the world. 
 
