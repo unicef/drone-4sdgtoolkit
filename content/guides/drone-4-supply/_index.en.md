@@ -14,3 +14,6 @@ As shown by several UNICEF projects in Malawi and Vanuatu, drone delivery offers
 - Drone delivery could decrease transport costs if the drones are used frequently enough to overcome the capital costs of installing and maintaining the system.
 
 ## Want to know more about our approach to deciding how to use drones in supply chain?
+
+You can access our guide on drones in supply chain in the document below; 
+
