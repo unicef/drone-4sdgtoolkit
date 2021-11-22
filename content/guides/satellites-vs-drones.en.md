@@ -1,4 +1,4 @@
-![UNICEF logo blue with for every child motto.](/static/images/unicefinnovlogo.png)
+![UNICEF logo blue with for every child motto.](/drone-4sdgtoolkit/images/unicefinnovlogo.png)
 
 # Use of Satellites or Drones for Imagery Collection
 
@@ -56,7 +56,7 @@ _Source_: [https://www.pgc.umn.edu/guides/commercial-imagery/intro-satellite-ima
 
 Satellites extract information from energy interacting with the Earth&#39;s surface. Remote sensing sensors measure the electromagnetic radiation from reflection, emission, and emission reflection. Light acts as a wave that can be described by its wavelength and frequency, comprising the electromagnetic spectrum. Longer wavelengths contain less energy and shorter wavelengths contain more.
 
-![Electromagnetic Spectrum](/static/guides/satvdronesd4g001.png) 
+![Electromagnetic Spectrum](/drone-4sdgtoolkit/guides/satvdronesd4g001.png) 
 
 _Figure 1 The electromagnetic spectrum._
 
@@ -90,7 +90,7 @@ Temporal resolution refers to the time between images. The capability for satell
 
 ## Examples of satellite imagery and use cases
 
-![SPOT5 and Terra Satellite Images](/static/guides/satvdronesd4g002.jpg)
+![SPOT5 and Terra Satellite Images](/drone-4sdgtoolkit/guides/satvdronesd4g002.jpg)
 
 _Figure 2 Image Classification. Source: C. Kuenzer et al._
 
@@ -142,7 +142,7 @@ _Source_: [https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/generate-a
 
 An orthomosaic is a collection of images that have been stitched together, where the geometric distortion has been corrected and the imagery has been color balanced to produce a seamless mosaic dataset.
 
-![Orthomosaic Images](/static/guides/satvdronesd4g003.jpg)
+![Orthomosaic Images](/drone-4sdgtoolkit/guides/satvdronesd4g003.jpg)
 
 Orthomosaic formats:
 
@@ -158,7 +158,7 @@ _Source_: [https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms](
 
 Digital Elevation Models, also known as DEMs, are a visual representation of the elevation data for every point captured on your site. Instead of depicting how your site actually appears in person, DEMs generally use colour to indicate differences in elevation - as this image shows.
 
-![Digital Elevation Model image](/static/guides/satvdronesd4g004.jpg)
+![Digital Elevation Model image](/drone-4sdgtoolkit/guides/satvdronesd4g004.jpg)
 
 DEMs are raster datasets, or grids that list the highest vertical point (z) recorded for every horizontal coordinate (x,y). The smaller the grid cells, the more detailed the information is within a DEM data file. So, if you&#39;re looking to model with lots of detail, then small grid spacing (or small cell size) is the one to go for. When visualised, these raster files depict the shape of your site&#39;s terrain, which can be used as a reference for the topography you&#39;re working on.
 
@@ -172,11 +172,11 @@ DSM: The most general form of surface model that includes all acquired points, r
 
 The below graphic is a simple diagram showing the differences between a DTM and DSM. Notice how the DTM (orange line) follows the ground, whereas the DSM (green line) follows the structures on the surface, ie the top of the house and the tree.
 
-![House and trees diagram to illustrate difference between DEM and DSM](/static/guides/satvdronesd4g005.jpg)
+![House and trees diagram to illustrate difference between DEM and DSM](/drone-4sdgtoolkit/guides/satvdronesd4g005.jpg)
 
 The below example demonstrates this - with the DTM on the left and the identical DSM on the right.
 
-![Image of DTM vs DEM](/static/guides/satvdronesd4g006.jpg)
+![Image of DTM vs DEM](/drone-4sdgtoolkit/guides/satvdronesd4g006.jpg)
 
 ## How Can Drones Help Generate DEMs, DSMs and DTMs?
 
@@ -188,7 +188,7 @@ LiDAR: An acronym of light detection and ranging, LiDAR works by sending pulses 
 
 Photogrammetry: The art of capturing high-resolution photographs to recreate a survey area. These images are processed and stitched together using sophisticated software to create realistic, geo-referenced, and measurable 3D models of the real world.
 
-![Image of LiDAR point cloud vs 2D photogrammetry vs 3D photogrammetry](/static/guides/satvdronesd4g007.jpg)
+![Image of LiDAR point cloud vs 2D photogrammetry vs 3D photogrammetry](/drone-4sdgtoolkit/guides/satvdronesd4g007.jpg)
 
 As the above highlights, there are clear differences between LiDAR and photogrammetry.
 
@@ -200,7 +200,7 @@ For more information go to [https://www.heliguy.com/blogs/posts/drones-and-dems-
 
 ## Benefits of drone mapping
 
-![Jar with coins, server, map](/static/guides/satvdronesd4g008.jpg)
+![Jar with coins, server, map](/drone-4sdgtoolkit/guides/satvdronesd4g008.jpg)
 
 Drone imaging in general is cheaper than Satellite imaging for small areas less than 100Km2 in size. This is because a typical impact area for a community is less than 1km2 and satellite companies do fresh imaging missions for minimum 100Km2 areas. For a quick 5-hectare community or impact area, tasking a satellite to capture 100 Km2 (100 hectares) is very inefficient. The smaller the area to be mapped the more appropriate drones are as the option for mapping.
 
