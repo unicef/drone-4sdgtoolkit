@@ -21,6 +21,8 @@ The “Regulations” section of the toolkit houses several international best p
 
 ### ICAO Model UAS Regulations
 
+![ICAO Logo.](/drone-4sdgtoolkit/regs/Regualtions ICAO.png)
+
 The ICAO Model UAS Regulations and companion Advisory Circulars (ACs) offer a template for Member States to implement or to supplement their existing UAS regulations. These regulations and ACs are intended to be a living document and will evolve as the industry matures, providing States and regulators with internationally harmonized material based on the latest developments. 
 
 ICAO encourages States who have implemented UAS regulations to share their regulations with ICAO by providing a link or PDF file to RPAS@icao.int. The State's UAS Regulations will then be added to the repository of "Current State Regulations" located in the UAS Toolkit on ICAO's public website: https://www.icao.int/safety/UA/UASToolkit. As States enhance or expand their UAS regulations, they are urged to notify ICAO of these developments by providing a copy of their replacement UAS regulations. 
