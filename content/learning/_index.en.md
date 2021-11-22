@@ -26,7 +26,8 @@ The ADDA courses, developed by Virginia Tech (USA) with the Malawi University of
 
 Go to [The Africa Drone and Data Academy](https://adda-malawi.org/courses#) and sign up for an online course.    
 
-**Submit Learning Tools to the UNICEF drones for SDGs toolkit –**
+## Submit Learning Tools to the UNICEF drones for SDGs toolkit -
+
 Do you have an open-source learning tool that you have developed?  
 
 Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit **[The Drone for SDG Toolkit Project Submission Form](https://forms.gle/MW7YzC9coeZx9WH97)** and fill out the information about your project. We will respond to your submission within ninety (90) days.  
