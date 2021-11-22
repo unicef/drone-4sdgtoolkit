@@ -24,7 +24,7 @@ At Bioverse Labs, the team uses drone imagery and machine learning to identify a
 
 ![Image of a bee with Bioverse logo imposed ontop of it.](/drone-4sdgtoolkit/analytics/bioverse002.JPG)
 
-### Use Bioverse Labs: [Bioverse labs GitHub Repository (click here)](https://github.com/Bioverse-Labs/forest-map-app)
+### Use Bioverse Labs: [Bioverse labs GitHub Repository (Click here)](https://github.com/Bioverse-Labs/forest-map-app)
 
 ## qAira (Peru): Using drones to monitor air quality from illegal mining areas in Peru
 
@@ -36,7 +36,7 @@ Our technological solutions are connected to the internet, withstand harsh envir
 
 ![qAira image](/drone-4sdgtoolkit/analytics/qaira002.JPG)
 
-### Use qAira: [qAira GitHub Repository (click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
+### Use qAira: [qAira GitHub Repository (Click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
 
 ## Rentadrone (Chile): Using aerial thermal imagery and machine learning for clean energy and agriculture uses 
 
@@ -44,7 +44,7 @@ Rentadrone detects, classifies, and organizes errors and damaged modules in sola
 
 Using thermal aerial imagery, our team detects little defaults that are represented by hot spots in solar panels. These hotspots can make the solar plants less efficient resulting in less energy output. Throughout our development process we realized the same technologies can be applied to detecting diseases in crops. 
 
-### Use Rentadrone: [Rentadrone GitHub Repository (click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
+### Use Rentadrone: [Rentadrone GitHub Repository (Click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
 
 
 ## Submit open datasets to the UNICEF drones for SDGs toolkit
