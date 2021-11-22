@@ -29,7 +29,7 @@ ICAO encourages States who have implemented UAS regulations to share their regul
 
 Navigate to the Model UAS Regulations page and download Part 101 and 102, as well as the companion advisory cirulars AC101-1, AC102-1, AC102-37, and Draft AC922-001. Use these documents as a framework to develop new National Civil Aviation UAS regulations.  
 
-For technical feedback in drafting new national regulations according to the ICAO Model UAS framework please contact RPAS@icao.int and drones.ooi@unicef.org. (Subject to the availibility of technical specialists).  
+For technical feedback in drafting new national regulations according to the ICAO Model UAS framework please contact RPAS@icao.int and enonie@unicef.org. (Subject to the availibility of technical specialists).  
 
 ## Submit Regulation Tools to the UNICEF drones for SDG toolkit –
 Do you have a regulation or safety tool that you have developed?  
