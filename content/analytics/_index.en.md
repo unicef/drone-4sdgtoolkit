@@ -22,7 +22,7 @@ Areas where these drone analytics tools are used include surveillance, research,
 
 At Bioverse Labs, the team uses drone imagery and machine learning to identify and map non-timber species of trees (e.g., chestnut, copaiba, and Brazil nuts)  in the Trombetas River basin in Para State in Northern Brazil. Bioverse aims to identify tree species that support food security and economic growth for the indegenious communities in the region. This methodology, and accompanying sustainable agro-forestry management plan will provide communities with a more direct connection to renewable income sources.
 
-![Image of a bee with Bioverse logo imposed ontop of it.](/drone-4sdgtoolkit/analytics/bioverse002.jpg)
+![Image of a bee with Bioverse logo imposed ontop of it.](/drone-4sdgtoolkit/analytics/bioverse002.JPG)
 
 ### Use Bioverse Labs: [Bioverse labs GitHub Repository (click here)](https://github.com/Bioverse-Labs/forest-map-app)
 
@@ -34,7 +34,7 @@ According to the World Health Organization,  new data shows that 9 out of 10 peo
 
 Our technological solutions are connected to the internet, withstand harsh environmental conditions and are cost-effective compared to traditional solutions because they perform monitoring in larger areas and in less time.
 
-![qAira image](/drone-4sdgtoolkit/analytics/qaira002.jpg)
+![qAira image](/drone-4sdgtoolkit/analytics/qaira002.JPG)
 
 ### Use qAira: [qAira GitHub Repository (click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
 
