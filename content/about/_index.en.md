@@ -9,7 +9,7 @@ downloadBtn: false
 The UNICEF Drones for Sustainable Develop Goals Toolkit is a collection of tools curated by the Office of Innovation.
 The primary objective of the toolkit is to provide an easily accessible repository of drone-related open-source software, data, AI models, standards, courseware, and guides that address the SDGs.
 
-All the products in the toolkit must be open source and eligible for nomination as a **Digital Public Good.**
+All the products in the toolkit must be open source and eligible for nomination as a **[Digital Public Good.](https://digitalpublicgoods.net/)**
 
 ## The Drones for SDG toolkit target audience:
 
@@ -19,7 +19,7 @@ All the products in the toolkit must be open source and eligible for nomination 
 
 ## How to make a contribution to the Drones for SDGs Toolkit
 
-All submissions to the Drones for SDG Toolkit must meet the following criteria;
+#### All submissions to the Drones for SDG Toolkit must meet the following criteria;
 
 1. Must be a project that uses Open Standards, Open Data, Open Source, and Open Innovation in its development, hosting, publishing, and support.
 2. Must be contribute to the achievement of at least one (1) of the UN Sustainable Development Goals.
