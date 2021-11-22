@@ -2,9 +2,9 @@
 
 ![UNICEF logo blue with for every child motto.](/drone-4sdgtoolkit/images/unicefinnovlogo.png)
 
-## Technical Guide
+# Technical Guide
 
-# For the use of drones in humanitarian and development missions
+## For the use of drones in humanitarian and development missions
 
 - Introduction
 
