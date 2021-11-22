@@ -1,7 +1,8 @@
 ---
 title: Introduction
-description: About the UNICEF Drones for Sustainable Develop Goals Toolkit.
+icon:
 type: docs
+description: About the UNICEF Drones for Sustainable Develop Goals Toolkit.
 downloadBtn: false
 ---
 
