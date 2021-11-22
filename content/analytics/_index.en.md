@@ -16,8 +16,6 @@ Areas where these drone analytics tools are used include surveillance, research,
 ![A man wearing a UNICEF shirt and vest observes a vertical take-off of a drone. Behind him, a large crowd of people and children observe.](/drone-4sdgtoolkit/analytics/UN0153379.jpg)
 
 
-# Analytics Tools
-
 ## Bioverse Labs (Brazil): Using drones and AI to support the sustainability of the Amazonian ecosystem
 
 At Bioverse Labs, the team uses drone imagery and machine learning to identify and map non-timber species of trees (e.g., chestnut, copaiba, and Brazil nuts)  in the Trombetas River basin in Para State in Northern Brazil. Bioverse aims to identify tree species that support food security and economic growth for the indegenious communities in the region. This methodology, and accompanying sustainable agro-forestry management plan will provide communities with a more direct connection to renewable income sources.
