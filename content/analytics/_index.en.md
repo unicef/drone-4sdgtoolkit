@@ -46,7 +46,7 @@ Using thermal aerial imagery, our team detects little defaults that are represen
 
 ### [Use Rentadrone GitHub Repository (Click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
 
-## Submit open datasets to the UNICEF drones for SDGs toolkit
+## Submit open analytics tools or datasets to the UNICEF drones for SDGs toolkit
 
 Do you have an open source collection of drone images or other data?  
 
