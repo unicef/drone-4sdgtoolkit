@@ -1,6 +1,6 @@
 # Drones in Supply Chain Management
 
-![African nurse in front of a winged drone and hospital holding a cold box with medicine inside](/static/guides/dronesupplychain001.jpg)
+![African nurse in front of a winged drone and hospital holding a cold box with medicine inside](/drone-4sdgtoolkit/guides/dronesupplychain001.jpg)
 
 ## UNICEF Supply Division Guide for drones in medical supply chain: 
 [UNICEF Supply Division Guide (Click here)](/static/guides/UNICEFSupplyDivision_DroneDeliveryApproach.pdf)
