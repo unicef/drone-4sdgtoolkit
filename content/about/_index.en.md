@@ -19,15 +19,33 @@ All the products in the toolkit must be open source and eligible for nomination 
 
 ## How to make a contribution to the Drones for SDGs Toolkit
 
+All submissions to the Drones for SDG Toolkit must meet the following criteria;
 
+1. Must be a project that uses Open Standards, Open Data, Open Source, and Open Innovation in its development, hosting, publishing, and support.
+2. Must be contribute to the achievement of at least one (1) of the UN Sustainable Development Goals.
+3. Projects must use of Approved Open Licenses.
+4. The project must have Clear Ownership.
+5. The project must be independent from any dependancies to any licensed product or service.
+6. The project must have full documentation of the source code, use cases, and/or functional requirements.
+7. The Project must have a non-licensed mechanism for extracting data.
+8. The project must state to the best of its knowledge that it complies with relevant privacy laws, and all applicable international and domestic laws.
+9. Project must adhere to Standards & Best Practices.
+10. The Project must Do No Harm by Design
+11. Projects collecting data must identify the types of data collected and stored, and ensure the privacy and security of this data.
+12. Project must NOT contain any inappropriate & illegal content.
+13. The Project must ensure protection from harassment of its users and owners of any data collected and stored.
+
+The criteria are designed to mirror **the Digital Public Goods Standard.**
+
+Projects can be submitted for consideration through [the Drone SDG Toolkit Submission form](www.google.com)
+
+Upon submission 
 
 ## What are Digital Public Goods?
 
 The Digital Public Goods Standard is a set of specifications and guidelines designed to maximise consensus about whether a digital solution conforms to the definition of a digital public good: open-source software, open data, open AI models, open standards, and open content that adhere to privacy and other applicable best practices, do no harm by design and are of high relevance for attainment of the United Nations 2030 Sustainable Development Goals (SDGs). This definition stems from the UN Secretary-General’s Roadmap for Digital Cooperation.
 
 The DPG Standard establishes the baseline requirements that must be met in order to earn recognition as a digital public good (DPG). This standard is designed to complement other relevant principles such as the Principles for Digital Development and is applicable to DPGs in all sectors across the SDGs. The DPG Standard is itself an open project, open to contribution on GitHub, and developed in collaboration with organisations and experts.
-
-![Digital public goods category icons](/drone-4sdgtoolkit/about/dpgcategories.JPG)
 
 ### Who makes up the Digital Public Goods Alliance?
 
