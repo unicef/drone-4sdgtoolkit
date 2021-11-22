@@ -18,7 +18,7 @@ The “Guides” section is a collection of case studies, annual reports, and ac
 
 ## Guides
 
-## Technical Guide - The use of drones in humanitarian and development missions
+### Technical Guide - The use of drones in humanitarian and development missions
 
 The use of Unmanned Aircraft Systems (UAS) to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.
 
@@ -26,13 +26,12 @@ The use of Unmanned Aircraft Systems (UAS) to support humanitarian and developme
 
 This guide is a summary of UNICEF’s intervention design process for drone interventions in humanitarian and development contexts.
 
-**To use this tool go to:**
-[Technical Guide For the use of drones in humanitarian and development missions]({{< relref "humanitarian-drone-mission" >}})
+#### [Technical Guide For the use of drones in humanitarian and development missions]({{< relref "humanitarian-drone-mission" >}})
 
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
-## Technical Guide – Satellite vs Drones for Imagery Data
+### Technical Guide – Satellite vs Drones for Imagery Data
 
 Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programme implementation, resource planning, community studies, and disaster response.
 
@@ -42,12 +41,11 @@ Previously, the process of developing maps from imagery was painstakingly slow a
 
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other.
 
-How to use this tool:
+#### [Technical Guide for Satellites vs Drones for Imagery]({{< relref "satellites-vs-drones" >}})
 
-[Technical Guide for Satellites vs Drones for Imagery]({{< relref "satellites-vs-drones" >}})
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
-## Technical Guide – Drones in Supply Chain
+### Technical Guide – Drones in Supply Chain
 
 UNICEF Supply Division has been leading in the field of drones in medical supply chain.
 
@@ -55,9 +53,7 @@ UNICEF Supply Division has been leading in the field of drones in medical supply
 
 This guide shares the lessons that we have learned integrating drones into supply chain in 3 countries in different regions of the world.
 
-How to use this tool:
-
-[Technical Guide for Drones in Supply Chain]({{< relref "drone-4-supply" >}})
+### [Technical Guide for Drones in Supply Chain]({{< relref "drone-4-supply" >}})
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
