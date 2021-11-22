@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/pages/</loc>
-    <lastmod>2021-11-22T19:44:48+00:00</lastmod>
-  </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/</loc>
     <lastmod>2021-11-21T21:46:23-05:00</lastmod>
   </url><url>
@@ -18,7 +15,7 @@
     <lastmod>2021-11-22T19:43:06+00:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/</loc>
-    <lastmod>2021-11-22T19:44:48+00:00</lastmod>
+    <lastmod>2021-11-22T19:43:06+00:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</loc>
     <lastmod>2021-11-22T19:29:55+00:00</lastmod>
