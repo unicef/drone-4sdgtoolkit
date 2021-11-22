@@ -65,5 +65,5 @@ The DPGA also uses a Roadmap as a coordination, alignment, engagement and commun
 
 ![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](/drone-4sdgtoolkit/about/dpgpartners002.JPG)
 
-For more information, [visit the Digital Public Goods Alliance.](https://digitalpublicgoods.net/) 
+For more information, **[visit the Digital Public Goods Alliance.](https://digitalpublicgoods.net/)** 
 
