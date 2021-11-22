@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Hugo 0.89.4" />
+		<meta name="description" content=" - Drone DPG Toolkit ">
+		<!-- ** CSS Plugins Needed for the Project ** -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://unicef.github.io/drone-4sdgtoolkit/plugins/bootstrap/bootstrap.min.css">
+		<!-- themefy-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/drone-4sdgtoolkit/plugins/themify-icons/themify-icons.css">
+		<!-- drones-categories-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/drone-4sdgtoolkit/plugins/drone-dpgtoolkit-icons/icons.css">
+		<!--Favicon-->
+		<link rel="icon" href="https://unicef.github.io/drone-4sdgtoolkit/images/favicon.png" type="image/x-icon">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
+		<!-- PDF.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<!-- fonts -->
+		<script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+		<style>
+			:root{
+			  --primary-color:#1CABE2;
+			  --body-color:#D8D1C9;
+			  --text-color:#777779;
+			  --text-color-dark:#374EA2;
+			  --white-color:#ffffff;
+			  --light-color:#f8f9fa;
+			  --font-family:Open+Sans;
+			}
+		</style>
+		<!-- Main Stylesheet -->
+		<link href="https://unicef.github.io/drone-4sdgtoolkit/css/style.min.css" rel="stylesheet" media="screen"/>
+		<!-- ** JS Plugins Needed for the Project ** -->
+		<!-- jquiry -->
+		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/jquery/jquery-1.12.4.js"></script>
+		<!-- jquary ui -->
+		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/jquery/jquery-ui.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- match-height JS -->
+		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/match-height/jquery.matchHeight-min.js"></script>
+		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+		<meta property="og:image" content="https://unicef.github.io/images/unicef-drone-takeoff.jpg" />
+		<meta name="twitter:image" content="https://unicef.github.io/images/unicef-drone-takeoff.jpg"/>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:image:width" content="1024">
+		<meta property="og:image:height" content="683">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta name="twitter:title" content=""/>
+		<meta name="twitter:description" content="Use of Satellites or Drones for Imagery Collection Introduction
+Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together."/>
+		<meta property="og:title" content="" />
+		<meta property="og:description" content="Use of Satellites or Drones for Imagery Collection Introduction
+Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together." />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" /><meta property="article:section" content="guides" />
+		<meta property="article:modified_time" content="2021-11-22T17:23:11+00:00" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content=""/>
+		<meta name="twitter:description" content="Use of Satellites or Drones for Imagery Collection Introduction
+Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together."/>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="shadow-bottom sticky-top bg-white">
+			<nav class="navbar navbar-expand-md navigation">
+				<div class="container px-2 px-md-0">
+					<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<div class="text-center">
+							<img class="img-fluid" src="https://unicef.github.io/drone-4sdgtoolkit/images/unicef-logo.png" alt="Drone DPG Toolkit">
+							<a class="text-white d-block" href="/drone-4sdgtoolkit">Drone DPG Toolkit</a>
+						</div>
+					</a>
+					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse text-center" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://unicef.github.io/drone-4sdgtoolkit/faq">FAQ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+									pages
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/drone-4sdgtoolkit/analytics">Analytics</a>
+									<a class="dropdown-item" href="https://unicef.github.io/drone-4sdgtoolkit/guides">Guides</a>
+									<a class="dropdown-item" href="https://unicef.github.io/drone-4sdgtoolkit/learning">Learning</a>
+									<a class="dropdown-item" href="https://unicef.github.io/drone-4sdgtoolkit/regs">Regulations</a>
+									<a class="dropdown-item" href="https://unicef.github.io/drone-4sdgtoolkit/software">Software</a>
+									<a class="dropdown-item" href="https://unicef.github.io/drone-4sdgtoolkit/startups">Startups</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="text-white h6 unicef-glob">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
+			</nav>
+		</header>
+		<!-- /header -->
+		<script>
+			remSpace()
+		</script>
+		<script>
+			function remSpace() {
+			  document.getElementById("section").style.paddingTop = "3rem";
+			}
+		</script>
+		<!-- details page -->
+		<section class="single section-sm main-section" id="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="sidebar">
+							<a class="back-btn" href="/drone-4sdgtoolkit" aria-label="back"></a>
+							<ul class="list-styled">
+								<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
+  ">
+									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/">
+										Guides
+									</a>
+									<ul>
+										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="" class="sidelist
+  ">
+											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/">
+											</a>
+										</li>
+										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="" class="sidelist
+  ">
+											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/">
+											</a>
+										</li>
+										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="" class="sidelist
+  active">
+											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/">
+											</a>
+										</li>
+										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
+  ">
+											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/">
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="bg-white" style="margin:auto">
+							<script language="JavaScript">
+								String.prototype.capitalizeFirstLetter = function() {
+								   return this.charAt(0).toUpperCase() + this.slice(1);
+								}
+								
+								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/drone-4sdgtoolkit'>Home</a>";
+								var href = document.location.href;
+								var s = href.split("/");
+								for (var i=3;i<(s.length-2);i++) {
+								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+								}
+								i=s.length-1;
+								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+								path+="  &gt;  <b></b>";
+								document.writeln(path);
+							</script>
+						</div>
+						<div class="p-lg-5 p-4 bg-white" id="content">
+							<h2 class="mb-5" id="title"></h2>
+							<div class="content">
+								<p><img src="/drone-4sdgtoolkit/images/unicefinnovlogo.png" alt="UNICEF logo blue with for every child motto."></p>
+								<h1 id="use-of-satellites-or-drones-for-imagery-collection">Use of Satellites or Drones for Imagery Collection</h1>
+								<p><strong>Introduction</strong></p>
+								<p>Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.
+									This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other.</p>
+								<p><strong>Decision-making matrix</strong></p>
+								<p>The following tables provide a fact sheet on satellite and drone technology. When used together it will enable any technical or administrative decision maker to come to a quick and informed decision on which technology is best for any imagery needs.</p>
+								<p><strong>Satellite imagery specifications;</strong></p>
+								<table>
+									<thead>
+										<tr>
+											<th>Type</th>
+											<th>Sensor</th>
+											<th>Bands</th>
+											<th>Resolution</th>
+											<th>Coverage</th>
+											<th>Frequency</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Commercial</td>
+											<td>Worldview3 (MAXAR)</td>
+											<td>Multi-spectral (8)</td>
+											<td>Pan-chromatic 	31 cm (pan) 1.24 m (multi spectral)</td>
+											<td>Global</td>
+											<td>Revisit time of &lt;1 day collecting up to 680,000 km2 per day</td>
+										</tr>
+										<tr>
+											<td>Commercial</td>
+											<td>Planet scope</td>
+											<td>R,G,B, NIR</td>
+											<td>3.7 m</td>
+											<td>Global</td>
+											<td>Revisit time &lt; 1 day Collecting for the entire globe everyday</td>
+										</tr>
+										<tr>
+											<td>Commercial</td>
+											<td>ICEEYE</td>
+											<td>Synthetic Aperture Radar (SAR)</td>
+											<td>Up to 25cm</td>
+											<td>Global</td>
+											<td>20 hours</td>
+										</tr>
+										<tr>
+											<td>Commercial</td>
+											<td>Capella Space</td>
+											<td>SAR</td>
+											<td>Up to 30 cm</td>
+											<td>Global</td>
+											<td>Maximum hourly</td>
+										</tr>
+										<tr>
+											<td>Public</td>
+											<td>MODIS</td>
+											<td>Optical 36 bands</td>
+											<td>250 m</td>
+											<td>Global</td>
+											<td>1 day</td>
+										</tr>
+										<tr>
+											<td>Public</td>
+											<td>VIIRS</td>
+											<td>Optical 21 and DNB (night-time light)</td>
+											<td>375 m</td>
+											<td>Global</td>
+											<td>1 day</td>
+										</tr>
+										<tr>
+											<td>Public</td>
+											<td>ALOS-2 PALSAR</td>
+											<td>SAR</td>
+											<td>30 m</td>
+											<td>Global</td>
+											<td>14 days</td>
+										</tr>
+										<tr>
+											<td>Public</td>
+											<td>Sentinel</td>
+											<td>Optical and SAR</td>
+											<td>10 m</td>
+											<td>Global</td>
+											<td>8 days</td>
+										</tr>
+										<tr>
+											<td>Public</td>
+											<td>Landsat</td>
+											<td>Optical</td>
+											<td>30 m</td>
+											<td>Global</td>
+											<td>16 days</td>
+										</tr>
+									</tbody>
+								</table>
+								<p><strong>Drone Imagery Specifications</strong></p>
+								<table>
+									<thead>
+										<tr>
+											<th>Turnaround time</th>
+											<th>Resolution</th>
+											<th>Coverage</th>
+											<th>Products</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5 to 15 minutes to arrive at a site depending on distance of drone team from area of interest/impact</td>
+											<td>5cm per px for typical photogrammetric drone, Accuracy: 10m</td>
+											<td>40 Acres per flight (30 minutes) with typical quadcopter</td>
+											<td>Drone images and video</td>
+										</tr>
+										<tr>
+											<td>25 minutes from arrival at site to deliver initial images of site.</td>
+											<td>5cm per px, Accuracy: 10m</td>
+											<td>2,000 Acres per flight (90 minutes) with a typical fixed wing</td>
+											<td>Drone images and video</td>
+										</tr>
+										<tr>
+											<td>2 - 8 hours from demobilization</td>
+											<td>1cm per px, Accuracy: 2cm XY, 5cm Z</td>
+											<td></td>
+											<td>2D orthomosaic, 3D point cloud</td>
+										</tr>
+										<tr>
+											<td>3 – 20 hours from demobilization</td>
+											<td>1cm per px, Accuracy: 2cm XY, 5cm Z</td>
+											<td></td>
+											<td>Various types of analysis and CAD drawings</td>
+										</tr>
+									</tbody>
+								</table>
+								<p><strong>Performance Grid</strong></p>
+								<table>
+									<thead>
+										<tr>
+											<th>Rating</th>
+											<th>Turnaround time</th>
+											<th>Resolution/px</th>
+											<th>Coverage Area</th>
+											<th>Recommended Mode</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1 – 2</td>
+											<td>3 working days</td>
+											<td>1.5 m - 10 m+</td>
+											<td>100 km2 to1,000 km2</td>
+											<td>Satellite</td>
+										</tr>
+										<tr>
+											<td>3 – 4</td>
+											<td>2 working days</td>
+											<td>30 cm – 1.5 m</td>
+											<td>2 km2 to 20 km2</td>
+											<td>Fixed wing drone</td>
+										</tr>
+										<tr>
+											<td>5 – 6</td>
+											<td>5 hours</td>
+											<td>20 cm</td>
+											<td>1 km2</td>
+											<td>Fixed wing drone</td>
+										</tr>
+										<tr>
+											<td>7 – 8</td>
+											<td>60 minutes</td>
+											<td>10 cm</td>
+											<td>0.32 km2</td>
+											<td>Multi-copter drone</td>
+										</tr>
+										<tr>
+											<td>9 – 10</td>
+											<td>30 minutes</td>
+											<td>5 cm</td>
+											<td>0.004 km2 to 0.16 km2</td>
+											<td>Multi-copter drone</td>
+										</tr>
+									</tbody>
+								</table>
+								<h1 id="appendices-an-introduction-to-satellite-and-drone-technology">Appendices: An Introduction to Satellite and Drone Technology</h1>
+								<h1 id="satellite-imagery">Satellite Imagery</h1>
+								<p>Over 2,200 satellites orbit Earth today, and the space landscape is rapidly changing. Commonly-used satellites are both from commercial to government-sponsored and include WorldView, QuickBird, IKONOS, Landsat, MODIS, AVHRR, TRMM, AirBus Pleiades, and many more.</p>
+								<h2 id="spectral-capabilities-resolution-and-frequency">Spectral Capabilities, Resolution, and Frequency&nbsp;<a class="hanchor" href="#spectral-capabilities-resolution-and-frequency">🔗</a> </h2>
+								<p><em>Source</em>: <a href="https://www.pgc.umn.edu/guides/commercial-imagery/intro-satellite-imagery/">https://www.pgc.umn.edu/guides/commercial-imagery/intro-satellite-imagery/</a></p>
+								<p>Satellites extract information from energy interacting with the Earth's surface. Remote sensing sensors measure the electromagnetic radiation from reflection, emission, and emission reflection. Light acts as a wave that can be described by its wavelength and frequency, comprising the electromagnetic spectrum. Longer wavelengths contain less energy and shorter wavelengths contain more.</p>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g001.png" alt="Electromagnetic Spectrum"></p>
+								<p><em>Figure 1 The electromagnetic spectrum.</em></p>
+								<p>The electromagnetic spectrum is broad and not all wavelengths are equally effective nor significantly interact with surfaces of interest for remote sensing purposes.</p>
+								<p>Ranges of the electromagnetic spectrum used in remote sensing encompass the following wavelengths:</p>
+								<h3 id="visible">Visible&nbsp;<a class="hanchor" href="#visible">🔗</a> </h3>
+								<p>Blue: 0.4 – 0.5 µm, Green: 0.5 – 0.6 µm, and Red: 0.6 – 0.7 µm</p>
+								<h3 id="near-infrared">Near-infrared&nbsp;<a class="hanchor" href="#near-infrared">🔗</a> </h3>
+								<p>0.7 – 1.2 µm: Distinguishes green vegetation well</p>
+								<h3 id="mid-infrared">Mid-infrared&nbsp;<a class="hanchor" href="#mid-infrared">🔗</a> </h3>
+								<p>Shortwave infrared (SWIR): 1.2 – 3 µm estimates soil and vegetation moisture well</p>
+								<p>3 – 8 µm detects high temperature sources well</p>
+								<h3 id="resolution">Resolution&nbsp;<a class="hanchor" href="#resolution">🔗</a> </h3>
+								<p>The resolution of an image refers to the potential detail provided by the imagery. In remote sensing we refer to three types of resolution: spatial, spectral and temporal.</p>
+								<p>Spatial Resolution refers to the size of the smallest feature that can be detected by a satellite sensor or displayed in a satellite image. It is usually presented as a single value representing the length of one side of a square. For example, a spatial resolution of 250m means that one pixel represents an area 250 by 250 meters on the ground.</p>
+								<p>Spectral Resolution refers to the ability of a satellite sensor to measure specific wavelengths of the electromagnetic spectrum. The finer the spectral resolution, the narrower the wavelength range for a particular channel or band.</p>
+								<p>Temporal resolution refers to the time between images. The capability for satellites to provide images of the same geographical area more frequently has increased dramatically since the dawn of the space age.</p>
+								<h2 id="examples-of-satellite-imagery-and-use-cases">Examples of satellite imagery and use cases&nbsp;<a class="hanchor" href="#examples-of-satellite-imagery-and-use-cases">🔗</a> </h2>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g002.jpg" alt="SPOT5 and Terra Satellite Images"></p>
+								<p><em>Figure 2 Image Classification. Source: C. Kuenzer et al.</em></p>
+								<h3 id="image-classification">Image Classification&nbsp;<a class="hanchor" href="#image-classification">🔗</a> </h3>
+								<p>A frequently-used method for information extraction from remote sensing data is to match information classes of to spectral ranges (or a combination of spectral ranges).
+									Land cover and land use maps, such as those classifying mangroves from SPOT and TerraSAR-X imagery in the Mekong Delta, provide a greater understanding of environments and their processes.</p>
+								<h3 id="risk-assessment">Risk Assessment&nbsp;<a class="hanchor" href="#risk-assessment">🔗</a> </h3>
+								<p>Initiatives like the Mapping Malaria Risk in Africa project (MARA/ARMA) have produced maps of climate suitability for Malaria transmission by characterizing the conditions of the disease necessary for transmission and correlating them with key climatic variables observed from remotely sensed imagery.</p>
+								<h3 id="agriculture">Agriculture&nbsp;<a class="hanchor" href="#agriculture">🔗</a> </h3>
+								<p>High spatial resolution, false color composites acquired from TTAMRSS (a multispectral, airborne remote sensing system) helped farmers and agricultural consultants in Texas plan different crop and yield management practices.</p>
+								<h3 id="natural-resource-management">Natural Resource Management&nbsp;<a class="hanchor" href="#natural-resource-management">🔗</a> </h3>
+								<p>AVHRR, MODIS, and SPOT sensors quantitatively measure, for one, the gain and loss of our global forests.</p>
+								<p>From this data, scientists gauge forest stand areas and estimate valuable forest resources like wood, food, medicine, and absorption of carbon dioxide.</p>
+								<h3 id="coastal-and-marine">Coastal and Marine&nbsp;<a class="hanchor" href="#coastal-and-marine">🔗</a> </h3>
+								<p>Sea shelf ecosystems help control our climate and supply food. The National Oceanography Centre (NOC) measured phytoplankton, the microscopic marine plants at the heart of the marine food chain, as a key indicator of the productivity of an ocean area all from space.</p>
+								<h3 id="urban-geography">Urban Geography&nbsp;<a class="hanchor" href="#urban-geography">🔗</a> </h3>
+								<p>The conflict in Syria is characterized by violations of human rights and defiance of international law. The Syrian government has demolished neighborhoods suspected of supporting opposition forces.</p>
+								<p>Scientists used Landsat imagery and its historical archive to monitor and document the destruction of conflict-affected urban environments. Source: A. Marx, Claremont Graduate University</p>
+								<h3 id="emergency-management-and-response">Emergency Management and Response&nbsp;<a class="hanchor" href="#emergency-management-and-response">🔗</a> </h3>
+								<p>Online communities such as OpenStreetMap, Tomnod, CrisisMappers, Virtual Disaster Viewer, and Google MapMaker are utilizing remotely sensed imagery to provide support in disaster preparedness and emergency response.</p>
+								<h1 id="drone-imagery">Drone Imagery</h1>
+								<p><em>Source</em>: <a href="https://internetofthingsagenda.techtarget.com/definition/drone-photography">https://internetofthingsagenda.techtarget.com/definition/drone-photography</a></p>
+								<p>Drone photography is the capture of still images and video by a remotely-operated or autonomous unmanned aerial vehicle (UAV), also known as an unmanned aircraft system (UAS) or, more commonly, as a drone. Drone photography allows images and audio/video to be captured that might not be otherwise possible for human photographers and videographers and in some cases satellites. That capacity can be enabled by the flight abilities of drones, their small size or their ability to tolerate harsh environments.</p>
+								<p>UAV drones are equipped with different state of the art technology such as infrared cameras, GPS and laser (consumer, commercial and military UAV). Drones are controlled by remote ground control systems (GSC) and also referred to as a ground cockpit. An unmanned aerial vehicle system has two parts, the drone itself and the control system.</p>
+								<p>Drone images are taken via drones with cameras or other imaging sensor attached to the drone. Single-frame imagery acquired by drones is essential for creating geospatial products like orthomosaics, digital terrain models, or 3D textured meshes.</p>
+								<h2 id="orthomosaic">Orthomosaic&nbsp;<a class="hanchor" href="#orthomosaic">🔗</a> </h2>
+								<p><em>Source</em>: <a href="https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/generate-an-orthomosaics-using-the-orthomosaic-wizard.htm">https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/generate-an-orthomosaics-using-the-orthomosaic-wizard.htm</a></p>
+								<p>An orthomosaic is a collection of images that have been stitched together, where the geometric distortion has been corrected and the imagery has been color balanced to produce a seamless mosaic dataset.</p>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g003.jpg" alt="Orthomosaic Images"></p>
+								<p>Orthomosaic formats:</p>
+								<ul>
+									<li>Cloud Raster Format</li>
+									<li>TIFF Format</li>
+									<li>JPEG Format</li>
+									<li>JPEG2000 Format</li>
+									<li>Meta Raster Format</li>
+								</ul>
+								<h2 id="digital-elevation-and-terrain-models">Digital elevation and terrain models&nbsp;<a class="hanchor" href="#digital-elevation-and-terrain-models">🔗</a> </h2>
+								<p><em>Source</em>: <a href="https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms">https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms</a></p>
+								<p>Digital Elevation Models, also known as DEMs, are a visual representation of the elevation data for every point captured on your site. Instead of depicting how your site actually appears in person, DEMs generally use colour to indicate differences in elevation - as this image shows.</p>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g004.jpg" alt="Digital Elevation Model image"></p>
+								<p>DEMs are raster datasets, or grids that list the highest vertical point (z) recorded for every horizontal coordinate (x,y). The smaller the grid cells, the more detailed the information is within a DEM data file. So, if you're looking to model with lots of detail, then small grid spacing (or small cell size) is the one to go for. When visualised, these raster files depict the shape of your site's terrain, which can be used as a reference for the topography you're working on.</p>
+								<h2 id="digital-surface-models-and-digital-terrain-models">Digital Surface Models And Digital Terrain Models&nbsp;<a class="hanchor" href="#digital-surface-models-and-digital-terrain-models">🔗</a> </h2>
+								<p>Digital Elevation Models (DEM) are a superset of both Digital Terrain Models (DTM) and Digital Surface Models (DSM). So what is the difference between a DTM and DSM?</p>
+								<p>DTM: A bare-earth surface model. In other words, featuring purely the terrain and ground.</p>
+								<p>DSM: The most general form of surface model that includes all acquired points, representing natural and man-made features. A DSM includes the tops of buildings, trees, powerlines and other objects. In essence, it is a canopy model, and only sees the ground when nothing else is above it.</p>
+								<p>The below graphic is a simple diagram showing the differences between a DTM and DSM. Notice how the DTM (orange line) follows the ground, whereas the DSM (green line) follows the structures on the surface, ie the top of the house and the tree.</p>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g005.jpg" alt="House and trees diagram to illustrate difference between DEM and DSM"></p>
+								<p>The below example demonstrates this - with the DTM on the left and the identical DSM on the right.</p>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g006.jpg" alt="Image of DTM vs DEM"></p>
+								<h2 id="how-can-drones-help-generate-dems-dsms-and-dtms">How Can Drones Help Generate DEMs, DSMs and DTMs?&nbsp;<a class="hanchor" href="#how-can-drones-help-generate-dems-dsms-and-dtms">🔗</a> </h2>
+								<p>Drones are a cost-effective, quick and effective data collection tool for DEM, DSM and DTM generation.</p>
+								<p>Advancements in technology in recent years has led to the development of drones which can conduct photogrammetry and LiDAR missions. Both of these applications are fundamental to creating DEMs, DSMs, and DTMs. Our LiDAR vs Photogrammetry guide presents an in-depth comparison between the two, but in a nutshell:</p>
+								<p>LiDAR: An acronym of light detection and ranging, LiDAR works by sending pulses of light to the earth's surface or a feature on it and measuring the time it takes to reflect back. This gives an accurate positioning point of where on the earth's surface the laser hit and this data can be used to build a 3D point cloud which represents the scanned area's terrain, topography, and features.</p>
+								<p>Photogrammetry: The art of capturing high-resolution photographs to recreate a survey area. These images are processed and stitched together using sophisticated software to create realistic, geo-referenced, and measurable 3D models of the real world.</p>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g007.jpg" alt="Image of LiDAR point cloud vs 2D photogrammetry vs 3D photogrammetry"></p>
+								<p>As the above highlights, there are clear differences between LiDAR and photogrammetry.</p>
+								<p>Therefore, careful consideration is needed before deploying these drone mapping techniques for DTM, DSM and DEM generation. LiDAR, for instance, is particularly effective for capturing DTM data, compared to photogrammetry - especially in high-vegetation areas. Why? Because by its very nature, LiDAR can penetrate gaps between leaves and branches to reach ground level, therefore obtaining more accurate data of the terrain.</p>
+								<p>In contrast, vegetation can hinder drone photogrammetry from acquiring an accurate representation of what the ground topography looks like. In essence, it will just capture to top of the features protruding from the earth's surface.</p>
+								<p>For more information go to <a href="https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms">https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms</a></p>
+								<h2 id="benefits-of-drone-mapping">Benefits of drone mapping&nbsp;<a class="hanchor" href="#benefits-of-drone-mapping">🔗</a> </h2>
+								<p><img src="/drone-4sdgtoolkit/guides/satvdronesd4g008.jpg" alt="Jar with coins, server, map"></p>
+								<p>Drone imaging in general is cheaper than Satellite imaging for small areas less than 100Km2 in size. This is because a typical impact area for a community is less than 1km2 and satellite companies do fresh imaging missions for minimum 100Km2 areas. For a quick 5-hectare community or impact area, tasking a satellite to capture 100 Km2 (100 hectares) is very inefficient. The smaller the area to be mapped the more appropriate drones are as the option for mapping.</p>
+								<p>Drone data is exhaustive in that it is very detailed and can capture in much higher resolutions than other aerial imaging options. Satellite imaging has the highest resolution per pixel of 30cm and drone imaging highest resolution per pixel of 1cm per pixel.</p>
+								<p>The other advantage of drones is the ability to capture images in difficult to access areas, this can include difficult terrain or underneath cloud cover.</p>
+								<h1 id="terminology">Terminology</h1>
+								<p>Below is a list of commonly used satellite and drone imagery terms and definitions.</p>
+								<p><strong>Radiometric correction</strong> : The process of removing the effects of the atmosphere on the reflectance values of images taken by satellite or airborne sensors.</p>
+								<p><strong>Bit depth</strong> : The range of values that a particular raster format can store, based on the formula 2n. An 8-bit depth dataset can store 256 unique values.</p>
+								<p><strong>Cloud cover</strong> : The fraction of an image that is obscured by clouds.</p>
+								<p><strong>Digital Elevation Model (DEM)</strong>: A digital model or 3D representation of a terrain's surface.</p>
+								<p><strong>Digital Number (DN)</strong>: The original value assigned to a pixel in an image. The DN value will always be within the range determined by the image bit-depth. Thus, an 8-bit depth image will have DNs withing the range of 0-255.</p>
+								<p><strong>False color:</strong> A group of color rendering methods used to display images in color which were recorded in the visible or non-visible parts of the electromagnetic spectrum to enhance various ground features.</p>
+								<p><strong>Ground Sampling Distance (GSD):</strong> The distance between two consecutive pixel centers measured on the ground. The bigger the value of the image GSD, the lower the spatial resolution of the image and the less visible details.</p>
+								<p><strong>Histogram Stretch:</strong> A simple image enhancement technique that attempts to improve the contrast in an image by `stretching' the range of intensity values it contains to span a desired range of values, e.g. the full range of pixel values that the image type concerned allows. Often referred to as contrast stretching or normalization.</p>
+								<p><strong>Monoscopic:</strong> Imagery that is obtained using only one viewpoint or sensor.</p>
+								<p><strong>Multispectral:</strong> Imagery that captures data at specific frequencies across the electromagnetic spectrum, producing several spectral bands.</p>
+								<p><strong>Nadir (off-nadir):</strong> The direction pointing directly below a particular location or sensor, indicating the angle at which an image was obtained.</p>
+								<p><strong>Near Infrared bands (NIR):</strong> Bands collected from frequencies along the electromagnetic spectrum closest to visible light. Useful in biological observations and analyses.</p>
+								<p><strong>Orbit:</strong> The curved path of a celestial object or spacecraft around a star, planet, or moon.</p>
+								<p><strong>Orthorectification:</strong> The process of removing the effects of image perspective (tilt) and relief (terrain) effects for the purpose of creating a planimetrically correct image.</p>
+								<p><strong>Panchromatic:</strong> An image with a single band, generally displayed as shades of gray.</p>
+								<p><strong>Pixel:</strong> The smallest unit of information (short for &quot;picture element&quot;) in an image or raster map, usually represented as a cell in an array of data values.</p>
+								<p><strong>Raster:</strong> A type of digital image composed of individual pixels of various data values or colors.</p>
+								<p><strong>Reflectance:</strong> The proportion of incident radiant energy that is reflected by a surface. Reflectance varies according to the wavelengths of the incident radiant energy and the color and composition of the surface.</p>
+								<p><strong>Remote sensing:</strong> The acquisition of information about a location on earth from satellite or aerial vehicles, in contrast to on-site observation.</p>
+								<p><strong>Spatial resolution:</strong> A term that refers to the size of the smallest possible feature that can be detected of an image.</p>
+								<p><strong>Spectral band:</strong> Image data at a specific frequency across the electromagnetic spectrum, including both visible and non-visible light.</p>
+								<p><strong>Stereoscopic:</strong> A process by which two photographs of the same object taken at slightly different angles are viewed together, creating an impression of depth.</p>
+								<p><strong>Swath:</strong> The area imaged on the surface of the earth as a sensor passes over.</p>
+								<p><strong>Temporal resolution:</strong> A term that refers to precision and measurement with respect to time and commonly describes how often an orbiting sensor can return to the same location on the earth.</p>
+								<p><strong>Thermal bands:</strong> Image data usually collected from the thermal infrared region of the electromagnetic spectrum and measures the radiance emitted by the surface of the target. This is in contrast to measuring the reflectance of target features in optical imaging.</p>
+								<p><strong>True color (rgb):</strong> An image that offers a natural color rendition, appearing to a human observer the same way as if this observer were to directly view the object.</p>
+								<p><strong>Sensor:</strong> An object whose purpose is to detect events or changes in its environment. In remote sensing. In remote sensing, the term usually refers to the instrument collecting imagery from either airborne or spaceborn vehicles.</p>
+							</div>
+							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
+							<nav class="pagination mt-3">
+								<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block"></span></a>
+								<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" aria-label="Previous page" > <span class="d-none d-md-block"></span><i class="ti-arrow-right ml-2"></i></a>
+							</nav>
+							<section class="my-3 py-3" id="related-articles">
+								<h5 class="text-center">Related Articles</h5>
+								<div class="row">
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /details page -->
+	<!-- footer -->
+	<footer class="section bg-primary p-4">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-3 text-md-left text-center">
+					<ul>
+						<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
+						<li class="nav-item">
+							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/faq">FAQ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-md-center text-center">
+					<p class="mb-md-0 mb-4 text-white">Repository of drone-related open-source software, data, ai models, standards, courseware, and guides that address the SDGs.  All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+				</div>
+				<div class="col-md-3 text-md-right text-center">
+					<ul class="text-white">
+						<li class="nav-item">
+							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+							<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
+						</li>
+					</ul>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
+						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+	</footer>
+	<!-- /footer -->
+	<!-- Main Script -->
+	<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
+</body>
+</html>
