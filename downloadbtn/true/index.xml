@@ -61,6 +61,15 @@ Regulation tools ICAO Model UAS Regulations</description>
     </item>
     
     <item>
+      <title>Satellite vs Guides Guide</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/</guid>
+      <description>Use of Satellites or Drones for Imagery Collection Introduction Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.</description>
+    </item>
+    
+    <item>
       <title>Software</title>
       <link>https://unicef.github.io/drone-4sdgtoolkit/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
