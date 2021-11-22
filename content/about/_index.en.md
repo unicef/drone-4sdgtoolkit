@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: About the toolkit
 icon:
 type: docs
 description: About the UNICEF Drones for Sustainable Develop Goals Toolkit.
