@@ -6,6 +6,10 @@ description: Information on the Droone SDG toolkit, key partners, and how to mak
 downloadBtn: True
 ---
 
+Since 2015, UNICEF’s Office of Innovation has been exploring the application of drones across three main application areas: imagery, delivery, and connectivity. Our work has led to the establishment of three permanent humanitarian drone corridors; provided through the [UNICEF Venture Fund](https://www.unicefinnovationfund.org/) seed funding to seven drone companies creating open source digital solutions for humanitarian use; and supporting UNICEF Country Offices in using drones for medicine and vaccine delivery. 
+
+All of UNICEF’s investments in drones are open source, and under an open license for non-commercial use; the Office of Innovation supports these solutions including by growing their reach through the UNICEF Global Drones Technical Working Group and by making promising solutions available to the UN system through Long Term Agreements (LTAs). 
+
 The UNICEF Drones for Sustainable Develop Goals Toolkit is a collection of tools curated by the Office of Innovation.
 The primary objective of the toolkit is to provide an easily accessible repository of drone-related open-source software, data, AI models, standards, courseware, and guides that address the SDGs.
 
@@ -16,10 +20,6 @@ All the products in the toolkit must be open source and eligible for nomination 
 1. Users of solutions, content such as the UN, other humanitarian agencies, Governments, policymakers, program directors, and private sector drone practitioners or startups.
 
 2. Developers of relevant drone solutions that are looking to increase visibility and use of their solutions; or are looking to build on existing open-source code for development of new applications. 
-
-Since 2015, UNICEF’s Office of Innovation has been exploring the application of drones across three main application areas: imagery, delivery, and connectivity. Our work has led to the establishment of three permanent humanitarian drone corridors; provided through the [UNICEF Venture Fund](https://www.unicefinnovationfund.org/) seed funding to seven drone companies creating open source digital solutions for humanitarian use; and supporting UNICEF Country Offices in using drones for medicine and vaccine delivery. 
-
-All of UNICEF’s investments in drones are open source, and under an open license for non-commercial use; the Office of Innovation supports these solutions including by growing their reach through the UNICEF Global Drones Technical Working Group and by making promising solutions available to the UN system through Long Term Agreements (LTAs). 
 
 ## How to make a contribution to the Drones for SDGs Toolkit
 
