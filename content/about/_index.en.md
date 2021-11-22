@@ -31,7 +31,7 @@ The DPGA is governed by an Interim Strategy Group consisting of: The Government 
 
 The DPGA also uses a Roadmap as a coordination, alignment, engagement and communication tool to capture the activities of DPGA members working to significantly advance the four DPGA strategic objectives described in the our 5 year strategy. Members include: members of the ISG; BMZ; GitHub; The Office of the Secretary-General’s Envoy on Technology; UNDP; and UN Global Pulse.
 
-![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](/drone-4sdgtoolkit/images/dpgpartners001.jpg)
+![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](/drone-4sdgtoolkit/images/dpgpartners002.jpg)
 
 For more information, [visit the Digital Public Goods Alliance.](https://digitalpublicgoods.net/) 
 
