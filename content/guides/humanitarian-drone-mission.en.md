@@ -1,10 +1,9 @@
 ---
 title: "Use of Drones in Humanitarian and Development Missions"
 type: "docs"
-categories: ["guides"]
+categories: "guides"
 description: "UNICEF Innovation guide for drone mission planning."
 downloadBtn: "true"
-
 ---
 
 ![UNICEF logo blue with for every child motto.](/drone-4sdgtoolkit/images/unicefinnovlogo.png)
