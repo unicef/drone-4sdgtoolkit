@@ -29,7 +29,6 @@ Fulfilment of regulatory requirements and awareness of drone operations are crit
 ![Dashboard of portable UTM software.](/drone-4sdgtoolkit/software/software001.jpg)
 
 ### [Use Portable UTM Github Repository](https://github.com/portableutm/webapp)    
-Reach out to Portable UTM with more information on the requirements of your project and the team will work with you to develop an appropriate solution.  
 
 ## Submit Software to the UNICEF drones for SDG toolkit –
 Do you have open-source drone-related software that you have developed?  
