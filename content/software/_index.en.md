@@ -27,11 +27,13 @@ Drones have proven their importance in medicine delivery, disaster recovery, and
 - Commercial operations
 Fulfilment of regulatory requirements and awareness of drone operations are critical for the safe and responsible integration of drones in society. Portable UTM is a transparent and Open Solution to be integrated by governments and commercial drone operators.
 
-![Dashboard of portable UTM software.](/drone-4sdgtoolkit/software/software001.jpg)
+The Portable UTM platform provides real-time data sharing for airspace management, coordination and access for drone pilots in low-connectivity settings following NASA and Federal Aviation Authority standards.  
 
-**How to use this tool:** 
-URL: https://portableutm.com/#    
-Reach out to Portable UTM with more information on the requirements of your project and the team will work with you to develop an appropriate solution.  
+Local authorities can set no-fly zones for drones in order to perform aircraft flights where needed, thereafter on the platform drone owners can register as volunteers and be notified if needed and seamlessly take part in any operation authorities see fit. Multiple drones can perform SAR activities, simultaneously covering large areas in a short time span allowing for prompt response for the delivery of critical supplies like water and medicine to hard-to-reach areas.
+
+![Dashboard of portable UTM software.](/drone-4sdgtoolkit/software/software001.jpg) 
+
+### Use Portable UTM: [Portable UTM GitHub Repository (Click here)](https://github.com/portableutm/webapp)   
 
 ## Submit Software to the UNICEF drones for SDG toolkit –
 Do you have open-source drone-related software that you have developed?  
