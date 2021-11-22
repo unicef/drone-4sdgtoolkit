@@ -1,10 +1,9 @@
 ---
 title: "Satellite vs Guides Guide"
 type: "docs"
-categories: ["guides"]
+categories: "guides"
 description: "UNICEF Office of Innovation Guide to selecting satellites or drones for humanitarian use cases."
 downloadBtn: "true"
-
 ---
 
 ![UNICEF logo blue with for every child motto.](/drone-4sdgtoolkit/images/unicefinnovlogo.png)
