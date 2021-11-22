@@ -8,6 +8,17 @@
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/true/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About the toolkit</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/about/</guid>
+      <description>The UNICEF Drones for Sustainable Develop Goals Toolkit is a collection of tools curated by the Office of Innovation. The primary objective of the toolkit is to provide an easily accessible repository of drone-related open-source software, data, AI models, standards, courseware, and guides that address the SDGs.
+All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.
+The Drones for SDG toolkit target audience:   Users of solutions, content such as the UN, other humanitarian agencies, Governments, policymakers, program directors, and private sector drone practitioners or startups.</description>
+    </item>
+    
+    <item>
       <title>Analytics</title>
       <link>https://unicef.github.io/drone-4sdgtoolkit/analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
