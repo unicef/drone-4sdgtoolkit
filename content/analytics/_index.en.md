@@ -25,13 +25,19 @@ At Bioverse Labs, the team uses drone imagery and machine learning to identify a
 
 ![Bioverse image](/drone-4sdgtoolkit/analytics/bioverse002.jpg)
 
-### Start a Bioverse Labs project with the [Bioverse labs GitHub Repository (click here)](https://github.com/Bioverse-Labs/forest-map-app)
+### Use Bioverse Labs: [Bioverse labs GitHub Repository (click here)](https://github.com/Bioverse-Labs/forest-map-app)
 
-## Cloudline (South Africa): Small-scale Autonomous Airships
+## qAira (Peru): Using drones to monitor air quality from illegal mining areas in Peru
 
+The team at qAIRa aim to assess air quality in Madre de Dios, through the measurement of pollutants; increase air quality monitoring in rural areas; create awareness about the quality of the air people breathe and its effects on health.
 
+According to the World Health Organization,  new data shows that 9 out of 10 people breathe air  ontaining high levels of pollutants with an estimated 7 million deaths every year from exposure to polluted air causing diseases such as respiratory infection, heart disease and pneumonia.
 
-# Submit open datasets to the UNICEF drones for SDGs toolkit
+Our technological solutions are connected to the internet, withstand harsh environmental conditions and are cost-effective compared to traditional solutions because they perform monitoring in larger areas and in less time.
+
+### Use qAira: [qAira GitHub Repository (click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
+
+## Submit open datasets to the UNICEF drones for SDGs toolkit
 
 Do you have an open source collection of drone images or other data?  
 
