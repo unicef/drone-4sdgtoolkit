@@ -26,43 +26,43 @@ The use of Unmanned Aircraft Systems (UAS) to support humanitarian and developme
 
 This guide is a summary of UNICEF’s intervention design process for drone interventions in humanitarian and development contexts.
 
-**To use this tool go to:**  
-[Technical Guide For the use of drones in humanitarian and development missions](/content/guides/humanitarian-drone-mission/_index.en.md)
+**To use this tool go to:**
+[Technical Guide For the use of drones in humanitarian and development missions]({{< relref "humanitarian-drone-mission" >}})
 
 Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
 ## Technical Guide – Satellite vs Drones for Imagery Data
 
-Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programme implementation, resource planning, community studies, and disaster response.  
+Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programme implementation, resource planning, community studies, and disaster response.
 
-Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch differently formatted images together. 
+Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch differently formatted images together.
 
 ![Satellite mapping images on a dashboard.](/drone-4sdgtoolkit/guides/guided4g003.png)
 
-This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
+This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other.
 
-How to use this tool: 
+How to use this tool:
 
-[Technical Guide for Satellites vs Drones for Imagery](/content/guides/satellites-vs-drones/_index.en.md)  
-Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated. 
+[Technical Guide for Satellites vs Drones for Imagery]({{< relref "satellites-vs-drones" >}})
+Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 ## Technical Guide – Drones in Supply Chain
 
-UNICEF Supply Division has been leading in the field of drones in medical supply chain.   
+UNICEF Supply Division has been leading in the field of drones in medical supply chain.
 
 ![Nurse and drone technician in Vanuatu opening a drone on the ground.](/drone-4sdgtoolkit/guides/dronesupplychain002.jpg)
 
-This guide shares the lessons that we have learned integrating drones into supply chain in 3 countries in different regions of the world. 
+This guide shares the lessons that we have learned integrating drones into supply chain in 3 countries in different regions of the world.
 
-How to use this tool: 
+How to use this tool:
 
-[Technical Guide for Drones in Supply Chain](/content/guides/drone-4-supply/_index.en.md)  
-Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated. 
+[Technical Guide for Drones in Supply Chain]({{< relref "drone-4-supply" >}})
+Download the content and utilise freely as a tool; if the guide is used in developing new content, attribution will be appreciated.
 
 
 ## Submit Guideline Documents to the UNICEF drones for SDGs toolkit –
 
-Do you have a guideline document that you have developed from completed research or interventions?  
+Do you have a guideline document that you have developed from completed research or interventions?
 
-Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit the toolkit contributions page (link) and fill out the information about your tool, where it is hosted, the ownership, and publishing format. We will respond to your submission within ninety (90) days. 
+Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit the toolkit contributions page (link) and fill out the information about your tool, where it is hosted, the ownership, and publishing format. We will respond to your submission within ninety (90) days.
