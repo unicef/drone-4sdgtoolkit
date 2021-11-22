@@ -32,7 +32,7 @@ According to the World Health Organization,  new data shows that 9 out of 10 peo
 
 Our technological solutions are connected to the internet, withstand harsh environmental conditions and are cost-effective compared to traditional solutions because they perform monitoring in larger areas and in less time.
 
-![qAira image](/drone-4sdgtoolkit/analytics/qaira002.JPG)
+![Four girls walking through brown and rocky South American mountainside.](/drone-4sdgtoolkit/analytics/qaira002.JPG)
 
 ### Use qAira: [qAira GitHub Repository (Click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
 
@@ -41,6 +41,8 @@ Our technological solutions are connected to the internet, withstand harsh envir
 Rentadrone detects, classifies, and organizes errors and damaged modules in solar power panels using thermal aerial imagery to increase energy efficiency of solar power plants. Our team will also explore an alternate use-case of thermal imagery for agriculture and will collect and label aerial photos of crops which will be used to automatically detect diseases on crops. 
 
 Using thermal aerial imagery, our team detects little defaults that are represented by hot spots in solar panels. These hotspots can make the solar plants less efficient resulting in less energy output. Throughout our development process we realized the same technologies can be applied to detecting diseases in crops. 
+
+![Aerial image of large rectangular array of solar panels in a desert.](/drone-4sdgtoolkit/analytics/rentadrone001.JPG)
 
 ### Use Rentadrone: [Rentadrone GitHub Repository (Click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
 
