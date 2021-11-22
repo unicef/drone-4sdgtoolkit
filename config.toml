@@ -20,11 +20,6 @@ name = "About"
 url = "about"
 
 [[menu.main]]
-weight = 10
-name = "FAQ"
-url = "faq"
-
-[[menu.main]]
 weight = 20
 name = "pages"
 url = "pages"
