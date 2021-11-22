@@ -11,13 +11,13 @@ The primary objective of the toolkit is to provide an easily accessible r
 
 All the products in the toolkit must be open source and eligible for nomination as a **Digital Public Good.**
 
-### The Drones for SDG toolkit target audience:
+## The Drones for SDG toolkit target audience:
 
 1. Users of solutions, content such as the UN, other humanitarian agencies, Governments, policymakers, program directors, and private sector drone practitioners or startups.
 
 2. Developers of relevant drone solutions that are looking to increase visibility and use of their solutions; or are looking to build on existing open-source code for development of new applications. 
 
-# How to make a contribution to the Drones for SDGs Toolkit
+## How to make a contribution to the Drones for SDGs Toolkit
 
 
 
@@ -29,7 +29,7 @@ The DPG Standard establishes the baseline requirements that must be met in order
 
 ![Digital public goods category icons](/drone-4sdgtoolkit/images/dpgcategories.jpg)
 
-### Who We Are
+### Who makes up the Digital Public Goods Alliance?
 
 The Digital Public Goods Alliance is a multi-stakeholder initiative with a mission to accelerate the attainment of the sustainable development goals in low- and middle-income countries by facilitating the discovery, development, use of, and investment in digital public goods.
 
