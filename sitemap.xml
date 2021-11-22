@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</loc>
-    <lastmod>2021-11-22T17:36:34+00:00</lastmod>
-  </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/</loc>
     <lastmod>2021-11-22T17:23:11+00:00</lastmod>
   </url><url>
@@ -17,10 +14,13 @@
     <loc>https://unicef.github.io/drone-4sdgtoolkit/categories/</loc>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/</loc>
-    <lastmod>2021-11-22T17:34:07+00:00</lastmod>
+    <lastmod>2021-11-22T17:39:43+00:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/</loc>
-    <lastmod>2021-11-22T17:36:34+00:00</lastmod>
+    <lastmod>2021-11-22T17:39:43+00:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</loc>
+    <lastmod>2021-11-22T17:39:43+00:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/false/</loc>
     <lastmod>2021-11-02T18:59:22+01:00</lastmod>
@@ -44,7 +44,7 @@
     <lastmod>2021-11-16T18:08:37+00:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/true/</loc>
-    <lastmod>2021-11-22T17:34:07+00:00</lastmod>
+    <lastmod>2021-11-22T17:39:43+00:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/</loc>
     <lastmod>2021-11-22T17:34:07+00:00</lastmod>

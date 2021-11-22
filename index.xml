@@ -9,15 +9,6 @@
     <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/drone-4sdgtoolkit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</guid>
-      <description>Drones in Supply Chain Management UNICEF Supply Division Guide for drones in medical supply chain: UNICEF Supply Division Guide (Click here) UNICEF Supply Division has been working on the integration of last mile innovations, such as drone delivery, to bridge existing infrastructural and supply chain gaps as driven by local context and need. UNICEF Supply Division provides technical expertise, country implementation support, and donor coordination and works with Regional and Country Offices and their governmental partners to scale up the use of innovative services and solutions as a part of supply chain operations.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -33,6 +24,15 @@ Today, aerial imagery is available from a variety of sources, including traditio
       
       <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Drones for Supply Chain</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/</guid>
+      <description>Drones in Supply Chain Management UNICEF Supply Division Guide for drones in medical supply chain: UNICEF Supply Division Guide (Click here) UNICEF Supply Division has been working on the integration of last mile innovations, such as drone delivery, to bridge existing infrastructural and supply chain gaps as driven by local context and need. UNICEF Supply Division provides technical expertise, country implementation support, and donor coordination and works with Regional and Country Offices and their governmental partners to scale up the use of innovative services and solutions as a part of supply chain operations.</description>
     </item>
     
     <item>
