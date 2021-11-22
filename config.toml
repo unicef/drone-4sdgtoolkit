@@ -162,7 +162,7 @@ copyright = "Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Origin
 # banner
 [Languages.en.params.banner]
 title = "UNICEF Drones for Sustainable Development Goals Toolkit"
-subtitle = "The UNICEF Drones for Sustainable Develop Goals Toolkit is a collection of tools curated by the Office of Innovation. The primary objective of the toolkit is to provide an easily accessible repository of drone-related open-source software, data, ai models, standards, courseware, and guides that address the SDGs.  All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good." 
+subtitle = "The UNICEF Drones for Sustainable Develop Goals Toolkit is a collection of tools curated by the Office of Innovation. The primary objective of the toolkit is to provide an easily accessible repository of drone-related open-source software, data, ai models, standards, courseware, and guides that address the SDGs.  All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good."
 
 bg_image = "images/unicef-drone-takeoff.jpg"
 placeholder = "Have a question? Search the site here."
