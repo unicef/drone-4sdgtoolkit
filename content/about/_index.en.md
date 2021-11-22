@@ -2,7 +2,7 @@
 title: About the toolkit
 icon:
 type: docs
-description: About the UNICEF Drones for Sustainable Develop Goals Toolkit.
+description: Information on the Droone SDG toolkit, key partners, and how to make a contribution.
 downloadBtn: false
 ---
 
