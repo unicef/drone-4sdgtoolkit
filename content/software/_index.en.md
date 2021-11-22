@@ -33,7 +33,7 @@ Local authorities can set no-fly zones for drones in order to perform aircraft f
 
 ![Dashboard of portable UTM software.](/drone-4sdgtoolkit/software/software001.jpg) 
 
-### Use Portable UTM: [Portable UTM GitHub Repository (Click here)](https://github.com/portableutm/webapp)   
+### [Use Portable UTM GitHub Repository (Click here)](https://github.com/portableutm/webapp)   
 
 ## Submit Software to the UNICEF drones for SDG toolkit –
 Do you have open-source drone-related software that you have developed?  
