@@ -1,6 +1,7 @@
 ---
 title: "Guides"
 icon: "guides"
+type: "docs"
 description: "How-to and decision-making guides."
 downloadBtn: "true"
 
