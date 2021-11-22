@@ -1,17 +1,24 @@
+---
+title: "Satellite vs Guides Guide"
+type: "docs"
+description: "UNICEF Office of Innovation Guide to selecting satellites or drones for humanitarian use cases."
+downloadBtn: "true"
+---
+
 ![UNICEF logo blue with for every child motto.](/drone-4sdgtoolkit/images/unicefinnovlogo.png)
 
 # Use of Satellites or Drones for Imagery Collection
 
-**Introduction**
+## Introduction
 
 Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.
 This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other. 
 
-**Decision-making matrix**
+## Decision-making matrix
 
 The following tables provide a fact sheet on satellite and drone technology. When used together it will enable any technical or administrative decision maker to come to a quick and informed decision on which technology is best for any imagery needs. 
 
-**Satellite imagery specifications;**
+### Satellite imagery specifications;
 
 | Type | Sensor | Bands | Resolution | Coverage | Frequency |
 | -- | -- | -- | -- | -- | -- |
@@ -25,7 +32,7 @@ The following tables provide a fact sheet on satellite and drone technology. Whe
 | Public | Sentinel | Optical and SAR | 10 m | Global | 8 days |
 | Public | Landsat | Optical | 30 m | Global | 16 days |
 
-**Drone Imagery Specifications**
+### Drone Imagery Specifications
 
 | Turnaround time | Resolution | Coverage | Products |
 | --- | --- | --- | --- |
@@ -34,7 +41,7 @@ The following tables provide a fact sheet on satellite and drone technology. Whe
 | 2 - 8 hours from demobilization | 1cm per px, Accuracy: 2cm XY, 5cm Z || 2D orthomosaic, 3D point cloud |
 | 3 – 20 hours from demobilization | 1cm per px, Accuracy: 2cm XY, 5cm Z || Various types of analysis and CAD drawings |
 
-**Performance Grid**
+### Performance Grid
 
 | Rating | Turnaround time | Resolution/px | Coverage Area | Recommended Mode |
 | --- | --- | --- | --- | --- |
@@ -44,13 +51,13 @@ The following tables provide a fact sheet on satellite and drone technology. Whe
 | 7 – 8 | 60 minutes | 10 cm | 0.32 km2 | Multi-copter drone |
 | 9 – 10 | 30 minutes | 5 cm | 0.004 km2 to 0.16 km2 | Multi-copter drone |
 
-# Appendices: An Introduction to Satellite and Drone Technology
+## Appendices: An Introduction to Satellite and Drone Technology
 
-# Satellite Imagery
+### Satellite Imagery
 
 Over 2,200 satellites orbit Earth today, and the space landscape is rapidly changing. Commonly-used satellites are both from commercial to government-sponsored and include WorldView, QuickBird, IKONOS, Landsat, MODIS, AVHRR, TRMM, AirBus Pleiades, and many more.
 
-## Spectral Capabilities, Resolution, and Frequency
+### Spectral Capabilities, Resolution, and Frequency
 
 _Source_: [https://www.pgc.umn.edu/guides/commercial-imagery/intro-satellite-imagery/](https://www.pgc.umn.edu/guides/commercial-imagery/intro-satellite-imagery/)
 
@@ -88,7 +95,7 @@ Spectral Resolution refers to the ability of a satellite sensor to measure speci
 
 Temporal resolution refers to the time between images. The capability for satellites to provide images of the same geographical area more frequently has increased dramatically since the dawn of the space age.
 
-## Examples of satellite imagery and use cases
+### Examples of satellite imagery and use cases
 
 ![SPOT5 and Terra Satellite Images](/drone-4sdgtoolkit/guides/satvdronesd4g002.jpg)
 
@@ -126,7 +133,7 @@ Scientists used Landsat imagery and its historical archive to monitor and docume
 
 Online communities such as OpenStreetMap, Tomnod, CrisisMappers, Virtual Disaster Viewer, and Google MapMaker are utilizing remotely sensed imagery to provide support in disaster preparedness and emergency response.
 
-# Drone Imagery
+### Drone Imagery
 
 _Source_: [https://internetofthingsagenda.techtarget.com/definition/drone-photography](https://internetofthingsagenda.techtarget.com/definition/drone-photography)
 
@@ -136,7 +143,7 @@ UAV drones are equipped with different state of the art technology such as infra
 
 Drone images are taken via drones with cameras or other imaging sensor attached to the drone. Single-frame imagery acquired by drones is essential for creating geospatial products like orthomosaics, digital terrain models, or 3D textured meshes.
 
-## Orthomosaic
+### Orthomosaic
 
 _Source_: [https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/generate-an-orthomosaics-using-the-orthomosaic-wizard.htm](https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/generate-an-orthomosaics-using-the-orthomosaic-wizard.htm)
 
@@ -152,7 +159,7 @@ Orthomosaic formats:
 - JPEG2000 Format
 - Meta Raster Format
 
-## Digital elevation and terrain models
+### Digital elevation and terrain models
 
 _Source_: [https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms](https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms)
 
@@ -162,7 +169,7 @@ Digital Elevation Models, also known as DEMs, are a visual representation of the
 
 DEMs are raster datasets, or grids that list the highest vertical point (z) recorded for every horizontal coordinate (x,y). The smaller the grid cells, the more detailed the information is within a DEM data file. So, if you&#39;re looking to model with lots of detail, then small grid spacing (or small cell size) is the one to go for. When visualised, these raster files depict the shape of your site&#39;s terrain, which can be used as a reference for the topography you&#39;re working on.
 
-## Digital Surface Models And Digital Terrain Models
+### Digital Surface Models And Digital Terrain Models
 
 Digital Elevation Models (DEM) are a superset of both Digital Terrain Models (DTM) and Digital Surface Models (DSM). So what is the difference between a DTM and DSM?
 
@@ -178,7 +185,7 @@ The below example demonstrates this - with the DTM on the left and the identical
 
 ![Image of DTM vs DEM](/drone-4sdgtoolkit/guides/satvdronesd4g006.jpg)
 
-## How Can Drones Help Generate DEMs, DSMs and DTMs?
+### How Can Drones Help Generate DEMs, DSMs and DTMs?
 
 Drones are a cost-effective, quick and effective data collection tool for DEM, DSM and DTM generation.
 
@@ -198,7 +205,7 @@ In contrast, vegetation can hinder drone photogrammetry from acquiring an accura
 
 For more information go to [https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms](https://www.heliguy.com/blogs/posts/drones-and-dems-vs-dtms-vs-dsms)
 
-## Benefits of drone mapping
+### Benefits of drone mapping
 
 ![Jar with coins, server, map](/drone-4sdgtoolkit/guides/satvdronesd4g008.jpg)
 
