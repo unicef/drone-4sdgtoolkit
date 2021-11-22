@@ -27,7 +27,7 @@ The Digital Public Goods Standard is a set of specifications and guidelines desi
 
 The DPG Standard establishes the baseline requirements that must be met in order to earn recognition as a digital public good (DPG). This standard is designed to complement other relevant principles such as the Principles for Digital Development and is applicable to DPGs in all sectors across the SDGs. The DPG Standard is itself an open project, open to contribution on GitHub, and developed in collaboration with organisations and experts.
 
-![Digital public goods category icons](drone-4sdgtoolkit/images/dpgcategories.jpg)
+![Digital public goods category icons](/drone-4sdgtoolkit/images/dpgcategories.jpg)
 
 ### Who makes up the Digital Public Goods Alliance?
 
@@ -37,11 +37,11 @@ Incubated by The Government of Norway and The United Nations Children’s Fund (
 
 The DPGA is governed by an Interim Strategy Group consisting of: The Government of Sierra Leone; The Government of Norway; iSPIRT; and UNICEF. Day to day functions are steered by the Secretariat of the Digital Public Goods Alliance, which is co-hosted by UNICEF and Norad.
 
-![Icons for Govt of Sierra Leone, Govt of Norway, iSpirt, and UNICEF](drone-4sdgtoolkit/images/dpgpartners001.jpg)
+![Icons for Govt of Sierra Leone, Govt of Norway, iSpirt, and UNICEF](/drone-4sdgtoolkit/images/dpgpartners001.jpg)
 
 The DPGA also uses a Roadmap as a coordination, alignment, engagement and communication tool to capture the activities of DPGA members working to significantly advance the four DPGA strategic objectives described in the our 5 year strategy. Members include: members of the ISG; BMZ; GitHub; The Office of the Secretary-General’s Envoy on Technology; UNDP; and UN Global Pulse.
 
-![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](drone-4sdgtoolkit/images/dpgpartners002.jpg)
+![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](/drone-4sdgtoolkit/images/dpgpartners002.jpg)
 
 For more information, [visit the Digital Public Goods Alliance.](https://digitalpublicgoods.net/) 
 
