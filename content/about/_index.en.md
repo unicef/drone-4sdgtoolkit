@@ -41,7 +41,7 @@ All the products in the toolkit must be open source and eligible for nomination 
 
 The criteria are designed to mirror **[the Digital Public Goods Standard.](https://digitalpublicgoods.net/standard/)**
 
-Projects can be submitted for consideration through [The Drone for SDG Toolkit Project Submission Form.](https://forms.gle/MW7YzC9coeZx9WH97) 
+Projects can be submitted for consideration through **[The Drone for SDG Toolkit Project Submission Form.](https://forms.gle/MW7YzC9coeZx9WH97)** 
 
 Project submissions will be reviewed over a 90 day period, afterwhich feedback will be provided.  
 
