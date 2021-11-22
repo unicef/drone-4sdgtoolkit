@@ -16,5 +16,30 @@
       <description>Drones in Supply Chain Management UNICEF Supply Division Guide for drones in medical supply chain: UNICEF Supply Division Guide (Click here) UNICEF Supply Division has been working on the integration of last mile innovations, such as drone delivery, to bridge existing infrastructural and supply chain gaps as driven by local context and need. UNICEF Supply Division provides technical expertise, country implementation support, and donor coordination and works with Regional and Country Offices and their governmental partners to scale up the use of innovative services and solutions as a part of supply chain operations.</description>
     </item>
     
+    <item>
+      <title>Satellite vs Guides Guide</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/</guid>
+      <description>Use of Satellites or Drones for Imagery Collection Introduction Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.</description>
+    </item>
+    
+    <item>
+      <title>Use of Drones in Humanitarian and Development Missions</title>
+      <link>https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/</guid>
+      <description>Technical Guide For the use of drones in humanitarian and development missions   Introduction
+  4 steps for deploying UAS in humanitarian mission
+  Step 1. Understand the existing ecosystem
+  Step 2. Design with the user
+  Step 3. Address privacy and security
+  Step 4. Be collaborative
+  Final checklist for the ethical use of geospatial technologies
+  Introduction Unmanned Aerial Vehicles (UAVs), Unmanned Aircraft Systems (UAS), or drones, offer the potential to improve humanitarian assistance and the living conditions of local communities by delivering life-saving medical supplies in hard-to-reach areas; collecting aerial imagery that helps map risks to strengthen resilience, improve agricultural yields or water management, among other use cases in the humanitarian and development sectors.</description>
+    </item>
+    
   </channel>
 </rss>
