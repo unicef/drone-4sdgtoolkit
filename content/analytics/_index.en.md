@@ -52,6 +52,8 @@ The Portable UTM platform provides real-time data sharing for airspace managemen
 
 Local authorities can set no-fly zones for drones in order to perform aircraft flights where needed, thereafter on the platform drone owners can register as volunteers and be notified if needed and seamlessly take part in any operation authorities see fit. Multiple drones can perform SAR activities, simultaneously covering large areas in a short time span allowing for prompt response for the delivery of critical supplies like water and medicine to hard-to-reach areas.
 
+![Dashboard of portable UTM software.](/drone-4sdgtoolkit/software/software001.jpg) 
+
 ### Use Portable UTM: [Portable UTM GitHub Repository (Click here)](https://github.com/portableutm/webapp) 
 
 ## Submit open datasets to the UNICEF drones for SDGs toolkit
