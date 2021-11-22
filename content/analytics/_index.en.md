@@ -17,11 +17,21 @@ Areas where these drone analytics tools are used include surveillance, research,
 ![A man wearing a UNICEF shirt and vest observes a vertical take-off of a drone. Behind him, a large crowd of people and children observe.](/drone-4sdgtoolkit/static/analytics/UN0153379.jpg)
 
 
-## Analytics Tools
+# Analytics Tools
 
-We're finalizing our curation of analytics tools and data sets. If you want to contribute to this section we are interested in algorithhms and data connected to the SDGs, email enonie@unicef.org for more information or guidance.  
+## Bioverse Labs (Brazil): Using drones and AI to support the sustainability of the Amazonian ecosystem
 
-## Submit open datasets to the UNICEF drones for SDGs toolkit
+At Bioverse Labs, the team uses drone imagery and machine learning to identify and map non-timber species of trees (e.g., chestnut, copaiba, and Brazil nuts)  in the Trombetas River basin in Para State in Northern Brazil. Bioverse aims to identify tree species that support food security and economic growth for the indegenious communities in the region. This methodology, and accompanying sustainable agro-forestry management plan will provide communities with a more direct connection to renewable income sources.
+
+![Bioverse image](/drone-4sdgtoolkit/analytics/bioverse002.jpg)
+
+### Start a Bioverse Labs project with the [Bioverse labs GitHub Repository (click here)](https://github.com/Bioverse-Labs/forest-map-app)
+
+## Cloudline (South Africa): Small-scale Autonomous Airships
+
+
+
+# Submit open datasets to the UNICEF drones for SDGs toolkit
 
 Do you have an open source collection of drone images or other data?  
 
