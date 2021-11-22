@@ -1,10 +1,9 @@
-
 ---
 title: "Use of Drones in Humanitarian and Development Missions"
 type: "docs"
 description: "UNICEF Innovation guide for drone mission planning."
 downloadBtn: "true"
- 
+
 ---
 
 ![UNICEF logo blue with for every child motto.](/drone-4sdgtoolkit/images/unicefinnovlogo.png)
@@ -34,22 +33,22 @@ The use of UAS to support humanitarian and development operations must always co
 **4 steps for deploying UAS in humanitarian missions**
 
 As with other technology applied to address social challenges, the use of UAS should consider the nine principles of digital innovation when working with people and communities in need. UNICEF, partners and service providers working with drones should follow these four practical steps in their mission planning and development:
- 
-**Step 1: Understand the existing ecosystem.** 
+
+**Step 1: Understand the existing ecosystem.**
 - Consider the particular structures and needs that exist in each country, region and community.
 - Dedicate time and resources to analyze the ecosystem, or context where the UAS mission will be deployed, to ensure that the use of this technology will be relevant and sustainable.
 - Consider and comply with the existing legal and regulatory frameworks.
 
-**Step 2: Design with the user.** 
-- Get to know the people you are serving through conversation, observation and co-creation. Ensure the UAS-based solution is sensitive to, and useful for, the most marginalized populations: women, children, those with disabilities, and those affected by conflict and disaster. 
+**Step 2: Design with the user.**
+- Get to know the people you are serving through conversation, observation and co-creation. Ensure the UAS-based solution is sensitive to, and useful for, the most marginalized populations: women, children, those with disabilities, and those affected by conflict and disaster.
 - Engage with these communities at different stages of the project: planning, development, implementation and assessment.
 
 **Step 3: Address privacy and security.**
-- Assess and mitigate risks to the security of people and their data. 
+- Assess and mitigate risks to the security of people and their data.
 - Consider the context and needs for privacy of personally identifiable information when designing the UAS use case, and mitigate accordingly.
 
 **Step 4: Be collaborative.**
-- Share information, insights, strategies and resources across projects, organizations and sectors, leading to increased efficiency and impact. 
+- Share information, insights, strategies and resources across projects, organizations and sectors, leading to increased efficiency and impact.
 - Coordination is a multi-stakeholder process. This means that lessons learned and best practices on the use and coordination of UAS in humanitarian settings must remain open and transparent.
 - Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.
 
@@ -102,7 +101,7 @@ This checklist should be completed by any party who will be using drones in coll
 |  | Have you considered the potential for discrimination relating to individuals being geographically categorized? |  |
 |  | Have you considered the potential for discrimination resulting from any application of machine learning algorithms? | |
 
-**4. Assessing other potential harms** 
+**4. Assessing other potential harms**
 | Tick = Yes Cross = No | Questions | Description |
 | --------------------- | --------- | ----------- |
 |  | Have you made contingency plans in case:	 |  |
@@ -111,7 +110,7 @@ This checklist should be completed by any party who will be using drones in coll
 |  | Have you provided sufficient information or training for crowdmapping participants on potential risks and protection strategies? |  |
 |  | Have you provided clear information to potential crowdmappers as to what will or will not be undertaken consequent to findings provided by crowdmapping? |  |
 
-**5. Engaging communities** 
+**5. Engaging communities**
 | Tick = Yes Cross = No | Questions | Description |
 | --------------------- | --------- | ----------- |
 |  | Have you undertaken a consultative process involving all relevant stakeholders to produce a risk assessment framework? |  |
@@ -131,5 +130,5 @@ This checklist should be completed by any party who will be using drones in coll
 |  | Have you adopted approaches that minimize the resolution of visual data captured (including maximizing the distance between object and visual imaging technology) to ensure the lowest resolution while maintaining the value of the data captured? |  |
 |  | Irrespective of context, have you planned to engage with the communities in the visible path of the UAV and/or to notify and/or discuss the launch of the UAV? |  |
 |  | Are you intending to launch and land the UAV from the location to be surveyed? |  |
-|  | If landing is to be remote at a different location, is there a plan for having a recovery team available at the remote site so that the UAV (and data collected) does not fall into the hands of the wrong people? |  |	 	
-	 	
+|  | If landing is to be remote at a different location, is there a plan for having a recovery team available at the remote site so that the UAV (and data collected) does not fall into the hands of the wrong people? |  |
+
