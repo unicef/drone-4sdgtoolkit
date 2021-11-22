@@ -1,6 +1,6 @@
 ---
 title: About the toolkit
-icon:
+icon: " ti-home "
 type: docs
 description: Information on the Droone SDG toolkit, key partners, and how to make a contribution.
 downloadBtn: false
