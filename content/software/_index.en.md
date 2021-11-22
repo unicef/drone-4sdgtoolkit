@@ -33,4 +33,4 @@ Fulfilment of regulatory requirements and awareness of drone operations are crit
 ## Submit Software to the UNICEF drones for SDG toolkit –
 Do you have open-source drone-related software that you have developed?  
 
-Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit the toolkit contributions page (link) and fill out the information about your tool, where it is hosted, the ownership, and publishing format. We will respond to your submission within ninety (90) days. 
+Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit **[The Drone for SDG Toolkit Project Submission Form](https://forms.gle/MW7YzC9coeZx9WH97)** and fill out the information about your project. We will respond to your submission within ninety (90) days.  
