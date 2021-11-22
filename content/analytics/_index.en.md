@@ -35,6 +35,8 @@ According to the World Health Organization,  new data shows that 9 out of 10 peo
 
 Our technological solutions are connected to the internet, withstand harsh environmental conditions and are cost-effective compared to traditional solutions because they perform monitoring in larger areas and in less time.
 
+![qAira image](/drone-4sdgtoolkit/analytics/qaira002.jpg)
+
 ### Use qAira: [qAira GitHub Repository (click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
 
 ## Submit open datasets to the UNICEF drones for SDGs toolkit
