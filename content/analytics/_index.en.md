@@ -22,7 +22,7 @@ At Bioverse Labs, the team uses drone imagery and machine learning to identify a
 
 ![Image of a bee with Bioverse logo imposed ontop of it.](/drone-4sdgtoolkit/analytics/bioverse002.JPG)
 
-### Use Bioverse Labs: [Bioverse labs GitHub Repository (Click here)](https://github.com/Bioverse-Labs/forest-map-app)
+### [Use Bioverse labs GitHub Repository (Click here)](https://github.com/Bioverse-Labs/forest-map-app)
 
 ## qAira (Peru): Using drones to monitor air quality from illegal mining areas in Peru
 
@@ -34,7 +34,7 @@ Our technological solutions are connected to the internet, withstand harsh envir
 
 ![Four girls walking through brown and rocky South American mountainside.](/drone-4sdgtoolkit/analytics/qaira002.JPG)
 
-### Use qAira: [qAira GitHub Repository (Click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
+### [Use qAira GitHub Repository (Click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
 
 ## Rentadrone (Chile): Using aerial thermal imagery and machine learning for clean energy and agriculture uses 
 
@@ -44,7 +44,7 @@ Using thermal aerial imagery, our team detects little defaults that are represen
 
 ![Aerial image of large rectangular array of solar panels in a desert.](/drone-4sdgtoolkit/analytics/rentadrone001.JPG)
 
-### Use Rentadrone: [Rentadrone GitHub Repository (Click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
+### [Use Rentadrone GitHub Repository (Click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
 
 ## Submit open datasets to the UNICEF drones for SDGs toolkit
 
