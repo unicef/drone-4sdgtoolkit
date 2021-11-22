@@ -37,9 +37,9 @@ All submissions to the Drones for SDG Toolkit must meet the following criteria;
 
 The criteria are designed to mirror **the Digital Public Goods Standard.**
 
-Projects can be submitted for consideration through [the Drone SDG Toolkit Submission form](www.google.com)
+Projects can be submitted for consideration through 
 
-Upon submission 
+Project submissions will be reviewed over a 90 day period, afterwhich feedback will be provided.  
 
 ## What are Digital Public Goods?
 
