@@ -17,10 +17,27 @@ The Digital Public Goods Standard is a set of specifications and guidelines desi
 
 The DPG Standard establishes the baseline requirements that must be met in order to earn recognition as a digital public good (DPG). This standard is designed to complement other relevant principles such as the Principles for Digital Development and is applicable to DPGs in all sectors across the SDGs. The DPG Standard is itself an open project, open to contribution on GitHub, and developed in collaboration with organisations and experts.
 
-![Digital public goods category icons](/drone-4sdgtoolkit/images/dpgcategories.jpg) 
+![Digital public goods category icons](/drone-4sdgtoolkit/images/dpgcategories.jpg)
 
-## The Drones for SDG toolkit has two main audiences:
+## Who We Are
+
+The Digital Public Goods Alliance is a multi-stakeholder initiative with a mission to accelerate the attainment of the sustainable development goals in low- and middle-income countries by facilitating the discovery, development, use of, and investment in digital public goods.
+
+Incubated by The Government of Norway and The United Nations Children’s Fund (UNICEF), the DPGA relies on engagement and leadership from pathfinder countries, private sector technology experts, think tanks, governments, philanthropic donors, international implementing organizations, and the UN.
+
+The DPGA is governed by an Interim Strategy Group consisting of: The Government of Sierra Leone; The Government of Norway; iSPIRT; and UNICEF. Day to day functions are steered by the Secretariat of the Digital Public Goods Alliance, which is co-hosted by UNICEF and Norad.
+
+![Icons for Govt of Sierra Leone, Govt of Norway, iSpirt, and UNICEF](/drone-4sdgtoolkit/images/dpgpartners001.jpg)
+
+The DPGA also uses a Roadmap as a coordination, alignment, engagement and communication tool to capture the activities of DPGA members working to significantly advance the four DPGA strategic objectives described in the our 5 year strategy. Members include: members of the ISG; BMZ; GitHub; The Office of the Secretary-General’s Envoy on Technology; UNDP; and UN Global Pulse.
+
+![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](/drone-4sdgtoolkit/images/dpgpartners001.jpg)
+
+For more information, [visit the Digital Public Goods Alliance.](https://digitalpublicgoods.net/) 
+
+### The Drones for SDG toolkit target audience:
 
 1. Users of solutions, content such as the UN, other humanitarian agencies, Governments, policymakers, program directors, and private sector drone practitioners or startups.
-1. Developers of relevant drone solutions that are looking to increase visibility and use of their solutions; or are looking to build on existing open-source code for development of new applications. 
+
+2. Developers of relevant drone solutions that are looking to increase visibility and use of their solutions; or are looking to build on existing open-source code for development of new applications. 
 
