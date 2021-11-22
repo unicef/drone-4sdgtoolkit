@@ -50,4 +50,4 @@ Using thermal aerial imagery, our team detects little defaults that are represen
 
 Do you have an open source collection of drone images or other data?  
 
-Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit **[The Drone for SDG Toolkit Project Submission Form.](https://forms.gle/MW7YzC9coeZx9WH97)** and fill out the information about your project. We will respond to your submission within ninety (90) days.  
+Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit **[The Drone for SDG Toolkit Project Submission Form.](https://forms.gle/eNjZTRTQ88mP2MKw9)** and fill out the information about your project. We will respond to your submission within ninety (90) days.  
