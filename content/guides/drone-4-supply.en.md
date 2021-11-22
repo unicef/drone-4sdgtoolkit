@@ -1,10 +1,9 @@
 ---
 title: "Drones for Supply Chain"
 type: "docs"
-categories: ["guides"]
+categories: "guides"
 description: "UNICEF Supply Chain Division Guide to designing drones for supply chain programmes."
 downloadBtn: "true"
-
 ---
 
 # Drones in Supply Chain Management
