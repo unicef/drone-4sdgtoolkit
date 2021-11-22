@@ -39,6 +39,14 @@ Our technological solutions are connected to the internet, withstand harsh envir
 
 ### Use qAira: [qAira GitHub Repository (click here)](https://github.com/qAIRa/qAIRaMap-OpenSource) 
 
+## Rentadrone (Chile): Using aerial thermal imagery and machine learning for clean energy and agriculture uses 
+
+Rentadrone detects, classifies, and organizes errors and damaged modules in solar power panels using thermal aerial imagery to increase energy efficiency of solar power plants. Our team will also explore an alternate use-case of thermal imagery for agriculture and will collect and label aerial photos of crops which will be used to automatically detect diseases on crops. 
+
+Using thermal aerial imagery, our team detects little defaults that are represented by hot spots in solar panels. These hotspots can make the solar plants less efficient resulting in less energy output. Throughout our development process we realized the same technologies can be applied to detecting diseases in crops. 
+
+### Use Rentadrone: [Rentadrone GitHub Repository (click here)](https://github.com/RentadroneCL/rentadronecl.github.io) 
+
 ## Submit open datasets to the UNICEF drones for SDGs toolkit
 
 Do you have an open source collection of drone images or other data?  
