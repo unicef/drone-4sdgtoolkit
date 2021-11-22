@@ -12,7 +12,7 @@ downloadBtn: "true"
 Using only Open Source is a key principle of UNICEF Innovation, and all of our investments in software and other products have reflected this.
 The “Software” section is a curation of various drone software products from UNICEF Innovation cohort companies.
 
-![A woman is monitoring two computer screens. The screens show aerial imagery, perhaps taken from a drone.](/static/software/monitoring.jpg)
+![A woman is monitoring two computer screens. The screens show aerial imagery, perhaps taken from a drone.](/drone-4sdgtoolkit/software/monitoring.jpg)
 
 
 ## Software
@@ -27,7 +27,7 @@ Drones have proven their importance in medicine delivery, disaster recovery, and
 - Commercial operations
 Fulfilment of regulatory requirements and awareness of drone operations are critical for the safe and responsible integration of drones in society. Portable UTM is a transparent and Open Solution to be integrated by governments and commercial drone operators.
 
-![Dashboard of portable UTM software.](/static/software/software001.jpg)
+![Dashboard of portable UTM software.](/drone-4sdgtoolkit/software/software001.jpg)
 
 **How to use this tool:** 
 URL: https://portableutm.com/#    
