@@ -63,7 +63,7 @@ Dronefies solutions provide support to drone operations during emergency situati
 URL: https://portableutm.com/#  and https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs   
 
 
-# Cloudline**
+# Cloudline
 
 **COUNTRY:** South Africa
 
@@ -82,7 +82,7 @@ Autonomous airships leverage the advantages of existing drone operations – whi
 URL: https://www.flycloudline.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline 
 
 
-# Bioverse Labs**
+# Bioverse Labs
 
 **COUNTRY:** Brazil
 
@@ -98,7 +98,7 @@ Bioverse Labs is empowering indigenous communities to preserve natural resources
 URL: https://www.bioverselabs.com/ and https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs
 
 
-# Prokura Innovations**
+# Prokura Innovations
 
 **COUNTRY:** Nepal
 
