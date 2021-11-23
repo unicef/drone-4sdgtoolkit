@@ -59,11 +59,7 @@ Incubated by The Government of Norway and The United Nations Children’s Fund (
 
 The DPGA is governed by an Interim Strategy Group consisting of: The Government of Sierra Leone; The Government of Norway; iSPIRT; and UNICEF. Day to day functions are steered by the Secretariat of the Digital Public Goods Alliance, which is co-hosted by UNICEF and Norad.
 
-![Icons for Govt of Sierra Leone, Govt of Norway, iSpirt, and UNICEF](/drone-4sdgtoolkit/about/dpgpartners001.JPG)
-
 The DPGA also uses a Roadmap as a coordination, alignment, engagement and communication tool to capture the activities of DPGA members working to significantly advance the four DPGA strategic objectives described in the our 5 year strategy. Members include: members of the ISG; BMZ; GitHub; The Office of the Secretary-General’s Envoy on Technology; UNDP; and UN Global Pulse.
-
-![Icons for ISG, BMZ, GitHub, and The Office of the Secretary General's Envoy on Technology](/drone-4sdgtoolkit/about/dpgpartners002.JPG)
 
 For more information, **[visit the Digital Public Goods Alliance.](https://digitalpublicgoods.net/)** 
 
