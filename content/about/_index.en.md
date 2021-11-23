@@ -27,19 +27,10 @@ All the products in the toolkit must be open source and eligible for nomination 
 
 1. Must be a project that uses Open Standards, Open Data, Open Source, and Open Innovation in its development, hosting, publishing, and support.
 2. Must be contribute to the achievement of at least one (1) of the UN Sustainable Development Goals.
-3. Projects must use of Approved Open Licenses.
-4. The project must have Clear Ownership.
-5. The project must be independent from any dependancies to any licensed product or service.
-6. The project must have full documentation of the source code, use cases, and/or functional requirements.
-7. The Project must have a non-licensed mechanism for extracting data.
-8. The project must state to the best of its knowledge that it complies with relevant privacy laws, and all applicable international and domestic laws.
-9. Project must adhere to Standards & Best Practices.
-10. The Project must Do No Harm by Design
-11. Projects collecting data must identify the types of data collected and stored, and ensure the privacy and security of this data.
-12. Project must NOT contain any inappropriate & illegal content.
-13. The Project must ensure protection from harassment of its users and owners of any data collected and stored.
+3. The project must have clear ownership.
+4. The project must use approved open source licenses.
 
-The criteria are designed to mirror **[the Digital Public Goods Standard.](https://digitalpublicgoods.net/standard/)**
+The criteria are aligned with **[the Digital Public Goods Standard.](https://digitalpublicgoods.net/standard/)**
 
 Projects can be submitted for consideration through **[The Drone for SDG Toolkit Project Submission Form.](https://forms.gle/eNjZTRTQ88mP2MKw9)** 
 
