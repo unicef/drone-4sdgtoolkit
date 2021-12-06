@@ -1,6 +1,6 @@
 baseURL = "https://unicef.github.io/drone-4sdgtoolkit"
 languageCode = "en-us"
-title = "Drone DPG Toolkit"
+title = "Drones for SDG Toolkit"
 theme = "inventory"
 enableEmoji = true
 enableGitInfo = true
