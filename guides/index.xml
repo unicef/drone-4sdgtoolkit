@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides on Drone DPG Toolkit</title>
+    <title>Guides on Drones for SDG Toolkit</title>
     <link>https://unicef.github.io/drone-4sdgtoolkit/guides/</link>
-    <description>Recent content in Guides on Drone DPG Toolkit</description>
+    <description>Recent content in Guides on Drones for SDG Toolkit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/drone-4sdgtoolkit/guides/index.xml" rel="self" type="application/rss+xml" />
