@@ -8,10 +8,6 @@ enableGitInfo = true
 # Google Analytics
 googleAnalytics = ""
 
-# Allow unsafe HTML
-[markup.goldmark.renderer]
-unsafe = true
-
 
 ############################# Navigation #############################
 [[menu.main]]
@@ -62,9 +58,6 @@ hasChildren = true
     weight = 60
 
 
-
-
-
 ############################# Default parameters #############################
 [params]
 logo = "images/unicef-logo.png"
@@ -88,6 +81,7 @@ font_family = "Open+Sans"
 # related article number limit
 article_count = 3
 
+
 ############################# Contact forms #############################
 # All contact forms work with https://formspree.io
 
@@ -96,6 +90,18 @@ contact_form_action = "#"
 [params.rsvp_form]
 action = "https://formspree.io/f/xwkajewy"
 message = "How do you work with drones?"
+
+
+############################# Brand & identity #############################
+[params.brand]
+parent_org_name = "UNICEF Global"
+parent_org_url = "https://www.unicef.org/"
+parent_org_url_legal = "https://www.unicef.org/legal"
+
+[params.footer]
+mainSite = "https://www.unicef.org/innovation/drones"
+mainSiteName = "Drones at UNICEF Innovation"
+description = "Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good."
 
 
 ############################# Social links #############################
@@ -110,11 +116,6 @@ link = "https://github.com/unicef/drone-4sdgtoolkit"
 icon = "ti-twitter"
 name = "@UNICEFinnovate on Twitter"
 link = "https://twitter.com/UNICEFinnovate"
-
-[params.footer]
-mainSite = "https://www.unicef.org/innovation/drones"
-mainSiteName = "Drones at UNICEF Innovation"
-description = "Repository of drone-related open-source software, data, ai models, standards, courseware, and guides that address the SDGs.  All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good."
 
 
 ############################# Markup tweaks and customization #############################
@@ -135,6 +136,11 @@ tabWidth = 4
 [markup.asciidocExt]
 preserveTOC = true
 sectionNumbers = true
+
+# Allow unsafe HTML
+[markup.goldmark.renderer]
+unsafe = true
+
 
 ############################# Related Articles #############################
 [taxonomies]
