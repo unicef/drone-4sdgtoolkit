@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>About the toolkit</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="generator" content="Hugo 0.89.4" />
+		<meta name="generator" content="Hugo 0.91.0" />
 		<meta name="description" content="About the toolkit - Drones for SDG Toolkit ">
 		<!-- ** CSS Plugins Needed for the Project ** -->
 		<!-- Bootstrap -->
@@ -28,6 +28,7 @@
 			  --body-color:#D8D1C9;
 			  --text-color:#777779;
 			  --text-color-dark:#374EA2;
+			  --text-title-color:;
 			  --white-color:#ffffff;
 			  --light-color:#f8f9fa;
 			  --font-family:Open+Sans;
@@ -64,14 +65,16 @@
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navigation">
+			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
 				<div class="container px-2 px-md-0">
-					<a class="navbar-brand px-2" href="https://www.unicef.org/">
-						<div class="text-center">
-							<img class="img-fluid" src="https://unicef.github.io/drone-4sdgtoolkit/images/unicef-logo.png" alt="Drones for SDG Toolkit">
-							<a class="text-white d-block" href="/drone-4sdgtoolkit">Drones for SDG Toolkit</a>
-						</div>
-					</a>
+					<div id="site-brand">
+						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+							<div class="text-center nav-heading">
+								<img class="img-fluid nav-img" src="https://unicef.github.io/drone-4sdgtoolkit/images/unicef-logo.png" alt="Drones for SDG Toolkit">
+								<a class="d-block nav-title" href="/drone-4sdgtoolkit">Drones for SDG Toolkit</a>
+							</div>
+						</a>
+					</div>
 					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -98,7 +101,7 @@
 						</ul>
 					</div>
 				</div>
-				<p class="text-white h6 unicef-glob">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
+				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
 			</nav>
 		</header>
 		<!-- /header -->
@@ -214,7 +217,7 @@
 					</ul>
 				</div>
 				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">Repository of drone-related open-source software, data, ai models, standards, courseware, and guides that address the SDGs.  All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+					<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
 				</div>
 				<div class="col-md-3 text-md-right text-center">
 					<ul class="text-white">
@@ -226,7 +229,7 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
+							<p class="h6 text-md-right font-weight-light"></p>
 						</li>
 					</ul>
 					<ul class="list-inline">
