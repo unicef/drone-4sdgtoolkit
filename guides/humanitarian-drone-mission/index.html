@@ -67,7 +67,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -121,443 +121,465 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/drone-4sdgtoolkit" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
   ">
-									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/">
+									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/" class="font-weight-bold">
 										Guides
 									</a>
-									<ul>
-										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
+									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
   ">
-											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/">
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" class="">
+															</a>
+														</div>
+													</div>
+												</li>
+												<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
   ">
-											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/">
-												Drones for Supply Chain
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
+																	Drones for Supply Chain
+																</a>
+															</div>
+														</div>
+													</li>
+													<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
   ">
-											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/">
-												Satellite vs Guides Guide
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
+																		Satellite vs Guides Guide
+																	</a>
+																</div>
+															</div>
+														</li>
+														<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
   active">
-											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/">
-												Use of Drones in Humanitarian and Development Missions
-											</a>
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
+																			Use of Drones in Humanitarian and Development Missions
+																		</a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<div>
+													<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+												</div>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-9">
+										<div class="bg-white" style="margin:auto">
+											<script language="JavaScript">
+												String.prototype.capitalizeFirstLetter = function() {
+												   return this.charAt(0).toUpperCase() + this.slice(1);
+												}
+
+												var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/drone-4sdgtoolkit'>Home</a>";
+												var href = document.location.href;
+												var s = href.split("/");
+												for (var i=3;i<(s.length-2);i++) {
+												   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+												}
+												i=s.length-1;
+												path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+												path+="  &gt;  <b>Use of Drones in Humanitarian and Development Missions</b>";
+												document.writeln(path);
+											</script>
+										</div>
+										<div class="p-lg-5 p-4 bg-white" id="content">
+											<h2 class="mb-5" id="title">Use of Drones in Humanitarian and Development Missions</h2>
+											<div class="content">
+												<p><img src="/drone-4sdgtoolkit/images/unicefinnovlogo.png" alt="UNICEF logo blue with for every child motto."></p>
+												<h1 id="technical-guide-for-the-use-of-drones-in-humanitarian-and-development-missions">Technical Guide For the use of drones in humanitarian and development missions</h1>
+												<ul>
+													<li>
+														<p>Introduction</p>
+													</li>
+													<li>
+														<p>4 steps for deploying UAS in humanitarian mission</p>
+													</li>
+													<li>
+														<p>Step 1. Understand the existing ecosystem</p>
+													</li>
+													<li>
+														<p>Step 2. Design with the user</p>
+													</li>
+													<li>
+														<p>Step 3. Address privacy and security</p>
+													</li>
+													<li>
+														<p>Step 4. Be collaborative</p>
+													</li>
+													<li>
+														<p>Final checklist for the ethical use of geospatial technologies</p>
+													</li>
+												</ul>
+												<h2 id="introduction">Introduction&nbsp;<a class="hanchor" href="#introduction">🔗</a> </h2>
+												<p>Unmanned Aerial Vehicles (UAVs), Unmanned Aircraft Systems (UAS), or drones, offer the potential to improve humanitarian assistance and the living conditions of local communities by delivering life-saving medical supplies in hard-to-reach areas; collecting aerial imagery that helps map risks to strengthen resilience, improve agricultural yields or water management, among other use cases in the humanitarian and development sectors. Drones offer the possibility to better meet the needs of those living in disadvantaged conditions or affected by humanitarian crises; however, this can only be achieved if drones are used in a responsible and ethical manner.</p>
+												<p>The use of UAS to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.</p>
+												<h2 id="4-steps-for-deploying-uas-in-humanitarian-missions">4 steps for deploying UAS in humanitarian missions&nbsp;<a class="hanchor" href="#4-steps-for-deploying-uas-in-humanitarian-missions">🔗</a> </h2>
+												<p>As with other technology applied to address social challenges, the use of UAS should consider the nine principles of digital innovation when working with people and communities in need. UNICEF, partners and service providers working with drones should follow these four practical steps in their mission planning and development:</p>
+												<h3 id="step-1-understand-the-existing-ecosystem">Step 1: Understand the existing ecosystem.&nbsp;<a class="hanchor" href="#step-1-understand-the-existing-ecosystem">🔗</a> </h3>
+												<ul>
+													<li>Consider the particular structures and needs that exist in each country, region and community.</li>
+													<li>Dedicate time and resources to analyze the ecosystem, or context where the UAS mission will be deployed, to ensure that the use of this technology will be relevant and sustainable.</li>
+													<li>Consider and comply with the existing legal and regulatory frameworks.</li>
+												</ul>
+												<h3 id="step-2-design-with-the-user">Step 2: Design with the user.&nbsp;<a class="hanchor" href="#step-2-design-with-the-user">🔗</a> </h3>
+												<ul>
+													<li>Get to know the people you are serving through conversation, observation and co-creation. Ensure the UAS-based solution is sensitive to, and useful for, the most marginalized populations: women, children, those with disabilities, and those affected by conflict and disaster.</li>
+													<li>Engage with these communities at different stages of the project: planning, development, implementation and assessment.</li>
+												</ul>
+												<h3 id="step-3-address-privacy-and-security">Step 3: Address privacy and security.&nbsp;<a class="hanchor" href="#step-3-address-privacy-and-security">🔗</a> </h3>
+												<ul>
+													<li>Assess and mitigate risks to the security of people and their data.</li>
+													<li>Consider the context and needs for privacy of personally identifiable information when designing the UAS use case, and mitigate accordingly.</li>
+												</ul>
+												<h3 id="step-4-be-collaborative">Step 4: Be collaborative.&nbsp;<a class="hanchor" href="#step-4-be-collaborative">🔗</a> </h3>
+												<ul>
+													<li>Share information, insights, strategies and resources across projects, organizations and sectors, leading to increased efficiency and impact.</li>
+													<li>Coordination is a multi-stakeholder process. This means that lessons learned and best practices on the use and coordination of UAS in humanitarian settings must remain open and transparent.</li>
+													<li>Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.</li>
+												</ul>
+												<p><strong>Step 1. Understand the existing ecosystem</strong></p>
+												<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep001.jpg" alt="Understanding the existing ecosystem decision flow."></p>
+												<p><strong>Step 2. Design with the user</strong></p>
+												<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep002.jpg" alt="Design with the user decision flow."></p>
+												<p><strong>Step 3. Address privacy and security</strong></p>
+												<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep003.jpg" alt="Address Privacy and Security decision flow."></p>
+												<p><strong>Step 4. Be collaborative</strong></p>
+												<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep004.jpg" alt="Be collaborative decision flow."></p>
+												<h3 id="final-checklist-for-the-ethical-use-of-geospatial-technologies">Final checklist for the ethical use of geospatial technologies**&nbsp;<a class="hanchor" href="#final-checklist-for-the-ethical-use-of-geospatial-technologies">🔗</a> </h3>
+												<p>Before deploying drones for a humanitarian or development mission to collect data, UNICEF, partners and service providers should reflect on the following questions to ensure UNICEF is able to garner the benefits of these technologies, while also protecting the children and communities it serves.</p>
+												<p>This checklist should be completed by any party who will be using drones in collaboration with UNICEF. The UNICEF Drones Working Group will assess the responses and establish an ad-hoc framework for assessing the risks, harms and benefits of opening this specific dataset.</p>
+												<h4 id="1-identifying-the-benefits-of-using-geospatial-technologies-for-evidence-generation">1. Identifying the benefits of using geospatial technologies for evidence generation&nbsp;<a class="hanchor" href="#1-identifying-the-benefits-of-using-geospatial-technologies-for-evidence-generation">🔗</a> </h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Tick = Yes Cross = No</th>
+															<th>Questions</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td>Have you considered the nature of the data that could be collected or mapped via these technologies and the potential demand for and use of this data within the context of current strategic planning?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Can you clearly specify the benefits of using geospatial technologies for your particular purposes? Is this supported by the evidence (where available)?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Do you have staff with capabilities and expertise to responsibly lead and undertake the work and to develop, utilize, manage and analyse technologies and data in a timely and useful way?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you considered the availability and comparative utility of other data/information prior to collecting data via geospatial technologies or from third party providers?</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+												<h4 id="2-ensuring-privacy-and-security">2. Ensuring privacy and security&nbsp;<a class="hanchor" href="#2-ensuring-privacy-and-security">🔗</a> </h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Tick = Yes Cross = No</th>
+															<th>Questions</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td>Have you reviewed data to ensure that individually identifiable information is removed or obscured?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you reflected on privacy and ensured the highest possible privacy conditions throughout each stage of the project?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Are you aware of the privacy policies of any organization whose data or platforms you are using? Including:</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>- Any anonymization or aggregation of data undertaken by the third party (preferred).</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>- The nature and security of storage.</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>- Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data.</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Is the third party you are receiving data from domiciled in a country with broad surveillance powers? If yes, have you considered the risks and benefits to the populations involved?</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+												<h4 id="3-understanding-the-data-risks-and-limitations">3. Understanding the data risks and limitations&nbsp;<a class="hanchor" href="#3-understanding-the-data-risks-and-limitations">🔗</a> </h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Tick = Yes Cross = No</th>
+															<th>Questions</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td>Have you discussed with data providers and data analysts the value and limitations of the data?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you considered the potential for discrimination relating to individuals being geographically categorized?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you considered the potential for discrimination resulting from any application of machine learning algorithms?</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+												<h4 id="4-assessing-other-potential-harms">4. Assessing other potential harms&nbsp;<a class="hanchor" href="#4-assessing-other-potential-harms">🔗</a> </h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Tick = Yes Cross = No</th>
+															<th>Questions</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td>Have you made contingency plans in case:</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>- Data is wiped out remotely, or</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>- A privacy breach occurs.</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you provided sufficient information or training for crowdmapping participants on potential risks and protection strategies?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you provided clear information to potential crowdmappers as to what will or will not be undertaken consequent to findings provided by crowdmapping?</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+												<h4 id="5-engaging-communities">5. Engaging communities&nbsp;<a class="hanchor" href="#5-engaging-communities">🔗</a> </h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Tick = Yes Cross = No</th>
+															<th>Questions</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td>Have you undertaken a consultative process involving all relevant stakeholders to produce a risk assessment framework?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>If not, have you, at a minimum, informed (in the context of social media based programmes) relevant communities to let them know about the evidence generation programme?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Do you have a means by which community consent might be obtained from the target communities?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Do you have a means by which data can be shared with the target communities?</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+												<h4 id="6-assessing-risks-and-mitigation-strategies-for-geospatial-data-collection-from-uas">6. Assessing risks and mitigation strategies for geospatial data collection from UAS&nbsp;<a class="hanchor" href="#6-assessing-risks-and-mitigation-strategies-for-geospatial-data-collection-from-uas">🔗</a> </h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Tick = Yes Cross = No</th>
+															<th>Questions</th>
+															<th>Description</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td>Are you intending to use an Unmanned Aerial Vehicle (UAV) in a conflict zone/fragile state?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>If yes, what is the justification?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Is it absolutely essential?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>What relevant authority units will be supporting teams on the ground?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Do the benefits outweigh the risks – have you made a determination based on a comprehensive assessment of security and safety issues and potential perceptions of the organization and its personnel if you send a UAV into this context?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you set up systems that avoid recording any information that would present a security threat to individuals and groups if intercepted?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Have you adopted approaches that minimize the resolution of visual data captured (including maximizing the distance between object and visual imaging technology) to ensure the lowest resolution while maintaining the value of the data captured?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Irrespective of context, have you planned to engage with the communities in the visible path of the UAV and/or to notify and/or discuss the launch of the UAV?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>Are you intending to launch and land the UAV from the location to be surveyed?</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>If landing is to be remote at a different location, is there a plan for having a recovery team available at the remote site so that the UAV (and data collected) does not fall into the hands of the wrong people?</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
+											<nav class="pagination mt-3">
+												<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Satellite vs Guides Guide</span></a>
+												<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/learning/" aria-label="Previous page" > <span class="d-none d-md-block">Learning</span><i class="ti-arrow-right ml-2"></i></a>
+											</nav>
+											<section class="my-3 py-3" id="related-articles">
+												<h5 class="text-center">Related Articles</h5>
+												<div class="row">
+													<div class="col-sm-4 my-2">
+														<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/">
+															<div class="card text-center">
+																<div class="card-body">
+																	<h5 class="card-title">Satellite vs Guides Guide</h5>
+																	<p class="card-subtitle mb-2 text-muted">UNICEF Office of Innovation Guide to selecting satellites or drones for humanitarian use cases.</p>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class="col-sm-4 my-2">
+														<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/">
+															<div class="card text-center">
+																<div class="card-body">
+																	<h5 class="card-title">Drones for Supply Chain</h5>
+																	<p class="card-subtitle mb-2 text-muted">UNICEF Supply Chain Division Guide to designing drones for supply chain programmes.</p>
+																</div>
+															</div>
+														</a>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- /details page -->
+					<!-- footer -->
+					<footer class="section bg-primary p-4">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-3 text-md-left text-center">
+									<ul>
+										<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
+										<li class="nav-item">
+											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
 										</li>
 									</ul>
-								</li>
-								<div>
-									<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
 								</div>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
-
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/drone-4sdgtoolkit'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Use of Drones in Humanitarian and Development Missions</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Use of Drones in Humanitarian and Development Missions</h2>
-							<div class="content">
-								<p><img src="/drone-4sdgtoolkit/images/unicefinnovlogo.png" alt="UNICEF logo blue with for every child motto."></p>
-								<h1 id="technical-guide-for-the-use-of-drones-in-humanitarian-and-development-missions">Technical Guide For the use of drones in humanitarian and development missions</h1>
-								<ul>
-									<li>
-										<p>Introduction</p>
-									</li>
-									<li>
-										<p>4 steps for deploying UAS in humanitarian mission</p>
-									</li>
-									<li>
-										<p>Step 1. Understand the existing ecosystem</p>
-									</li>
-									<li>
-										<p>Step 2. Design with the user</p>
-									</li>
-									<li>
-										<p>Step 3. Address privacy and security</p>
-									</li>
-									<li>
-										<p>Step 4. Be collaborative</p>
-									</li>
-									<li>
-										<p>Final checklist for the ethical use of geospatial technologies</p>
-									</li>
-								</ul>
-								<h2 id="introduction">Introduction&nbsp;<a class="hanchor" href="#introduction">🔗</a> </h2>
-								<p>Unmanned Aerial Vehicles (UAVs), Unmanned Aircraft Systems (UAS), or drones, offer the potential to improve humanitarian assistance and the living conditions of local communities by delivering life-saving medical supplies in hard-to-reach areas; collecting aerial imagery that helps map risks to strengthen resilience, improve agricultural yields or water management, among other use cases in the humanitarian and development sectors. Drones offer the possibility to better meet the needs of those living in disadvantaged conditions or affected by humanitarian crises; however, this can only be achieved if drones are used in a responsible and ethical manner.</p>
-								<p>The use of UAS to support humanitarian and development operations must always consider the interests, perceptions and concerns of the people the mission aims to serve; and therefore should always adhere to the humanitarian imperative of doing no harm. Doing this will require assessment and mitigation of potential unintended consequences that UAS operations may have on affected communities and humanitarian action. UAS deployments in the humanitarian and development sector must observe the humanitarian ethical principles of humanity, neutrality, impartiality and independence.</p>
-								<h2 id="4-steps-for-deploying-uas-in-humanitarian-missions">4 steps for deploying UAS in humanitarian missions&nbsp;<a class="hanchor" href="#4-steps-for-deploying-uas-in-humanitarian-missions">🔗</a> </h2>
-								<p>As with other technology applied to address social challenges, the use of UAS should consider the nine principles of digital innovation when working with people and communities in need. UNICEF, partners and service providers working with drones should follow these four practical steps in their mission planning and development:</p>
-								<h3 id="step-1-understand-the-existing-ecosystem">Step 1: Understand the existing ecosystem.&nbsp;<a class="hanchor" href="#step-1-understand-the-existing-ecosystem">🔗</a> </h3>
-								<ul>
-									<li>Consider the particular structures and needs that exist in each country, region and community.</li>
-									<li>Dedicate time and resources to analyze the ecosystem, or context where the UAS mission will be deployed, to ensure that the use of this technology will be relevant and sustainable.</li>
-									<li>Consider and comply with the existing legal and regulatory frameworks.</li>
-								</ul>
-								<h3 id="step-2-design-with-the-user">Step 2: Design with the user.&nbsp;<a class="hanchor" href="#step-2-design-with-the-user">🔗</a> </h3>
-								<ul>
-									<li>Get to know the people you are serving through conversation, observation and co-creation. Ensure the UAS-based solution is sensitive to, and useful for, the most marginalized populations: women, children, those with disabilities, and those affected by conflict and disaster.</li>
-									<li>Engage with these communities at different stages of the project: planning, development, implementation and assessment.</li>
-								</ul>
-								<h3 id="step-3-address-privacy-and-security">Step 3: Address privacy and security.&nbsp;<a class="hanchor" href="#step-3-address-privacy-and-security">🔗</a> </h3>
-								<ul>
-									<li>Assess and mitigate risks to the security of people and their data.</li>
-									<li>Consider the context and needs for privacy of personally identifiable information when designing the UAS use case, and mitigate accordingly.</li>
-								</ul>
-								<h3 id="step-4-be-collaborative">Step 4: Be collaborative.&nbsp;<a class="hanchor" href="#step-4-be-collaborative">🔗</a> </h3>
-								<ul>
-									<li>Share information, insights, strategies and resources across projects, organizations and sectors, leading to increased efficiency and impact.</li>
-									<li>Coordination is a multi-stakeholder process. This means that lessons learned and best practices on the use and coordination of UAS in humanitarian settings must remain open and transparent.</li>
-									<li>Use open standards, open source, open innovation tools. An open approach to the use of UAS in humanitarian and development missions helps increase collaboration in the UAS for good community and avoids duplicating work.</li>
-								</ul>
-								<p><strong>Step 1. Understand the existing ecosystem</strong></p>
-								<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep001.jpg" alt="Understanding the existing ecosystem decision flow."></p>
-								<p><strong>Step 2. Design with the user</strong></p>
-								<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep002.jpg" alt="Design with the user decision flow."></p>
-								<p><strong>Step 3. Address privacy and security</strong></p>
-								<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep003.jpg" alt="Address Privacy and Security decision flow."></p>
-								<p><strong>Step 4. Be collaborative</strong></p>
-								<p><img src="/drone-4sdgtoolkit/guides/humanitarianguidestep004.jpg" alt="Be collaborative decision flow."></p>
-								<h3 id="final-checklist-for-the-ethical-use-of-geospatial-technologies">Final checklist for the ethical use of geospatial technologies**&nbsp;<a class="hanchor" href="#final-checklist-for-the-ethical-use-of-geospatial-technologies">🔗</a> </h3>
-								<p>Before deploying drones for a humanitarian or development mission to collect data, UNICEF, partners and service providers should reflect on the following questions to ensure UNICEF is able to garner the benefits of these technologies, while also protecting the children and communities it serves.</p>
-								<p>This checklist should be completed by any party who will be using drones in collaboration with UNICEF. The UNICEF Drones Working Group will assess the responses and establish an ad-hoc framework for assessing the risks, harms and benefits of opening this specific dataset.</p>
-								<h4 id="1-identifying-the-benefits-of-using-geospatial-technologies-for-evidence-generation">1. Identifying the benefits of using geospatial technologies for evidence generation&nbsp;<a class="hanchor" href="#1-identifying-the-benefits-of-using-geospatial-technologies-for-evidence-generation">🔗</a> </h4>
-								<table>
-									<thead>
-										<tr>
-											<th>Tick = Yes Cross = No</th>
-											<th>Questions</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td></td>
-											<td>Have you considered the nature of the data that could be collected or mapped via these technologies and the potential demand for and use of this data within the context of current strategic planning?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Can you clearly specify the benefits of using geospatial technologies for your particular purposes? Is this supported by the evidence (where available)?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Do you have staff with capabilities and expertise to responsibly lead and undertake the work and to develop, utilize, manage and analyse technologies and data in a timely and useful way?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you considered the availability and comparative utility of other data/information prior to collecting data via geospatial technologies or from third party providers?</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								<h4 id="2-ensuring-privacy-and-security">2. Ensuring privacy and security&nbsp;<a class="hanchor" href="#2-ensuring-privacy-and-security">🔗</a> </h4>
-								<table>
-									<thead>
-										<tr>
-											<th>Tick = Yes Cross = No</th>
-											<th>Questions</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td></td>
-											<td>Have you reviewed data to ensure that individually identifiable information is removed or obscured?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you reflected on privacy and ensured the highest possible privacy conditions throughout each stage of the project?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Are you aware of the privacy policies of any organization whose data or platforms you are using? Including:</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>- Any anonymization or aggregation of data undertaken by the third party (preferred).</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>- The nature and security of storage.</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>- Whether provisions exist relating to individuals’ ownership of data. In the absence of these, clear and public disclosure should be considered with regard to the use of this data.</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Is the third party you are receiving data from domiciled in a country with broad surveillance powers? If yes, have you considered the risks and benefits to the populations involved?</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								<h4 id="3-understanding-the-data-risks-and-limitations">3. Understanding the data risks and limitations&nbsp;<a class="hanchor" href="#3-understanding-the-data-risks-and-limitations">🔗</a> </h4>
-								<table>
-									<thead>
-										<tr>
-											<th>Tick = Yes Cross = No</th>
-											<th>Questions</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td></td>
-											<td>Have you discussed with data providers and data analysts the value and limitations of the data?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you considered the potential for discrimination relating to individuals being geographically categorized?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you considered the potential for discrimination resulting from any application of machine learning algorithms?</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								<h4 id="4-assessing-other-potential-harms">4. Assessing other potential harms&nbsp;<a class="hanchor" href="#4-assessing-other-potential-harms">🔗</a> </h4>
-								<table>
-									<thead>
-										<tr>
-											<th>Tick = Yes Cross = No</th>
-											<th>Questions</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td></td>
-											<td>Have you made contingency plans in case:</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>- Data is wiped out remotely, or</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>- A privacy breach occurs.</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you provided sufficient information or training for crowdmapping participants on potential risks and protection strategies?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you provided clear information to potential crowdmappers as to what will or will not be undertaken consequent to findings provided by crowdmapping?</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								<h4 id="5-engaging-communities">5. Engaging communities&nbsp;<a class="hanchor" href="#5-engaging-communities">🔗</a> </h4>
-								<table>
-									<thead>
-										<tr>
-											<th>Tick = Yes Cross = No</th>
-											<th>Questions</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td></td>
-											<td>Have you undertaken a consultative process involving all relevant stakeholders to produce a risk assessment framework?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>If not, have you, at a minimum, informed (in the context of social media based programmes) relevant communities to let them know about the evidence generation programme?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Do you have a means by which community consent might be obtained from the target communities?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Do you have a means by which data can be shared with the target communities?</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								<h4 id="6-assessing-risks-and-mitigation-strategies-for-geospatial-data-collection-from-uas">6. Assessing risks and mitigation strategies for geospatial data collection from UAS&nbsp;<a class="hanchor" href="#6-assessing-risks-and-mitigation-strategies-for-geospatial-data-collection-from-uas">🔗</a> </h4>
-								<table>
-									<thead>
-										<tr>
-											<th>Tick = Yes Cross = No</th>
-											<th>Questions</th>
-											<th>Description</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td></td>
-											<td>Are you intending to use an Unmanned Aerial Vehicle (UAV) in a conflict zone/fragile state?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>If yes, what is the justification?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Is it absolutely essential?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>What relevant authority units will be supporting teams on the ground?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Do the benefits outweigh the risks – have you made a determination based on a comprehensive assessment of security and safety issues and potential perceptions of the organization and its personnel if you send a UAV into this context?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you set up systems that avoid recording any information that would present a security threat to individuals and groups if intercepted?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Have you adopted approaches that minimize the resolution of visual data captured (including maximizing the distance between object and visual imaging technology) to ensure the lowest resolution while maintaining the value of the data captured?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Irrespective of context, have you planned to engage with the communities in the visible path of the UAV and/or to notify and/or discuss the launch of the UAV?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>Are you intending to launch and land the UAV from the location to be surveyed?</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>If landing is to be remote at a different location, is there a plan for having a recovery team available at the remote site so that the UAV (and data collected) does not fall into the hands of the wrong people?</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
+								<div class="col-md-6 text-md-center text-center">
+									<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+								</div>
+								<div class="col-md-3 text-md-right text-center">
+									<ul class="text-white">
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+											<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+										</li>
+									</ul>
+									<ul class="list-inline">
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+									</ul>
+								</div>
 							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Satellite vs Guides Guide</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/learning/" aria-label="Previous page" > <span class="d-none d-md-block">Learning</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Drones for Supply Chain</h5>
-													<p class="card-subtitle mb-2 text-muted">UNICEF Supply Chain Division Guide to designing drones for supply chain programmes.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Satellite vs Guides Guide</h5>
-													<p class="card-subtitle mb-2 text-muted">UNICEF Office of Innovation Guide to selecting satellites or drones for humanitarian use cases.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-							</section>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
-</body>
-</html>
+						<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+					</footer>
+					<!-- /footer -->
+					<!-- Main Script -->
+					<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
+				</body>
+			</html>

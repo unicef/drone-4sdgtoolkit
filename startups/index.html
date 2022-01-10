@@ -66,7 +66,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -120,174 +120,175 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/drone-4sdgtoolkit" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/startups/" title="Startups" class="sidelist
   active">
-									<a href="https://unicef.github.io/drone-4sdgtoolkit/startups/">
+									<a href="https://unicef.github.io/drone-4sdgtoolkit/startups/" class="font-weight-bold">
 										Startups
 									</a>
-								</li>
-								<div>
-									<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
-								</div>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
-
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/drone-4sdgtoolkit'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Startups</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Startups</h2>
-							<div class="content">
-								<p><strong>“Understand the existing ecosystem” and “Be Collaborative”</strong>.</p>
-								<p>The “Startups” section contains company information and stories about UNICEF Drone Startups.
-									This section aims to highlight our drone investees and their work with UNICEF Country Offices or other development partners.</p>
-								<p><img src="/drone-4sdgtoolkit/startups/grid-test.png" alt="A grid of six images are shown. The six images depict various aspects of testing and building drones. Some images feature UNICEF Innovation Fund start-up companies."></p>
-								<h2 id="qaira">Qaira&nbsp;<a class="hanchor" href="#qaira">🔗</a> </h2>
-								<p><strong>COUNTRY:</strong> Peru</p>
-								<p><strong>PARTNERS &amp; COLLABORATORS:</strong> ACCA - Association for the Conservation of the Amazon Basin, Lima City Municipality</p>
-								<h4 id="project-description">Project Description&nbsp;<a class="hanchor" href="#project-description">🔗</a> </h4>
-								<p>qAIRa aims to address the global problem of pollution by monitoring the quality of air. qAIRa has developed ‘Andean Drone’, a personalized hybrid drone (a plane with vertical take-off and landing) that carries a payload of air quality sensors including CO2, VOCs, particulate matter, H2S, CO, and SO2.</p>
-								<h4 id="key-results">Key Results&nbsp;<a class="hanchor" href="#key-results">🔗</a> </h4>
-								<ul>
-									<li>Mapped 600 hectares using drones across 4 cities in Peru.</li>
-									<li>Provided air quality information to 20,000 users where the air quality monitors are deployed, equipping them with information on the quality of air they breathe.</li>
-									<li>Conducted an evaluation on the quality of air in the context of Covid-19 in partnership with the government of Lima City leading to recommendations for policy on clean energy alternatives.</li>
+									<div class="accordion" id="accordionExample">
+									</li>
+									<div>
+										<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+									</div>
 								</ul>
-								<p>URL: <a href="http://www.qairadrones.com/">http://www.qairadrones.com/</a>  and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/qAira">https://www.unicef.org/innovation/venturefund/dronescohort/qAira</a></p>
-								<h2 id="rentadrone">Rentadrone&nbsp;<a class="hanchor" href="#rentadrone">🔗</a> </h2>
-								<p><strong>COUNTRY:</strong> Chile</p>
-								<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Photovoltaic Plant Quilapilun (Data collection)</p>
-								<h4 id="project-description-1">Project Description&nbsp;<a class="hanchor" href="#project-description-1">🔗</a> </h4>
-								<p>Rentadrone detects, classifies and organizes the errors and damaged modules in Solar Power Plants using thermal imagery. The objective is to increase energy efficiency and improve performance of solar farms. The team also developed an agricultural use case, collecting and labelling aerial photos of crops which will be used to automatically detect diseases on crops.</p>
-								<h4 id="key-results-1">Key Results:&nbsp;<a class="hanchor" href="#key-results-1">🔗</a> </h4>
-								<ul>
-									<li>Rentadrone has mapped 178 hectares of agricultural land, generating 24 maps for their relevant clients.</li>
-									<li>Rentadrone has assessed 230,000 solar panels and found faults in 7150 panels increasing the efficiency of these clean energy alternatives</li>
-								</ul>
-								<p>URL: <a href="https://rentadrone.cl/">https://rentadrone.cl/</a>  and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/Rentadrone">https://www.unicef.org/innovation/venturefund/dronescohort/Rentadrone</a></p>
-								<h2 id="dronfies-labs">Dronfies Labs&nbsp;<a class="hanchor" href="#dronfies-labs">🔗</a> </h2>
-								<p><strong>COUNTRY:</strong> Uruguay</p>
-								<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Pyxis Portal, SINAE (The National Emergency System- Uruguay), ANII (National Innovation Agency), DINACIA (Uruguayan Aeronautical Authorities) </p>
-								<h4 id="project-description-2">Project Description&nbsp;<a class="hanchor" href="#project-description-2">🔗</a> </h4>
-								<p>Dronefies solutions provide support to drone operations during emergency situations such as natural disasters, compatible with a large variety of consumer drones. Through this solution, the company aims to make more efficient searches,  facilitate data collection and analysis (especially for flooding), and increase the availability of drones &amp; operators to be readily deployable in case of an emergency.</p>
-								<h4 id="key-results-2">Key Results:&nbsp;<a class="hanchor" href="#key-results-2">🔗</a> </h4>
-								<ul>
-									<li>3000+ flights coordinated with no accidents and only 3 incidents</li>
-									<li>FAA compliant</li>
-									<li>Uruguayan Civil Aviation Authority incorporating open-source  UTM in the regulatory framework in the coordination of drones in the country</li>
-								</ul>
-								<p>URL: <a href="https://portableutm.com/#">https://portableutm.com/#</a>  and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs">https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs</a></p>
-								<h2 id="cloudline">Cloudline&nbsp;<a class="hanchor" href="#cloudline">🔗</a> </h2>
-								<p><strong>COUNTRY:</strong> South Africa</p>
-								<p><strong>PARTNERS &amp; COLLABORATORS:</strong> WFP, FastCompany top SA startup, Raba Capital, Timon Capital </p>
-								<h4 id="project-description-3">Project Description&nbsp;<a class="hanchor" href="#project-description-3">🔗</a> </h4>
-								<p>Cloudline operates small-scale autonomous airships, providing a delivery service to governments, international agencies and enterprises for delivering essential goods such as medical supplies. </p>
-								<p>Autonomous airships leverage the advantages of existing drone operations – while addressing some of the biggest challenges: They carry large payloads (from 5 kg to 1 tonne) with very high endurance (&gt; 24 hours), using consumer grade technology. The inherently safe failure mode of helium airships (when systems fail, they float not fall) suits them to a variety of applications near populated areas.</p>
-								<h4 id="key-results-3">Key Results:&nbsp;<a class="hanchor" href="#key-results-3">🔗</a> </h4>
-								<ul>
-									<li>Final airship launched, with a payload capacity of 10kgs</li>
-									<li>Full endurance capability (40km/h) along with automated waypoint flying.</li>
-									<li>Contributed flight control software to the PX4 upstream community by introducing a new mode of aircraft to the open source community in the form of airships</li>
-								</ul>
-								<p>URL: <a href="https://www.flycloudline.com/">https://www.flycloudline.com/</a> and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline">https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline</a></p>
-								<h2 id="bioverse-labs">Bioverse Labs&nbsp;<a class="hanchor" href="#bioverse-labs">🔗</a> </h2>
-								<p><strong>COUNTRY:</strong> Brazil</p>
-								<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Cindelia/UNI, Google Cloud Partners, ECAM, Floresta Protegida (AFP) </p>
-								<h4 id="project-description-4">Project Description&nbsp;<a class="hanchor" href="#project-description-4">🔗</a> </h4>
-								<p>Bioverse Labs is empowering indigenous communities to preserve natural resources by identifying economically-important tree species that can be sustainably managed and harvested. The solution uses drone imagery and machine learning to identify and map non-timber species of trees (e.g., chestnut, copaiba, and Brazil nuts) that are economically viable for supporting traditional modes of income generation</p>
-								<h4 id="key-results-4">Key Results:&nbsp;<a class="hanchor" href="#key-results-4">🔗</a> </h4>
-								<ul>
-									<li>Identified 19,240 trees, completing machine learning training for brazil nuts and palm trees</li>
-									<li>97% accuracy on ML models for detection of Brazil Nut Trees</li>
-								</ul>
-								<p>URL: <a href="https://www.bioverselabs.com/">https://www.bioverselabs.com/</a> and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs">https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs</a></p>
-								<h2 id="prokura-innovations">Prokura Innovations&nbsp;<a class="hanchor" href="#prokura-innovations">🔗</a> </h2>
-								<p><strong>COUNTRY:</strong> Nepal</p>
-								<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Nepal Innovation Center, UNICEF Nepal  </p>
-								<h4 id="project-description-5">Project Description&nbsp;<a class="hanchor" href="#project-description-5">🔗</a> </h4>
-								<p>Prokura Innovations is developing a locally produced drone system. Due to poor road infrastructure in rural regions of Nepal, crucial medication in the case of emergencies often fails to reach healthcare posts in due time. Prokura aims to tackle last mile delivery of medicines to rural health centers with limited health personnel, connecting underserved health posts to a surrounding equipped health facility.</p>
-								<h4 id="key-results-5">Key Results:&nbsp;<a class="hanchor" href="#key-results-5">🔗</a> </h4>
-								<ul>
-									<li>Fabrication of vtol v2 completed</li>
-									<li>Blood pack delivery simulation flight done successfully</li>
-									<li>1kg payload capacity</li>
-									<li>Working on the final versions of the drone monitoring system and inventory management app.</li>
-								</ul>
-								<p>URL: <a href="https://www.prokurainnovations.com/">https://www.prokurainnovations.com/</a> and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/prokurainnovations">https://www.unicef.org/innovation/venturefund/dronescohort/prokurainnovations</a></p>
 							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/software/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Software</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/about/" aria-label="Previous page" > <span class="d-none d-md-block">About the toolkit</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
+						</div>
+						<div class="col-lg-9">
+							<div class="bg-white" style="margin:auto">
+								<script language="JavaScript">
+									String.prototype.capitalizeFirstLetter = function() {
+									   return this.charAt(0).toUpperCase() + this.slice(1);
+									}
+
+									var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/drone-4sdgtoolkit'>Home</a>";
+									var href = document.location.href;
+									var s = href.split("/");
+									for (var i=3;i<(s.length-2);i++) {
+									   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+									}
+									i=s.length-1;
+									path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+									path+="  &gt;  <b>Startups</b>";
+									document.writeln(path);
+								</script>
+							</div>
+							<div class="p-lg-5 p-4 bg-white" id="content">
+								<h2 class="mb-5" id="title">Startups</h2>
+								<div class="content">
+									<p><strong>“Understand the existing ecosystem” and “Be Collaborative”</strong>.</p>
+									<p>The “Startups” section contains company information and stories about UNICEF Drone Startups.
+										This section aims to highlight our drone investees and their work with UNICEF Country Offices or other development partners.</p>
+									<p><img src="/drone-4sdgtoolkit/startups/grid-test.png" alt="A grid of six images are shown. The six images depict various aspects of testing and building drones. Some images feature UNICEF Innovation Fund start-up companies."></p>
+									<h2 id="qaira">Qaira&nbsp;<a class="hanchor" href="#qaira">🔗</a> </h2>
+									<p><strong>COUNTRY:</strong> Peru</p>
+									<p><strong>PARTNERS &amp; COLLABORATORS:</strong> ACCA - Association for the Conservation of the Amazon Basin, Lima City Municipality</p>
+									<h4 id="project-description">Project Description&nbsp;<a class="hanchor" href="#project-description">🔗</a> </h4>
+									<p>qAIRa aims to address the global problem of pollution by monitoring the quality of air. qAIRa has developed ‘Andean Drone’, a personalized hybrid drone (a plane with vertical take-off and landing) that carries a payload of air quality sensors including CO2, VOCs, particulate matter, H2S, CO, and SO2.</p>
+									<h4 id="key-results">Key Results&nbsp;<a class="hanchor" href="#key-results">🔗</a> </h4>
+									<ul>
+										<li>Mapped 600 hectares using drones across 4 cities in Peru.</li>
+										<li>Provided air quality information to 20,000 users where the air quality monitors are deployed, equipping them with information on the quality of air they breathe.</li>
+										<li>Conducted an evaluation on the quality of air in the context of Covid-19 in partnership with the government of Lima City leading to recommendations for policy on clean energy alternatives.</li>
+									</ul>
+									<p>URL: <a href="http://www.qairadrones.com/">http://www.qairadrones.com/</a>  and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/qAira">https://www.unicef.org/innovation/venturefund/dronescohort/qAira</a></p>
+									<h2 id="rentadrone">Rentadrone&nbsp;<a class="hanchor" href="#rentadrone">🔗</a> </h2>
+									<p><strong>COUNTRY:</strong> Chile</p>
+									<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Photovoltaic Plant Quilapilun (Data collection)</p>
+									<h4 id="project-description-1">Project Description&nbsp;<a class="hanchor" href="#project-description-1">🔗</a> </h4>
+									<p>Rentadrone detects, classifies and organizes the errors and damaged modules in Solar Power Plants using thermal imagery. The objective is to increase energy efficiency and improve performance of solar farms. The team also developed an agricultural use case, collecting and labelling aerial photos of crops which will be used to automatically detect diseases on crops.</p>
+									<h4 id="key-results-1">Key Results:&nbsp;<a class="hanchor" href="#key-results-1">🔗</a> </h4>
+									<ul>
+										<li>Rentadrone has mapped 178 hectares of agricultural land, generating 24 maps for their relevant clients.</li>
+										<li>Rentadrone has assessed 230,000 solar panels and found faults in 7150 panels increasing the efficiency of these clean energy alternatives</li>
+									</ul>
+									<p>URL: <a href="https://rentadrone.cl/">https://rentadrone.cl/</a>  and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/Rentadrone">https://www.unicef.org/innovation/venturefund/dronescohort/Rentadrone</a></p>
+									<h2 id="dronfies-labs">Dronfies Labs&nbsp;<a class="hanchor" href="#dronfies-labs">🔗</a> </h2>
+									<p><strong>COUNTRY:</strong> Uruguay</p>
+									<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Pyxis Portal, SINAE (The National Emergency System- Uruguay), ANII (National Innovation Agency), DINACIA (Uruguayan Aeronautical Authorities) </p>
+									<h4 id="project-description-2">Project Description&nbsp;<a class="hanchor" href="#project-description-2">🔗</a> </h4>
+									<p>Dronefies solutions provide support to drone operations during emergency situations such as natural disasters, compatible with a large variety of consumer drones. Through this solution, the company aims to make more efficient searches,  facilitate data collection and analysis (especially for flooding), and increase the availability of drones &amp; operators to be readily deployable in case of an emergency.</p>
+									<h4 id="key-results-2">Key Results:&nbsp;<a class="hanchor" href="#key-results-2">🔗</a> </h4>
+									<ul>
+										<li>3000+ flights coordinated with no accidents and only 3 incidents</li>
+										<li>FAA compliant</li>
+										<li>Uruguayan Civil Aviation Authority incorporating open-source  UTM in the regulatory framework in the coordination of drones in the country</li>
+									</ul>
+									<p>URL: <a href="https://portableutm.com/#">https://portableutm.com/#</a>  and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs">https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs</a></p>
+									<h2 id="cloudline">Cloudline&nbsp;<a class="hanchor" href="#cloudline">🔗</a> </h2>
+									<p><strong>COUNTRY:</strong> South Africa</p>
+									<p><strong>PARTNERS &amp; COLLABORATORS:</strong> WFP, FastCompany top SA startup, Raba Capital, Timon Capital </p>
+									<h4 id="project-description-3">Project Description&nbsp;<a class="hanchor" href="#project-description-3">🔗</a> </h4>
+									<p>Cloudline operates small-scale autonomous airships, providing a delivery service to governments, international agencies and enterprises for delivering essential goods such as medical supplies. </p>
+									<p>Autonomous airships leverage the advantages of existing drone operations – while addressing some of the biggest challenges: They carry large payloads (from 5 kg to 1 tonne) with very high endurance (&gt; 24 hours), using consumer grade technology. The inherently safe failure mode of helium airships (when systems fail, they float not fall) suits them to a variety of applications near populated areas.</p>
+									<h4 id="key-results-3">Key Results:&nbsp;<a class="hanchor" href="#key-results-3">🔗</a> </h4>
+									<ul>
+										<li>Final airship launched, with a payload capacity of 10kgs</li>
+										<li>Full endurance capability (40km/h) along with automated waypoint flying.</li>
+										<li>Contributed flight control software to the PX4 upstream community by introducing a new mode of aircraft to the open source community in the form of airships</li>
+									</ul>
+									<p>URL: <a href="https://www.flycloudline.com/">https://www.flycloudline.com/</a> and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline">https://www.unicef.org/innovation/venturefund/dronescohort/Cloudline</a></p>
+									<h2 id="bioverse-labs">Bioverse Labs&nbsp;<a class="hanchor" href="#bioverse-labs">🔗</a> </h2>
+									<p><strong>COUNTRY:</strong> Brazil</p>
+									<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Cindelia/UNI, Google Cloud Partners, ECAM, Floresta Protegida (AFP) </p>
+									<h4 id="project-description-4">Project Description&nbsp;<a class="hanchor" href="#project-description-4">🔗</a> </h4>
+									<p>Bioverse Labs is empowering indigenous communities to preserve natural resources by identifying economically-important tree species that can be sustainably managed and harvested. The solution uses drone imagery and machine learning to identify and map non-timber species of trees (e.g., chestnut, copaiba, and Brazil nuts) that are economically viable for supporting traditional modes of income generation</p>
+									<h4 id="key-results-4">Key Results:&nbsp;<a class="hanchor" href="#key-results-4">🔗</a> </h4>
+									<ul>
+										<li>Identified 19,240 trees, completing machine learning training for brazil nuts and palm trees</li>
+										<li>97% accuracy on ML models for detection of Brazil Nut Trees</li>
+									</ul>
+									<p>URL: <a href="https://www.bioverselabs.com/">https://www.bioverselabs.com/</a> and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs">https://www.unicef.org/innovation/venturefund/dronescohort/BioverseLabs</a></p>
+									<h2 id="prokura-innovations">Prokura Innovations&nbsp;<a class="hanchor" href="#prokura-innovations">🔗</a> </h2>
+									<p><strong>COUNTRY:</strong> Nepal</p>
+									<p><strong>PARTNERS &amp; COLLABORATORS:</strong> Nepal Innovation Center, UNICEF Nepal  </p>
+									<h4 id="project-description-5">Project Description&nbsp;<a class="hanchor" href="#project-description-5">🔗</a> </h4>
+									<p>Prokura Innovations is developing a locally produced drone system. Due to poor road infrastructure in rural regions of Nepal, crucial medication in the case of emergencies often fails to reach healthcare posts in due time. Prokura aims to tackle last mile delivery of medicines to rural health centers with limited health personnel, connecting underserved health posts to a surrounding equipped health facility.</p>
+									<h4 id="key-results-5">Key Results:&nbsp;<a class="hanchor" href="#key-results-5">🔗</a> </h4>
+									<ul>
+										<li>Fabrication of vtol v2 completed</li>
+										<li>Blood pack delivery simulation flight done successfully</li>
+										<li>1kg payload capacity</li>
+										<li>Working on the final versions of the drone monitoring system and inventory management app.</li>
+									</ul>
+									<p>URL: <a href="https://www.prokurainnovations.com/">https://www.prokurainnovations.com/</a> and <a href="https://www.unicef.org/innovation/venturefund/dronescohort/prokurainnovations">https://www.unicef.org/innovation/venturefund/dronescohort/prokurainnovations</a></p>
 								</div>
-							</section>
+								<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
+								<nav class="pagination mt-3">
+									<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/software/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Software</span></a>
+									<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/about/" aria-label="Previous page" > <span class="d-none d-md-block">About the toolkit</span><i class="ti-arrow-right ml-2"></i></a>
+								</nav>
+								<section class="my-3 py-3" id="related-articles">
+									<h5 class="text-center">Related Articles</h5>
+									<div class="row">
+									</div>
+								</section>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
+		</section>
+		<!-- /details page -->
+		<!-- footer -->
+		<footer class="section bg-primary p-4">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-3 text-md-left text-center">
+						<ul>
+							<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6 text-md-center text-center">
+						<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+					</div>
+					<div class="col-md-3 text-md-right text-center">
+						<ul class="text-white">
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+								<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+							</li>
+						</ul>
+						<ul class="list-inline">
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
-</body>
+			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+		</footer>
+		<!-- /footer -->
+		<!-- Main Script -->
+		<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
+	</body>
 </html>
