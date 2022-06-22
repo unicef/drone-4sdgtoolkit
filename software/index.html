@@ -25,9 +25,10 @@
 		<style>
 			:root{
 			  --primary-color:#1CABE2;
-			  --body-color:#D8D1C9;
-			  --text-color:#777779;
-			  --text-color-dark:#374EA2;
+			  --primary-color-light:#1b66b1;
+			  --body-color:#f2f4f6;
+			  --text-color:#636363;
+			  --text-color-dark:#374ea2;
 			  --text-title-color:#ffffff;
 			  --white-color:#ffffff;
 			  --light-color:#f8f9fa;
@@ -43,6 +44,8 @@
 		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/jquery/jquery-ui.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- PopperJS -->
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
 		<!-- match-height JS -->
 		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -135,7 +138,7 @@
 							</div>
 						</div>
 						<div class="col-lg-9">
-							<div class="bg-white" style="margin:auto">
+							<div class="bg-white p-3" style="margin:auto">
 								<script language="JavaScript">
 									String.prototype.capitalizeFirstLetter = function() {
 									   return this.charAt(0).toUpperCase() + this.slice(1);
@@ -153,88 +156,87 @@
 									document.writeln(path);
 								</script>
 							</div>
-							<div class="p-lg-5 p-4 bg-white" id="content">
-								<h2 class="mb-5" id="title">Software</h2>
-								<div class="content">
-									<p><strong>“Use Open Source” and “Design for scale”</strong>.</p>
-									<p>Using only Open Source is a key principle of UNICEF Innovation, and all of our investments in software and other products have reflected this.
-										The “Software” section is a curation of various drone software products from UNICEF Innovation cohort companies.</p>
-									<p><img src="/drone-4sdgtoolkit/software/monitoring.jpg" alt="A woman is monitoring two computer screens. The screens show aerial imagery, perhaps taken from a drone."></p>
-									<h2 id="software">Software&nbsp;<a class="hanchor" href="#software">🔗</a> </h2>
-									<p><strong>Portable UTM</strong></p>
-									<p>Portable UTM is an Open Source-based Unmanned Traffic Management System developed following NASA UAS Service Supplier Specification.</p>
-									<ul>
-										<li>
-											<p>Humanitarian Purposes
-												Drones have proven their importance in medicine delivery, disaster recovery, and public safety. Portable UTM could be deployed easily, enabling operations in these contexts and generating greater impact on vulnerable populations.</p>
-										</li>
-										<li>
-											<p>Commercial operations
-												Fulfilment of regulatory requirements and awareness of drone operations are critical for the safe and responsible integration of drones in society. Portable UTM is a transparent and Open Solution to be integrated by governments and commercial drone operators.</p>
-										</li>
-									</ul>
-									<p><img src="/drone-4sdgtoolkit/software/software001.jpg" alt="Dashboard of portable UTM software."></p>
-									<h3 id="use-portable-utm-github-repositoryhttpsgithubcomportableutmwebapp"><a href="https://github.com/portableutm/webapp">Use Portable UTM Github Repository</a>&nbsp;<a class="hanchor" href="#use-portable-utm-github-repositoryhttpsgithubcomportableutmwebapp">🔗</a> </h3>
-									<h2 id="submit-software-to-the-unicef-drones-for-sdg-toolkit-">Submit Software to the UNICEF drones for SDG toolkit –&nbsp;<a class="hanchor" href="#submit-software-to-the-unicef-drones-for-sdg-toolkit-">🔗</a> </h2>
-									<p>Do you have open-source drone-related software that you have developed?</p>
-									<p>Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit <strong><a href="https://forms.gle/eNjZTRTQ88mP2MKw9">The Drone for SDG Toolkit Project Submission Form.</a></strong> and fill out the information about your project. We will respond to your submission within ninety (90) days.</p>
+							<div class="p-lg-5 p-4 bg-white position-relative" id="content">
+								<div class="d-flex flex-row-reverse">
+									<button id="editBtn" value="/software/_index.en.md" class="editBtn py-2 px-3">Edit this Page</button>
 								</div>
-								<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
-								<nav class="pagination mt-3">
-									<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/regs/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Regulations</span></a>
-									<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/startups/" aria-label="Previous page" > <span class="d-none d-md-block">Startups</span><i class="ti-arrow-right ml-2"></i></a>
-								</nav>
-								<section class="my-3 py-3" id="related-articles">
-									<h5 class="text-center">Related Articles</h5>
-									<div class="row">
+								<div class="p-lg-5 p-3 bg-white">
+									<h2 id="title">Software</h2>
+									<div class="content mt-5">
+										<p><strong>“Use Open Source” and “Design for scale”</strong>.</p>
+										<p>Using only Open Source is a key principle of UNICEF Innovation, and all of our investments in software and other products have reflected this.
+											The “Software” section is a curation of various drone software products from UNICEF Innovation cohort companies.</p>
+										<p><img src="/drone-4sdgtoolkit/software/monitoring.jpg" alt="A woman is monitoring two computer screens. The screens show aerial imagery, perhaps taken from a drone."></p>
+										<h2 id="software">Software&nbsp;<a class="hanchor" href="#software">🔗</a> </h2>
+										<p><strong>Portable UTM</strong></p>
+										<p>Portable UTM is an Open Source-based Unmanned Traffic Management System developed following NASA UAS Service Supplier Specification.</p>
+										<ul>
+											<li>
+												<p>Humanitarian Purposes
+													Drones have proven their importance in medicine delivery, disaster recovery, and public safety. Portable UTM could be deployed easily, enabling operations in these contexts and generating greater impact on vulnerable populations.</p>
+											</li>
+											<li>
+												<p>Commercial operations
+													Fulfilment of regulatory requirements and awareness of drone operations are critical for the safe and responsible integration of drones in society. Portable UTM is a transparent and Open Solution to be integrated by governments and commercial drone operators.</p>
+											</li>
+										</ul>
+										<p><img src="/drone-4sdgtoolkit/software/software001.jpg" alt="Dashboard of portable UTM software."></p>
+										<h3 id="use-portable-utm-github-repositoryhttpsgithubcomportableutmwebapp"><a href="https://github.com/portableutm/webapp">Use Portable UTM Github Repository</a>&nbsp;<a class="hanchor" href="#use-portable-utm-github-repositoryhttpsgithubcomportableutmwebapp">🔗</a> </h3>
+										<h2 id="submit-software-to-the-unicef-drones-for-sdg-toolkit-">Submit Software to the UNICEF drones for SDG toolkit –&nbsp;<a class="hanchor" href="#submit-software-to-the-unicef-drones-for-sdg-toolkit-">🔗</a> </h2>
+										<p>Do you have open-source drone-related software that you have developed?</p>
+										<p>Join our efforts to make innovation for good more accessible and to scale impactful tools across the world. Visit <strong><a href="https://forms.gle/eNjZTRTQ88mP2MKw9">The Drone for SDG Toolkit Project Submission Form.</a></strong> and fill out the information about your project. We will respond to your submission within ninety (90) days.</p>
 									</div>
-								</section>
+									<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
+									<nav class="pagination mt-3">
+										<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/regs/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Regulations</span></a>
+										<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/startups/" aria-label="Previous page" > <span class="d-none d-md-block">Startups</span><i class="ti-arrow-right ml-2"></i></a>
+									</nav>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-- /details page -->
-		<!-- footer -->
-		<footer class="section bg-primary p-4">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-md-3 text-md-left text-center">
-						<ul>
-							<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
-							<li class="nav-item">
-								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-6 text-md-center text-center">
-						<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
-					</div>
-					<div class="col-md-3 text-md-right text-center">
-						<ul class="text-white">
-							<li class="nav-item">
-								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-								<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-							</li>
-						</ul>
-						<ul class="list-inline">
-							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
-							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-						</ul>
+			</section>
+			<!-- /details page -->
+			<!-- footer -->
+			<footer class="section bg-primary p-4 mt-5">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-3 text-md-left text-center">
+							<ul>
+								<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
+								<li class="nav-item">
+									<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 text-md-center text-center">
+							<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+						</div>
+						<div class="col-md-3 text-md-right text-center">
+							<ul class="text-white">
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+									<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+								</li>
+							</ul>
+							<ul class="list-inline">
+								<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
+								<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-		</footer>
-		<!-- /footer -->
-		<!-- Main Script -->
-		<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
-	</body>
-</html>
+				<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+			</footer>
+			<!-- /footer -->
+			<!-- Main Script -->
+			<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
+		</body>
+	</html>

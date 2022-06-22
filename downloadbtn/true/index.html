@@ -25,9 +25,10 @@
 		<style>
 			:root{
 			  --primary-color:#1CABE2;
-			  --body-color:#D8D1C9;
-			  --text-color:#777779;
-			  --text-color-dark:#374EA2;
+			  --primary-color-light:#1b66b1;
+			  --body-color:#f2f4f6;
+			  --text-color:#636363;
+			  --text-color-dark:#374ea2;
 			  --text-title-color:#ffffff;
 			  --white-color:#ffffff;
 			  --light-color:#f8f9fa;
@@ -43,6 +44,8 @@
 		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/jquery/jquery-ui.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- PopperJS -->
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
 		<!-- match-height JS -->
 		<script src="https://unicef.github.io/drone-4sdgtoolkit/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -125,7 +128,7 @@
 						</div>
 					</div>
 					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
+						<div class="bg-white p-3" style="margin:auto">
 							<script language="JavaScript">
 								String.prototype.capitalizeFirstLetter = function() {
 								   return this.charAt(0).toUpperCase() + this.slice(1);
@@ -143,262 +146,261 @@
 								document.writeln(path);
 							</script>
 						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">true</h2>
-							<div class="bg-light p-4">
-								<ul class="page-list">
-									<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/true/" title="true" class="sidelist
+						<div class="p-lg-5 p-4 bg-white position-relative" id="content">
+							<div class="d-flex flex-row-reverse">
+								<button id="editBtn" value="/downloadBtn/true" class="editBtn py-2 px-3">Edit this Page</button>
+							</div>
+							<div class="p-lg-5 p-3 bg-white">
+								<h2 id="title">true</h2>
+								<div class="bg-light p-4">
+									<ul class="page-list">
+										<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/true/" title="true" class="sidelist
   active">
-										<a href="https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/true/">
-											true
-										</a>
-										<ul>
-											<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/about/" title="About the toolkit" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/drone-4sdgtoolkit/about/" class="">
-																About the toolkit
-															</a>
-														</div>
-														<div class="col-2 ">
-															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse094dace516902459a3ffc13cfca4899f" aria-expanded="false" aria-controls='collapse094dace516902459a3ffc13cfca4899f'>
-															</i>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/analytics/" title="Analytics" class="sidelist
+											<a href="https://unicef.github.io/drone-4sdgtoolkit/downloadbtn/true/">
+												true
+											</a>
+											<ul>
+												<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/about/" title="About the toolkit" class="sidelist
   ">
 													<div class="container">
 														<div class="row">
 															<div class="col-10">
-																<a href="https://unicef.github.io/drone-4sdgtoolkit/analytics/" class="">
-																	Analytics
+																<a href="https://unicef.github.io/drone-4sdgtoolkit/about/" class="">
+																	About the toolkit
 																</a>
 															</div>
 															<div class="col-2 ">
-																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea4c5999ef409fdff2c36c0938a4151ac" aria-expanded="false" aria-controls='collapsea4c5999ef409fdff2c36c0938a4151ac'>
+																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse29f30e4ca369fd95afcf91449518ac0c" aria-expanded="false" aria-controls='collapse29f30e4ca369fd95afcf91449518ac0c'>
 																</i>
 															</div>
 														</div>
 													</li>
-													<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
+													<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/analytics/" title="Analytics" class="sidelist
   ">
 														<div class="container">
 															<div class="row">
 																<div class="col-10">
-																	<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
-																		Drones for Supply Chain
+																	<a href="https://unicef.github.io/drone-4sdgtoolkit/analytics/" class="">
+																		Analytics
 																	</a>
+																</div>
+																<div class="col-2 ">
+																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse3598fce924a10f59af09a44f93cd6cc1" aria-expanded="false" aria-controls='collapse3598fce924a10f59af09a44f93cd6cc1'>
+																	</i>
 																</div>
 															</div>
 														</li>
-														<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
+														<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
   ">
 															<div class="container">
 																<div class="row">
 																	<div class="col-10">
-																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/" class="">
-																			Guides
+																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
+																			Drones for Supply Chain
 																		</a>
 																	</div>
-																	<div class="col-2 ">
-																		<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecf5ca804a9151c3f9e2f99d4c0a64f39" aria-expanded="false" aria-controls='collapsecf5ca804a9151c3f9e2f99d4c0a64f39'>
-																		</i>
-																	</div>
 																</div>
-																<div id='collapsecf5ca804a9151c3f9e2f99d4c0a64f39' class="collapse" aria-labelledby="headingcf5ca804a9151c3f9e2f99d4c0a64f39" data-parent="#accordionExample">
-																	<div class="sidebar-scroll">
-																		<ul>
-																			<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
+															</li>
+															<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
   ">
-																				<div class="container">
-																					<div class="row">
-																						<div class="col-10">
-																							<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" class="">
-																							</a>
-																						</div>
-																					</div>
-																				</li>
-																				<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
-  ">
-																					<div class="container">
-																						<div class="row">
-																							<div class="col-10">
-																								<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
-																									Drones for Supply Chain
-																								</a>
-																							</div>
-																						</div>
-																					</li>
-																					<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
-  ">
-																						<div class="container">
-																							<div class="row">
-																								<div class="col-10">
-																									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
-																										Satellite vs Guides Guide
-																									</a>
-																								</div>
-																							</div>
-																						</li>
-																						<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
-  ">
-																							<div class="container">
-																								<div class="row">
-																									<div class="col-10">
-																										<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
-																											Use of Drones in Humanitarian and Development Missions
-																										</a>
-																									</div>
-																								</div>
-																							</li>
-																						</ul>
-																					</div>
-																				</div>
-																			</li>
-																			<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/learning/" title="Learning" class="sidelist
-  ">
-																				<div class="container">
-																					<div class="row">
-																						<div class="col-10">
-																							<a href="https://unicef.github.io/drone-4sdgtoolkit/learning/" class="">
-																								Learning
-																							</a>
-																						</div>
-																						<div class="col-2 ">
-																							<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea051ce43ca8f95ffd6a2990c49931fc4" aria-expanded="false" aria-controls='collapsea051ce43ca8f95ffd6a2990c49931fc4'>
-																							</i>
-																						</div>
-																					</div>
-																				</li>
-																				<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/regs/" title="Regulations" class="sidelist
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/" class="">
+																				Guides
+																			</a>
+																		</div>
+																		<div class="col-2 ">
+																			<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea206ff48afc43319051d94eacc999c5f" aria-expanded="false" aria-controls='collapsea206ff48afc43319051d94eacc999c5f'>
+																			</i>
+																		</div>
+																	</div>
+																	<div id='collapsea206ff48afc43319051d94eacc999c5f' class="collapse" aria-labelledby="headinga206ff48afc43319051d94eacc999c5f" data-parent="#accordionExample">
+																		<div class="sidebar-scroll">
+																			<ul>
+																				<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
   ">
 																					<div class="container">
 																						<div class="row">
 																							<div class="col-10">
-																								<a href="https://unicef.github.io/drone-4sdgtoolkit/regs/" class="">
-																									Regulations
+																								<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" class="">
 																								</a>
-																							</div>
-																							<div class="col-2 ">
-																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse29aecf9fa0c935434c149a9615f8d0fc" aria-expanded="false" aria-controls='collapse29aecf9fa0c935434c149a9615f8d0fc'>
-																								</i>
 																							</div>
 																						</div>
 																					</li>
-																					<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
+																					<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
   ">
 																						<div class="container">
 																							<div class="row">
 																								<div class="col-10">
-																									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
-																										Satellite vs Guides Guide
+																									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
+																										Drones for Supply Chain
 																									</a>
 																								</div>
 																							</div>
 																						</li>
-																						<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/software/" title="Software" class="sidelist
+																						<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
   ">
 																							<div class="container">
 																								<div class="row">
 																									<div class="col-10">
-																										<a href="https://unicef.github.io/drone-4sdgtoolkit/software/" class="">
-																											Software
+																										<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
+																											Satellite vs Guides Guide
 																										</a>
-																									</div>
-																									<div class="col-2 ">
-																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseaa8c9cf2d96a409fef3c54fc93014159" aria-expanded="false" aria-controls='collapseaa8c9cf2d96a409fef3c54fc93014159'>
-																										</i>
 																									</div>
 																								</div>
 																							</li>
-																							<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/startups/" title="Startups" class="sidelist
+																							<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
   ">
 																								<div class="container">
 																									<div class="row">
 																										<div class="col-10">
-																											<a href="https://unicef.github.io/drone-4sdgtoolkit/startups/" class="">
-																												Startups
+																											<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
+																												Use of Drones in Humanitarian and Development Missions
+																											</a>
+																										</div>
+																									</div>
+																								</li>
+																							</ul>
+																						</div>
+																					</div>
+																				</li>
+																				<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/learning/" title="Learning" class="sidelist
+  ">
+																					<div class="container">
+																						<div class="row">
+																							<div class="col-10">
+																								<a href="https://unicef.github.io/drone-4sdgtoolkit/learning/" class="">
+																									Learning
+																								</a>
+																							</div>
+																							<div class="col-2 ">
+																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse4cf9e3cdc56c5f0f1a90a4f99a932148" aria-expanded="false" aria-controls='collapse4cf9e3cdc56c5f0f1a90a4f99a932148'>
+																								</i>
+																							</div>
+																						</div>
+																					</li>
+																					<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/regs/" title="Regulations" class="sidelist
+  ">
+																						<div class="container">
+																							<div class="row">
+																								<div class="col-10">
+																									<a href="https://unicef.github.io/drone-4sdgtoolkit/regs/" class="">
+																										Regulations
+																									</a>
+																								</div>
+																								<div class="col-2 ">
+																									<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse31ed0c5afc9c454f2a9913846cf0af99" aria-expanded="false" aria-controls='collapse31ed0c5afc9c454f2a9913846cf0af99'>
+																									</i>
+																								</div>
+																							</div>
+																						</li>
+																						<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
+  ">
+																							<div class="container">
+																								<div class="row">
+																									<div class="col-10">
+																										<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
+																											Satellite vs Guides Guide
+																										</a>
+																									</div>
+																								</div>
+																							</li>
+																							<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/software/" title="Software" class="sidelist
+  ">
+																								<div class="container">
+																									<div class="row">
+																										<div class="col-10">
+																											<a href="https://unicef.github.io/drone-4sdgtoolkit/software/" class="">
+																												Software
 																											</a>
 																										</div>
 																										<div class="col-2 ">
-																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec159398cfcc9a5ff49621efa0a94d403" aria-expanded="false" aria-controls='collapsec159398cfcc9a5ff49621efa0a94d403'>
+																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse018d9153639ffe4caaf2cfac9594c490" aria-expanded="false" aria-controls='collapse018d9153639ffe4caaf2cfac9594c490'>
 																											</i>
 																										</div>
 																									</div>
 																								</li>
-																								<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
+																								<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/startups/" title="Startups" class="sidelist
   ">
 																									<div class="container">
 																										<div class="row">
 																											<div class="col-10">
-																												<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
-																													Use of Drones in Humanitarian and Development Missions
+																												<a href="https://unicef.github.io/drone-4sdgtoolkit/startups/" class="">
+																													Startups
 																												</a>
+																											</div>
+																											<div class="col-2 ">
+																												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse60af4c45f19109dafacfc994398532ec" aria-expanded="false" aria-controls='collapse60af4c45f19109dafacfc994398532ec'>
+																												</i>
 																											</div>
 																										</div>
 																									</li>
-																								</ul>
-																							</li>
-																						</ul>
-																					</div>
-																					<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 18 May 2022</p>
-																					<nav class="pagination mt-3">
-																						<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/about/" aria-label="Previous page" > <span class="d-none d-md-block">About the toolkit</span><i class="ti-arrow-right ml-2"></i></a>
-																					</nav>
-																					<section class="my-3 py-3" id="related-articles">
-																						<h5 class="text-center">Related Articles</h5>
-																						<div class="row">
+																									<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
+  ">
+																										<div class="container">
+																											<div class="row">
+																												<div class="col-10">
+																													<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
+																														Use of Drones in Humanitarian and Development Missions
+																													</a>
+																												</div>
+																											</div>
+																										</li>
+																									</ul>
+																								</li>
+																							</ul>
 																						</div>
-																					</section>
+																						<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 18 May 2022</p>
+																						<nav class="pagination mt-3">
+																							<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/about/" aria-label="Previous page" > <span class="d-none d-md-block">About the toolkit</span><i class="ti-arrow-right ml-2"></i></a>
+																						</nav>
+																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</div>
-																</div>
-															</section>
-															<!-- /details page -->
-															<!-- footer -->
-															<footer class="section bg-primary p-4">
-																<div class="container">
-																	<div class="row align-items-center">
-																		<div class="col-md-3 text-md-left text-center">
-																			<ul>
-																				<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
-																				</li>
-																			</ul>
-																		</div>
-																		<div class="col-md-6 text-md-center text-center">
-																			<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
-																		</div>
-																		<div class="col-md-3 text-md-right text-center">
-																			<ul class="text-white">
-																				<li class="nav-item">
-																					<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-																				</li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
-																				</li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-																					<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-																				</li>
-																			</ul>
-																			<ul class="list-inline">
-																				<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
-																				<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-																			</ul>
+																</section>
+																<!-- /details page -->
+																<!-- footer -->
+																<footer class="section bg-primary p-4 mt-5">
+																	<div class="container">
+																		<div class="row align-items-center">
+																			<div class="col-md-3 text-md-left text-center">
+																				<ul>
+																					<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
+																					</li>
+																				</ul>
+																			</div>
+																			<div class="col-md-6 text-md-center text-center">
+																				<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+																			</div>
+																			<div class="col-md-3 text-md-right text-center">
+																				<ul class="text-white">
+																					<li class="nav-item">
+																						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+																					</li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
+																					</li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+																						<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																					</li>
+																				</ul>
+																				<ul class="list-inline">
+																					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
+																					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																				</ul>
+																			</div>
 																		</div>
 																	</div>
-																</div>
-																<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-															</footer>
-															<!-- /footer -->
-															<!-- Main Script -->
-															<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
-														</body>
-													</html>
+																	<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																</footer>
+																<!-- /footer -->
+																<!-- Main Script -->
+																<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
+															</body>
+														</html>
