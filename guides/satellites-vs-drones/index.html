@@ -66,23 +66,26 @@
 		<meta name="twitter:title" content="Satellite vs Guides Guide"/>
 		<meta name="twitter:description" content="UNICEF Office of Innovation Guide to selecting satellites or drones for humanitarian use cases."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/drone-4sdgtoolkit/images/unicef-logo.png" alt="Drones for SDG Toolkit">
 								<a class="d-block nav-title" href="/drone-4sdgtoolkit">Drones for SDG Toolkit</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -103,370 +106,428 @@
 								</div>
 							</li>
 						</ul>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/drone-4sdgtoolkit" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/drone-4sdgtoolkit">Home</a>
+							&gt; <a href="https://unicef.github.io/drone-4sdgtoolkitguides" class="breadcrumbLink">guides</a>
+							&gt; <a href="https://unicef.github.io/drone-4sdgtoolkitguides/satellites-vs-drones" class="breadcrumbLink">satellites-vs-drones</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
   ">
-									<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/" class="font-weight-bold">
-										Guides
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" class="">
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
+										<a href="/drone-4sdgtoolkit" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/" class="font-weight-bold d-inline">
+											Guides
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
   ">
 													<div class="container">
 														<div class="row">
 															<div class="col-10">
-																<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
-																	Drones for Supply Chain
+																<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" class="">
 																</a>
 															</div>
 														</div>
 													</li>
-													<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
-  active">
+													<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
+  ">
 														<div class="container">
 															<div class="row">
 																<div class="col-10">
-																	<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
-																		Satellite vs Guides Guide
+																	<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
+																		Drones for Supply Chain
 																	</a>
 																</div>
 															</div>
 														</li>
-														<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
-  ">
+														<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
+  active">
 															<div class="container">
 																<div class="row">
 																	<div class="col-10">
-																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
-																			Use of Drones in Humanitarian and Development Missions
+																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
+																			Satellite vs Guides Guide
 																		</a>
 																	</div>
 																</div>
 															</li>
+															<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
+  ">
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
+																				Use of Drones in Humanitarian and Development Missions
+																			</a>
+																		</div>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</li>
+													<div>
+														<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+													</div>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</nav>
+						</header>
+						<!-- /header -->
+						<script>
+							remSpace()
+						</script>
+						<script>
+							function remSpace() {
+							  document.getElementById("section").style.paddingTop = "3rem";
+							}
+						</script>
+						<!-- details page -->
+						<section class="single section-sm" id="section">
+							<div class="d-flex w-100">
+								<div class="sidebarContainer">
+									<div class="sidebar">
+										<ul>
+											<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/" title="Guides" class="sidelist
+  ">
+												<a href="/drone-4sdgtoolkit" class="d-inline  back-btn">
+													<i class="ti-back-right"></i>
+												</a>
+												<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/" class="font-weight-bold d-inline">
+													Guides
+												</a>
+												<div class="accordion" id="accordionExample">
+													<ul>
+														<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" title="" class="sidelist
+  ">
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/setup-drone-corridor/" class="">
+																		</a>
+																	</div>
+																</div>
+															</li>
+															<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" title="Drones for Supply Chain" class="sidelist
+  ">
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" class="">
+																				Drones for Supply Chain
+																			</a>
+																		</div>
+																	</div>
+																</li>
+																<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" title="Satellite vs Guides Guide" class="sidelist
+  active">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/satellites-vs-drones/" class="">
+																					Satellite vs Guides Guide
+																				</a>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" title="Use of Drones in Humanitarian and Development Missions" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" class="">
+																						Use of Drones in Humanitarian and Development Missions
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																	</ul>
+																</div>
+															</li>
+															<div>
+																<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+															</div>
 														</ul>
 													</div>
-												</li>
-												<div>
-													<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 												</div>
-											</ul>
-										</div>
-									</div>
-									<div class="col-lg-9">
-										<div class="bg-white p-3" style="margin:auto">
-											<script language="JavaScript">
-												String.prototype.capitalizeFirstLetter = function() {
-												   return this.charAt(0).toUpperCase() + this.slice(1);
-												}
-
-												var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/drone-4sdgtoolkit'>Home</a>";
-												var href = document.location.href;
-												var s = href.split("/");
-												for (var i=3;i<(s.length-2);i++) {
-												   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-												}
-												i=s.length-1;
-												path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-												path+="  &gt;  <b>Satellite vs Guides Guide</b>";
-												document.writeln(path);
-											</script>
-										</div>
-										<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-											<div class="d-flex flex-row-reverse">
-												<button id="editBtn" value="/guides/satellites-vs-drones.en.md" class="editBtn py-2 px-3">Edit this Page</button>
-											</div>
-											<div class="p-lg-5 p-3 bg-white">
-												<h2 id="title">Satellite vs Guides Guide</h2>
-												<div class="content mt-5">
-													<p><img src="/drone-4sdgtoolkit/images/unicefinnovlogo.png" alt="UNICEF logo blue with for every child motto."></p>
-													<h1 id="use-of-satellites-or-drones-for-imagery-collection">Use of Satellites or Drones for Imagery Collection</h1>
-													<h2 id="introduction">Introduction&nbsp;<a class="hanchor" href="#introduction">🔗</a> </h2>
-													<p>Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.
-														This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other.</p>
-													<h2 id="decision-making-matrix">Decision-making matrix&nbsp;<a class="hanchor" href="#decision-making-matrix">🔗</a> </h2>
-													<p>The following tables provide a fact sheet on satellite and drone technology. When used together it will enable any technical or administrative decision maker to come to a quick and informed decision on which technology is best for any imagery needs.</p>
-													<h3 id="satellite-imagery-specifications">Satellite imagery specifications;&nbsp;<a class="hanchor" href="#satellite-imagery-specifications">🔗</a> </h3>
-													<table>
-														<thead>
-															<tr>
-																<th>Type</th>
-																<th>Sensor</th>
-																<th>Bands</th>
-																<th>Resolution</th>
-																<th>Coverage</th>
-																<th>Frequency</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>Commercial</td>
-																<td>Worldview3 (MAXAR)</td>
-																<td>Multi-spectral (8)</td>
-																<td>Pan-chromatic 	31 cm (pan) 1.24 m (multi spectral)</td>
-																<td>Global</td>
-																<td>Revisit time of &lt;1 day collecting up to 680,000 km2 per day</td>
-															</tr>
-															<tr>
-																<td>Commercial</td>
-																<td>Planet scope</td>
-																<td>R,G,B, NIR</td>
-																<td>3.7 m</td>
-																<td>Global</td>
-																<td>Revisit time &lt; 1 day Collecting for the entire globe everyday</td>
-															</tr>
-															<tr>
-																<td>Commercial</td>
-																<td>ICEEYE</td>
-																<td>Synthetic Aperture Radar (SAR)</td>
-																<td>Up to 25cm</td>
-																<td>Global</td>
-																<td>20 hours</td>
-															</tr>
-															<tr>
-																<td>Commercial</td>
-																<td>Capella Space</td>
-																<td>SAR</td>
-																<td>Up to 30 cm</td>
-																<td>Global</td>
-																<td>Maximum hourly</td>
-															</tr>
-															<tr>
-																<td>Public</td>
-																<td>MODIS</td>
-																<td>Optical 36 bands</td>
-																<td>250 m</td>
-																<td>Global</td>
-																<td>1 day</td>
-															</tr>
-															<tr>
-																<td>Public</td>
-																<td>VIIRS</td>
-																<td>Optical 21 and DNB (night-time light)</td>
-																<td>375 m</td>
-																<td>Global</td>
-																<td>1 day</td>
-															</tr>
-															<tr>
-																<td>Public</td>
-																<td>ALOS-2 PALSAR</td>
-																<td>SAR</td>
-																<td>30 m</td>
-																<td>Global</td>
-																<td>14 days</td>
-															</tr>
-															<tr>
-																<td>Public</td>
-																<td>Sentinel</td>
-																<td>Optical and SAR</td>
-																<td>10 m</td>
-																<td>Global</td>
-																<td>8 days</td>
-															</tr>
-															<tr>
-																<td>Public</td>
-																<td>Landsat</td>
-																<td>Optical</td>
-																<td>30 m</td>
-																<td>Global</td>
-																<td>16 days</td>
-															</tr>
-														</tbody>
-													</table>
-													<h3 id="drone-imagery-specifications">Drone Imagery Specifications&nbsp;<a class="hanchor" href="#drone-imagery-specifications">🔗</a> </h3>
-													<table>
-														<thead>
-															<tr>
-																<th>Turnaround time</th>
-																<th>Resolution</th>
-																<th>Coverage</th>
-																<th>Products</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>5 to 15 minutes to arrive at a site depending on distance of drone team from area of interest/impact</td>
-																<td>5cm per px for typical photogrammetric drone, Accuracy: 10m</td>
-																<td>40 Acres per flight (30 minutes) with typical quadcopter</td>
-																<td>Drone images and video</td>
-															</tr>
-															<tr>
-																<td>25 minutes from arrival at site to deliver initial images of site.</td>
-																<td>5cm per px, Accuracy: 10m</td>
-																<td>2,000 Acres per flight (90 minutes) with a typical fixed wing</td>
-																<td>Drone images and video</td>
-															</tr>
-															<tr>
-																<td>2 - 8 hours from demobilization</td>
-																<td>1cm per px, Accuracy: 2cm XY, 5cm Z</td>
-																<td></td>
-																<td>2D orthomosaic, 3D point cloud</td>
-															</tr>
-															<tr>
-																<td>3 – 20 hours from demobilization</td>
-																<td>1cm per px, Accuracy: 2cm XY, 5cm Z</td>
-																<td></td>
-																<td>Various types of analysis and CAD drawings</td>
-															</tr>
-														</tbody>
-													</table>
-													<h3 id="performance-grid">Performance Grid&nbsp;<a class="hanchor" href="#performance-grid">🔗</a> </h3>
-													<table>
-														<thead>
-															<tr>
-																<th>Rating</th>
-																<th>Turnaround time</th>
-																<th>Resolution/px</th>
-																<th>Coverage Area</th>
-																<th>Recommended Mode</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>1 – 2</td>
-																<td>3 working days</td>
-																<td>1.5 m - 10 m+</td>
-																<td>100 km2 to1,000 km2</td>
-																<td>Satellite</td>
-															</tr>
-															<tr>
-																<td>3 – 4</td>
-																<td>2 working days</td>
-																<td>30 cm – 1.5 m</td>
-																<td>2 km2 to 20 km2</td>
-																<td>Fixed wing drone</td>
-															</tr>
-															<tr>
-																<td>5 – 6</td>
-																<td>5 hours</td>
-																<td>20 cm</td>
-																<td>1 km2</td>
-																<td>Fixed wing drone</td>
-															</tr>
-															<tr>
-																<td>7 – 8</td>
-																<td>60 minutes</td>
-																<td>10 cm</td>
-																<td>0.32 km2</td>
-																<td>Multi-copter drone</td>
-															</tr>
-															<tr>
-																<td>9 – 10</td>
-																<td>30 minutes</td>
-																<td>5 cm</td>
-																<td>0.004 km2 to 0.16 km2</td>
-																<td>Multi-copter drone</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-												<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
-												<nav class="pagination mt-3">
-													<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Drones for Supply Chain</span></a>
-													<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" aria-label="Previous page" > <span class="d-none d-md-block">Use of Drones in Humanitarian and Development Missions</span><i class="ti-arrow-right ml-2"></i></a>
-												</nav>
-												<section class="my-3 py-3" id="related-articles">
-													<h5 class="text-center">Related Articles</h5>
-													<div class="row">
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">Drones for Supply Chain</h5>
-																		<p class="card-subtitle mb-2 text-muted">UNICEF Supply Chain Division Guide to designing drones for supply chain programmes.</p>
-																	</div>
-																</div>
-															</a>
+												<div class="contentContainer py-5 px-5">
+													<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+														<div class="d-flex flex-row-reverse p-absolute">
+															<button id="editBtn" value="/guides/satellites-vs-drones.en.md" class="editBtn py-2 px-3">Edit this Page</button>
 														</div>
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">Use of Drones in Humanitarian and Development Missions</h5>
-																		<p class="card-subtitle mb-2 text-muted">UNICEF Innovation guide for drone mission planning.</p>
+														<div class="p-lg-5 p-3 bg-white">
+															<h2 id="title">Satellite vs Guides Guide</h2>
+															<div class="content mt-5">
+																<p><img src="/drone-4sdgtoolkit/images/unicefinnovlogo.png" alt="UNICEF logo blue with for every child motto."></p>
+																<h1 id="use-of-satellites-or-drones-for-imagery-collection">Use of Satellites or Drones for Imagery Collection</h1>
+																<h2 id="introduction">Introduction&nbsp;<a class="hanchor" href="#introduction">🔗</a> </h2>
+																<p>Today, aerial imagery is available from a variety of sources, including traditional satellites, nano satellites, manned and unmanned aircrafts, balloons, and kites. This imagery can benefit humanitarian organisations in programming implementation, resource planning, community studies, and disaster response. Previously, the process of developing maps from imagery was painstakingly slow and it required a great deal of time from highly technically skilled individuals to patch different formatted images together.
+																	This decision making guide aims to take the acquired knowledge from UNICEF’s use of satellites and drones for imagery collection and provide a guide on the different technologies as well as when to use a particular mode over the other.</p>
+																<h2 id="decision-making-matrix">Decision-making matrix&nbsp;<a class="hanchor" href="#decision-making-matrix">🔗</a> </h2>
+																<p>The following tables provide a fact sheet on satellite and drone technology. When used together it will enable any technical or administrative decision maker to come to a quick and informed decision on which technology is best for any imagery needs.</p>
+																<h3 id="satellite-imagery-specifications">Satellite imagery specifications;&nbsp;<a class="hanchor" href="#satellite-imagery-specifications">🔗</a> </h3>
+																<table>
+																	<thead>
+																		<tr>
+																			<th>Type</th>
+																			<th>Sensor</th>
+																			<th>Bands</th>
+																			<th>Resolution</th>
+																			<th>Coverage</th>
+																			<th>Frequency</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>Commercial</td>
+																			<td>Worldview3 (MAXAR)</td>
+																			<td>Multi-spectral (8)</td>
+																			<td>Pan-chromatic 	31 cm (pan) 1.24 m (multi spectral)</td>
+																			<td>Global</td>
+																			<td>Revisit time of &lt;1 day collecting up to 680,000 km2 per day</td>
+																		</tr>
+																		<tr>
+																			<td>Commercial</td>
+																			<td>Planet scope</td>
+																			<td>R,G,B, NIR</td>
+																			<td>3.7 m</td>
+																			<td>Global</td>
+																			<td>Revisit time &lt; 1 day Collecting for the entire globe everyday</td>
+																		</tr>
+																		<tr>
+																			<td>Commercial</td>
+																			<td>ICEEYE</td>
+																			<td>Synthetic Aperture Radar (SAR)</td>
+																			<td>Up to 25cm</td>
+																			<td>Global</td>
+																			<td>20 hours</td>
+																		</tr>
+																		<tr>
+																			<td>Commercial</td>
+																			<td>Capella Space</td>
+																			<td>SAR</td>
+																			<td>Up to 30 cm</td>
+																			<td>Global</td>
+																			<td>Maximum hourly</td>
+																		</tr>
+																		<tr>
+																			<td>Public</td>
+																			<td>MODIS</td>
+																			<td>Optical 36 bands</td>
+																			<td>250 m</td>
+																			<td>Global</td>
+																			<td>1 day</td>
+																		</tr>
+																		<tr>
+																			<td>Public</td>
+																			<td>VIIRS</td>
+																			<td>Optical 21 and DNB (night-time light)</td>
+																			<td>375 m</td>
+																			<td>Global</td>
+																			<td>1 day</td>
+																		</tr>
+																		<tr>
+																			<td>Public</td>
+																			<td>ALOS-2 PALSAR</td>
+																			<td>SAR</td>
+																			<td>30 m</td>
+																			<td>Global</td>
+																			<td>14 days</td>
+																		</tr>
+																		<tr>
+																			<td>Public</td>
+																			<td>Sentinel</td>
+																			<td>Optical and SAR</td>
+																			<td>10 m</td>
+																			<td>Global</td>
+																			<td>8 days</td>
+																		</tr>
+																		<tr>
+																			<td>Public</td>
+																			<td>Landsat</td>
+																			<td>Optical</td>
+																			<td>30 m</td>
+																			<td>Global</td>
+																			<td>16 days</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<h3 id="drone-imagery-specifications">Drone Imagery Specifications&nbsp;<a class="hanchor" href="#drone-imagery-specifications">🔗</a> </h3>
+																<table>
+																	<thead>
+																		<tr>
+																			<th>Turnaround time</th>
+																			<th>Resolution</th>
+																			<th>Coverage</th>
+																			<th>Products</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>5 to 15 minutes to arrive at a site depending on distance of drone team from area of interest/impact</td>
+																			<td>5cm per px for typical photogrammetric drone, Accuracy: 10m</td>
+																			<td>40 Acres per flight (30 minutes) with typical quadcopter</td>
+																			<td>Drone images and video</td>
+																		</tr>
+																		<tr>
+																			<td>25 minutes from arrival at site to deliver initial images of site.</td>
+																			<td>5cm per px, Accuracy: 10m</td>
+																			<td>2,000 Acres per flight (90 minutes) with a typical fixed wing</td>
+																			<td>Drone images and video</td>
+																		</tr>
+																		<tr>
+																			<td>2 - 8 hours from demobilization</td>
+																			<td>1cm per px, Accuracy: 2cm XY, 5cm Z</td>
+																			<td></td>
+																			<td>2D orthomosaic, 3D point cloud</td>
+																		</tr>
+																		<tr>
+																			<td>3 – 20 hours from demobilization</td>
+																			<td>1cm per px, Accuracy: 2cm XY, 5cm Z</td>
+																			<td></td>
+																			<td>Various types of analysis and CAD drawings</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<h3 id="performance-grid">Performance Grid&nbsp;<a class="hanchor" href="#performance-grid">🔗</a> </h3>
+																<table>
+																	<thead>
+																		<tr>
+																			<th>Rating</th>
+																			<th>Turnaround time</th>
+																			<th>Resolution/px</th>
+																			<th>Coverage Area</th>
+																			<th>Recommended Mode</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>1 – 2</td>
+																			<td>3 working days</td>
+																			<td>1.5 m - 10 m+</td>
+																			<td>100 km2 to1,000 km2</td>
+																			<td>Satellite</td>
+																		</tr>
+																		<tr>
+																			<td>3 – 4</td>
+																			<td>2 working days</td>
+																			<td>30 cm – 1.5 m</td>
+																			<td>2 km2 to 20 km2</td>
+																			<td>Fixed wing drone</td>
+																		</tr>
+																		<tr>
+																			<td>5 – 6</td>
+																			<td>5 hours</td>
+																			<td>20 cm</td>
+																			<td>1 km2</td>
+																			<td>Fixed wing drone</td>
+																		</tr>
+																		<tr>
+																			<td>7 – 8</td>
+																			<td>60 minutes</td>
+																			<td>10 cm</td>
+																			<td>0.32 km2</td>
+																			<td>Multi-copter drone</td>
+																		</tr>
+																		<tr>
+																			<td>9 – 10</td>
+																			<td>30 minutes</td>
+																			<td>5 cm</td>
+																			<td>0.004 km2 to 0.16 km2</td>
+																			<td>Multi-copter drone</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+															<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Nov 2021</p>
+															<nav class="pagination mt-3">
+																<a class="nav nav-prev" href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Drones for Supply Chain</span></a>
+																<a class="nav nav-next" href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/" aria-label="Previous page" > <span class="d-none d-md-block">Use of Drones in Humanitarian and Development Missions</span><i class="ti-arrow-right ml-2"></i></a>
+															</nav>
+															<section class="my-3 py-3" id="related-articles">
+																<h5 class="text-center">Related Articles</h5>
+																<div class="row">
+																	<div class="col-sm-4 my-2">
+																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/humanitarian-drone-mission/">
+																			<div class="card text-center">
+																				<div class="card-body">
+																					<h5 class="card-title">Use of Drones in Humanitarian and Development Missions</h5>
+																					<p class="card-subtitle mb-2 text-muted">UNICEF Innovation guide for drone mission planning.</p>
+																				</div>
+																			</div>
+																		</a>
+																	</div>
+																	<div class="col-sm-4 my-2">
+																		<a href="https://unicef.github.io/drone-4sdgtoolkit/guides/drone-4-supply/">
+																			<div class="card text-center">
+																				<div class="card-body">
+																					<h5 class="card-title">Drones for Supply Chain</h5>
+																					<p class="card-subtitle mb-2 text-muted">UNICEF Supply Chain Division Guide to designing drones for supply chain programmes.</p>
+																				</div>
+																			</div>
+																		</a>
 																	</div>
 																</div>
-															</a>
+															</section>
 														</div>
 													</div>
-												</section>
+												</div>
 											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- /details page -->
-						<!-- footer -->
-						<footer class="section bg-primary p-4 mt-5">
-							<div class="container">
-								<div class="row align-items-center">
-									<div class="col-md-3 text-md-left text-center">
-										<ul>
-											<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-md-6 text-md-center text-center">
-										<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
-									</div>
-									<div class="col-md-3 text-md-right text-center">
-										<ul class="text-white">
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-												<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-											</li>
-										</ul>
-										<ul class="list-inline">
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-						</footer>
-						<!-- /footer -->
-						<!-- Main Script -->
-						<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
-					</body>
-				</html>
+										</section>
+										<!-- /details page -->
+										<!-- footer -->
+										<footer class="section bg-primary p-4 mt-5">
+											<div class="container">
+												<div class="row align-items-center">
+													<div class="col-md-3 text-md-left text-center">
+														<ul>
+															<li><a class="nav-link text-white" href="/drone-4sdgtoolkit">HOME</a></li>
+															<li class="nav-item">
+																<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/drone-4sdgtoolkit/about">About</a>
+															</li>
+														</ul>
+													</div>
+													<div class="col-md-6 text-md-center text-center">
+														<p class="mb-md-0 mb-4 text-white">Repository of drone-related open source software, data, ai models, standards, courseware, and guides that address the SDGs. All the products in the toolkit must be open source and eligible for nomination as a Digital Public Good.</p>
+													</div>
+													<div class="col-md-3 text-md-right text-center">
+														<ul class="text-white">
+															<li class="nav-item">
+																<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/innovation/drones">Drones at UNICEF Innovation</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+															</li>
+														</ul>
+														<ul class="list-inline">
+															<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/drone-4sdgtoolkit" aria-label="UNICEF Drone SDG Toolkit on GitHub"><i class="ti-github"></i></a></li>
+															<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+										</footer>
+										<!-- /footer -->
+										<!-- Main Script -->
+										<script src="https://unicef.github.io/drone-4sdgtoolkit/js/script.min.js"></script>
+									</body>
+								</html>
